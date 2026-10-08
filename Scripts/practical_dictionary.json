@@ -1,0 +1,6576 @@
+{
+  "source": "https://kaikki.org/dictionary/downloads/de/de-extract.jsonl.gz",
+  "credit": "German Wiktionary contributors; Tatu Ylönen / Wiktextract / Kaikki.org",
+  "license": "CC BY-SA 4.0",
+  "sourceSHA256": "2e66f18a093e94b29b04733d0222625695a3d5ed199e700059193895490dfb19",
+  "entries": {
+    "Abfall": {
+      "lemma": "Abfall",
+      "partOfSpeech": "noun"
+    },
+    "Abhängigkeit": {
+      "lemma": "Abhängigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Abitur": {
+      "lemma": "Abitur",
+      "partOfSpeech": "noun"
+    },
+    "Abkommen": {
+      "lemma": "Abkommen",
+      "partOfSpeech": "noun"
+    },
+    "Abkürzung": {
+      "lemma": "Abkürzung",
+      "partOfSpeech": "noun"
+    },
+    "Ablauf": {
+      "lemma": "Ablauf",
+      "partOfSpeech": "noun"
+    },
+    "Absage": {
+      "lemma": "Absage",
+      "partOfSpeech": "noun"
+    },
+    "Absatz": {
+      "lemma": "Absatz",
+      "partOfSpeech": "noun"
+    },
+    "Abschluss": {
+      "lemma": "Abschluss",
+      "partOfSpeech": "noun"
+    },
+    "Abschnitt": {
+      "lemma": "Abschnitt",
+      "partOfSpeech": "noun"
+    },
+    "Absicht": {
+      "lemma": "Absicht",
+      "partOfSpeech": "noun"
+    },
+    "Abstand": {
+      "lemma": "Abstand",
+      "partOfSpeech": "noun"
+    },
+    "Abstimmung": {
+      "lemma": "Abstimmung",
+      "partOfSpeech": "noun"
+    },
+    "Absturz": {
+      "lemma": "Absturz",
+      "partOfSpeech": "noun"
+    },
+    "Abteilung": {
+      "lemma": "Abteilung",
+      "partOfSpeech": "noun"
+    },
+    "Abwechslung": {
+      "lemma": "Abwechslung",
+      "partOfSpeech": "noun"
+    },
+    "Abwesenheit": {
+      "lemma": "Abwesenheit",
+      "partOfSpeech": "noun"
+    },
+    "Abzug": {
+      "lemma": "Abzug",
+      "partOfSpeech": "noun"
+    },
+    "Achse": {
+      "lemma": "Achse",
+      "partOfSpeech": "noun"
+    },
+    "Acker": {
+      "lemma": "Acker",
+      "partOfSpeech": "noun"
+    },
+    "Akte": {
+      "lemma": "Akte",
+      "partOfSpeech": "noun"
+    },
+    "Aktualisierung": {
+      "lemma": "Aktualisierung",
+      "partOfSpeech": "noun"
+    },
+    "Akzent": {
+      "lemma": "Akzent",
+      "partOfSpeech": "noun"
+    },
+    "Alarm": {
+      "lemma": "Alarm",
+      "partOfSpeech": "noun"
+    },
+    "Albtraum": {
+      "lemma": "Albtraum",
+      "partOfSpeech": "noun"
+    },
+    "Alternative": {
+      "lemma": "Alternative",
+      "partOfSpeech": "noun"
+    },
+    "Aluminium": {
+      "lemma": "Aluminium",
+      "partOfSpeech": "noun"
+    },
+    "Amt": {
+      "lemma": "Amt",
+      "partOfSpeech": "noun"
+    },
+    "Amtszeit": {
+      "lemma": "Amtszeit",
+      "partOfSpeech": "noun"
+    },
+    "Analyse": {
+      "lemma": "Analyse",
+      "partOfSpeech": "noun"
+    },
+    "Anbau": {
+      "lemma": "Anbau",
+      "partOfSpeech": "noun"
+    },
+    "Anerkennung": {
+      "lemma": "Anerkennung",
+      "partOfSpeech": "noun"
+    },
+    "Anfall": {
+      "lemma": "Anfall",
+      "partOfSpeech": "noun"
+    },
+    "Angelegenheit": {
+      "lemma": "Angelegenheit",
+      "partOfSpeech": "noun"
+    },
+    "Angriff": {
+      "lemma": "Angriff",
+      "partOfSpeech": "noun"
+    },
+    "Anhieb": {
+      "lemma": "Anhieb",
+      "partOfSpeech": "noun"
+    },
+    "Anhänger": {
+      "lemma": "Anhänger",
+      "partOfSpeech": "noun"
+    },
+    "Anhörung": {
+      "lemma": "Anhörung",
+      "partOfSpeech": "noun"
+    },
+    "Anker": {
+      "lemma": "Anker",
+      "partOfSpeech": "noun"
+    },
+    "Anklage": {
+      "lemma": "Anklage",
+      "partOfSpeech": "noun"
+    },
+    "Ankündigung": {
+      "lemma": "Ankündigung",
+      "partOfSpeech": "noun"
+    },
+    "Anlage": {
+      "lemma": "Anlage",
+      "partOfSpeech": "noun"
+    },
+    "Anlass": {
+      "lemma": "Anlass",
+      "partOfSpeech": "noun"
+    },
+    "Anlauf": {
+      "lemma": "Anlauf",
+      "partOfSpeech": "noun"
+    },
+    "Anleitung": {
+      "lemma": "Anleitung",
+      "partOfSpeech": "noun"
+    },
+    "Anliegen": {
+      "lemma": "Anliegen",
+      "partOfSpeech": "noun"
+    },
+    "Annahme": {
+      "lemma": "Annahme",
+      "partOfSpeech": "noun"
+    },
+    "Anordnung": {
+      "lemma": "Anordnung",
+      "partOfSpeech": "noun"
+    },
+    "Anregung": {
+      "lemma": "Anregung",
+      "partOfSpeech": "noun"
+    },
+    "Ansatz": {
+      "lemma": "Ansatz",
+      "partOfSpeech": "noun"
+    },
+    "Anschaffung": {
+      "lemma": "Anschaffung",
+      "partOfSpeech": "noun"
+    },
+    "Anschein": {
+      "lemma": "Anschein",
+      "partOfSpeech": "noun"
+    },
+    "Anschluss": {
+      "lemma": "Anschluss",
+      "partOfSpeech": "noun"
+    },
+    "Ansicht": {
+      "lemma": "Ansicht",
+      "partOfSpeech": "noun"
+    },
+    "Ansprache": {
+      "lemma": "Ansprache",
+      "partOfSpeech": "noun"
+    },
+    "Anspruch": {
+      "lemma": "Anspruch",
+      "partOfSpeech": "noun"
+    },
+    "Anstand": {
+      "lemma": "Anstand",
+      "partOfSpeech": "noun"
+    },
+    "Anstellung": {
+      "lemma": "Anstellung",
+      "partOfSpeech": "noun"
+    },
+    "Anstieg": {
+      "lemma": "Anstieg",
+      "partOfSpeech": "noun"
+    },
+    "Anstrengung": {
+      "lemma": "Anstrengung",
+      "partOfSpeech": "noun"
+    },
+    "Anteil": {
+      "lemma": "Anteil",
+      "partOfSpeech": "noun"
+    },
+    "Antenne": {
+      "lemma": "Antenne",
+      "partOfSpeech": "noun"
+    },
+    "Antrag": {
+      "lemma": "Antrag",
+      "partOfSpeech": "noun"
+    },
+    "Antrieb": {
+      "lemma": "Antrieb",
+      "partOfSpeech": "noun"
+    },
+    "Anweisung": {
+      "lemma": "Anweisung",
+      "partOfSpeech": "noun"
+    },
+    "Anwesen": {
+      "lemma": "Anwesen",
+      "partOfSpeech": "noun"
+    },
+    "Anwesenheit": {
+      "lemma": "Anwesenheit",
+      "partOfSpeech": "noun"
+    },
+    "Anzahl": {
+      "lemma": "Anzahl",
+      "partOfSpeech": "noun"
+    },
+    "Anzeichen": {
+      "lemma": "Anzeichen",
+      "partOfSpeech": "noun"
+    },
+    "Anzeige": {
+      "lemma": "Anzeige",
+      "partOfSpeech": "noun"
+    },
+    "Apparat": {
+      "lemma": "Apparat",
+      "partOfSpeech": "noun"
+    },
+    "Applaus": {
+      "lemma": "Applaus",
+      "partOfSpeech": "noun"
+    },
+    "Architektur": {
+      "lemma": "Architektur",
+      "partOfSpeech": "noun"
+    },
+    "Argument": {
+      "lemma": "Argument",
+      "partOfSpeech": "noun"
+    },
+    "Armut": {
+      "lemma": "Armut",
+      "partOfSpeech": "noun"
+    },
+    "Arroganz": {
+      "lemma": "Arroganz",
+      "partOfSpeech": "noun"
+    },
+    "Asche": {
+      "lemma": "Asche",
+      "partOfSpeech": "noun"
+    },
+    "Asphalt": {
+      "lemma": "Asphalt",
+      "partOfSpeech": "noun"
+    },
+    "Ast": {
+      "lemma": "Ast",
+      "partOfSpeech": "noun"
+    },
+    "Asyl": {
+      "lemma": "Asyl",
+      "partOfSpeech": "noun"
+    },
+    "Atem": {
+      "lemma": "Atem",
+      "partOfSpeech": "noun"
+    },
+    "Atmosphäre": {
+      "lemma": "Atmosphäre",
+      "partOfSpeech": "noun"
+    },
+    "Atom": {
+      "lemma": "Atom",
+      "partOfSpeech": "noun"
+    },
+    "Attentat": {
+      "lemma": "Attentat",
+      "partOfSpeech": "noun"
+    },
+    "Aufbruch": {
+      "lemma": "Aufbruch",
+      "partOfSpeech": "noun"
+    },
+    "Aufenthalt": {
+      "lemma": "Aufenthalt",
+      "partOfSpeech": "noun"
+    },
+    "Auffassung": {
+      "lemma": "Auffassung",
+      "partOfSpeech": "noun"
+    },
+    "Aufforderung": {
+      "lemma": "Aufforderung",
+      "partOfSpeech": "noun"
+    },
+    "Aufführung": {
+      "lemma": "Aufführung",
+      "partOfSpeech": "noun"
+    },
+    "Aufkleber": {
+      "lemma": "Aufkleber",
+      "partOfSpeech": "noun"
+    },
+    "Auflage": {
+      "lemma": "Auflage",
+      "partOfSpeech": "noun"
+    },
+    "Aufmerksamkeit": {
+      "lemma": "Aufmerksamkeit",
+      "partOfSpeech": "noun"
+    },
+    "Aufnahme": {
+      "lemma": "Aufnahme",
+      "partOfSpeech": "noun"
+    },
+    "Aufregung": {
+      "lemma": "Aufregung",
+      "partOfSpeech": "noun"
+    },
+    "Aufruf": {
+      "lemma": "Aufruf",
+      "partOfSpeech": "noun"
+    },
+    "Aufruhr": {
+      "lemma": "Aufruhr",
+      "partOfSpeech": "noun"
+    },
+    "Aufsatz": {
+      "lemma": "Aufsatz",
+      "partOfSpeech": "noun"
+    },
+    "Aufstand": {
+      "lemma": "Aufstand",
+      "partOfSpeech": "noun"
+    },
+    "Auftrag": {
+      "lemma": "Auftrag",
+      "partOfSpeech": "noun"
+    },
+    "Auftritt": {
+      "lemma": "Auftritt",
+      "partOfSpeech": "noun"
+    },
+    "Aufwand": {
+      "lemma": "Aufwand",
+      "partOfSpeech": "noun"
+    },
+    "Aufzug": {
+      "lemma": "Aufzug",
+      "partOfSpeech": "noun"
+    },
+    "Ausbildung": {
+      "lemma": "Ausbildung",
+      "partOfSpeech": "noun"
+    },
+    "Ausblick": {
+      "lemma": "Ausblick",
+      "partOfSpeech": "noun"
+    },
+    "Ausbreitung": {
+      "lemma": "Ausbreitung",
+      "partOfSpeech": "noun"
+    },
+    "Ausdauer": {
+      "lemma": "Ausdauer",
+      "partOfSpeech": "noun"
+    },
+    "Ausdruck": {
+      "lemma": "Ausdruck",
+      "partOfSpeech": "noun"
+    },
+    "Auseinandersetzung": {
+      "lemma": "Auseinandersetzung",
+      "partOfSpeech": "noun"
+    },
+    "Ausfahrt": {
+      "lemma": "Ausfahrt",
+      "partOfSpeech": "noun"
+    },
+    "Ausführung": {
+      "lemma": "Ausführung",
+      "partOfSpeech": "noun"
+    },
+    "Ausgabe": {
+      "lemma": "Ausgabe",
+      "partOfSpeech": "noun"
+    },
+    "Ausgang": {
+      "lemma": "Ausgang",
+      "partOfSpeech": "noun"
+    },
+    "Auskunft": {
+      "lemma": "Auskunft",
+      "partOfSpeech": "noun"
+    },
+    "Auslieferung": {
+      "lemma": "Auslieferung",
+      "partOfSpeech": "noun"
+    },
+    "Auslöser": {
+      "lemma": "Auslöser",
+      "partOfSpeech": "noun"
+    },
+    "Ausnahme": {
+      "lemma": "Ausnahme",
+      "partOfSpeech": "noun"
+    },
+    "Ausrede": {
+      "lemma": "Ausrede",
+      "partOfSpeech": "noun"
+    },
+    "Ausrüstung": {
+      "lemma": "Ausrüstung",
+      "partOfSpeech": "noun"
+    },
+    "Aussage": {
+      "lemma": "Aussage",
+      "partOfSpeech": "noun"
+    },
+    "Ausschlag": {
+      "lemma": "Ausschlag",
+      "partOfSpeech": "noun"
+    },
+    "Ausschuss": {
+      "lemma": "Ausschuss",
+      "partOfSpeech": "noun"
+    },
+    "Aussicht": {
+      "lemma": "Aussicht",
+      "partOfSpeech": "noun"
+    },
+    "Ausstellung": {
+      "lemma": "Ausstellung",
+      "partOfSpeech": "noun"
+    },
+    "Ausstrahlung": {
+      "lemma": "Ausstrahlung",
+      "partOfSpeech": "noun"
+    },
+    "Austausch": {
+      "lemma": "Austausch",
+      "partOfSpeech": "noun"
+    },
+    "Auswahl": {
+      "lemma": "Auswahl",
+      "partOfSpeech": "noun"
+    },
+    "Ausweg": {
+      "lemma": "Ausweg",
+      "partOfSpeech": "noun"
+    },
+    "Auszeichnung": {
+      "lemma": "Auszeichnung",
+      "partOfSpeech": "noun"
+    },
+    "Auszeit": {
+      "lemma": "Auszeit",
+      "partOfSpeech": "noun"
+    },
+    "Axt": {
+      "lemma": "Axt",
+      "partOfSpeech": "noun"
+    },
+    "Balance": {
+      "lemma": "Balance",
+      "partOfSpeech": "noun"
+    },
+    "Bande": {
+      "lemma": "Bande",
+      "partOfSpeech": "noun"
+    },
+    "Bargeld": {
+      "lemma": "Bargeld",
+      "partOfSpeech": "noun"
+    },
+    "Basis": {
+      "lemma": "Basis",
+      "partOfSpeech": "noun"
+    },
+    "Bass": {
+      "lemma": "Bass",
+      "partOfSpeech": "noun"
+    },
+    "Batterie": {
+      "lemma": "Batterie",
+      "partOfSpeech": "noun"
+    },
+    "Bau": {
+      "lemma": "Bau",
+      "partOfSpeech": "noun"
+    },
+    "Bauarbeiten": {
+      "lemma": "Bauarbeiten",
+      "partOfSpeech": "noun"
+    },
+    "Baumarkt": {
+      "lemma": "Baumarkt",
+      "partOfSpeech": "noun"
+    },
+    "Baumwolle": {
+      "lemma": "Baumwolle",
+      "partOfSpeech": "noun"
+    },
+    "Bauwerk": {
+      "lemma": "Bauwerk",
+      "partOfSpeech": "noun"
+    },
+    "Beachtung": {
+      "lemma": "Beachtung",
+      "partOfSpeech": "noun"
+    },
+    "Becken": {
+      "lemma": "Becken",
+      "partOfSpeech": "noun"
+    },
+    "Bedarf": {
+      "lemma": "Bedarf",
+      "partOfSpeech": "noun"
+    },
+    "Bedenken": {
+      "lemma": "Bedenken",
+      "partOfSpeech": "noun"
+    },
+    "Bedeutung": {
+      "lemma": "Bedeutung",
+      "partOfSpeech": "noun"
+    },
+    "Bedienung": {
+      "lemma": "Bedienung",
+      "partOfSpeech": "noun"
+    },
+    "Bedingung": {
+      "lemma": "Bedingung",
+      "partOfSpeech": "noun"
+    },
+    "Bedrohung": {
+      "lemma": "Bedrohung",
+      "partOfSpeech": "noun"
+    },
+    "Bedürfnis": {
+      "lemma": "Bedürfnis",
+      "partOfSpeech": "noun"
+    },
+    "Beerdigung": {
+      "lemma": "Beerdigung",
+      "partOfSpeech": "noun"
+    },
+    "Befehl": {
+      "lemma": "Befehl",
+      "partOfSpeech": "noun"
+    },
+    "Befragung": {
+      "lemma": "Befragung",
+      "partOfSpeech": "noun"
+    },
+    "Beförderung": {
+      "lemma": "Beförderung",
+      "partOfSpeech": "noun"
+    },
+    "Begegnung": {
+      "lemma": "Begegnung",
+      "partOfSpeech": "noun"
+    },
+    "Begleitung": {
+      "lemma": "Begleitung",
+      "partOfSpeech": "noun"
+    },
+    "Begriff": {
+      "lemma": "Begriff",
+      "partOfSpeech": "noun"
+    },
+    "Behandlung": {
+      "lemma": "Behandlung",
+      "partOfSpeech": "noun"
+    },
+    "Behälter": {
+      "lemma": "Behälter",
+      "partOfSpeech": "noun"
+    },
+    "Beifall": {
+      "lemma": "Beifall",
+      "partOfSpeech": "noun"
+    },
+    "Beihilfe": {
+      "lemma": "Beihilfe",
+      "partOfSpeech": "noun"
+    },
+    "Beileid": {
+      "lemma": "Beileid",
+      "partOfSpeech": "noun"
+    },
+    "Beitrag": {
+      "lemma": "Beitrag",
+      "partOfSpeech": "noun"
+    },
+    "Bekanntschaft": {
+      "lemma": "Bekanntschaft",
+      "partOfSpeech": "noun"
+    },
+    "Belastung": {
+      "lemma": "Belastung",
+      "partOfSpeech": "noun"
+    },
+    "Belegschaft": {
+      "lemma": "Belegschaft",
+      "partOfSpeech": "noun"
+    },
+    "Beleidigung": {
+      "lemma": "Beleidigung",
+      "partOfSpeech": "noun"
+    },
+    "Beleuchtung": {
+      "lemma": "Beleuchtung",
+      "partOfSpeech": "noun"
+    },
+    "Belohnung": {
+      "lemma": "Belohnung",
+      "partOfSpeech": "noun"
+    },
+    "Belästigung": {
+      "lemma": "Belästigung",
+      "partOfSpeech": "noun"
+    },
+    "Bemerkung": {
+      "lemma": "Bemerkung",
+      "partOfSpeech": "noun"
+    },
+    "Beobachtung": {
+      "lemma": "Beobachtung",
+      "partOfSpeech": "noun"
+    },
+    "Berechnung": {
+      "lemma": "Berechnung",
+      "partOfSpeech": "noun"
+    },
+    "Berechtigung": {
+      "lemma": "Berechtigung",
+      "partOfSpeech": "noun"
+    },
+    "Bericht": {
+      "lemma": "Bericht",
+      "partOfSpeech": "noun"
+    },
+    "Berufserfahrung": {
+      "lemma": "Berufserfahrung",
+      "partOfSpeech": "noun"
+    },
+    "Berufung": {
+      "lemma": "Berufung",
+      "partOfSpeech": "noun"
+    },
+    "Besatzung": {
+      "lemma": "Besatzung",
+      "partOfSpeech": "noun"
+    },
+    "Bescheid": {
+      "lemma": "Bescheid",
+      "partOfSpeech": "noun"
+    },
+    "Beschluss": {
+      "lemma": "Beschluss",
+      "partOfSpeech": "noun"
+    },
+    "Beschreibung": {
+      "lemma": "Beschreibung",
+      "partOfSpeech": "noun"
+    },
+    "Beschwerde": {
+      "lemma": "Beschwerde",
+      "partOfSpeech": "noun"
+    },
+    "Beschäftigung": {
+      "lemma": "Beschäftigung",
+      "partOfSpeech": "noun"
+    },
+    "Besetzung": {
+      "lemma": "Besetzung",
+      "partOfSpeech": "noun"
+    },
+    "Besitz": {
+      "lemma": "Besitz",
+      "partOfSpeech": "noun"
+    },
+    "Besprechung": {
+      "lemma": "Besprechung",
+      "partOfSpeech": "noun"
+    },
+    "Besserung": {
+      "lemma": "Besserung",
+      "partOfSpeech": "noun"
+    },
+    "Bestandteil": {
+      "lemma": "Bestandteil",
+      "partOfSpeech": "noun"
+    },
+    "Bestellung": {
+      "lemma": "Bestellung",
+      "partOfSpeech": "noun"
+    },
+    "Bestimmung": {
+      "lemma": "Bestimmung",
+      "partOfSpeech": "noun"
+    },
+    "Bestrafung": {
+      "lemma": "Bestrafung",
+      "partOfSpeech": "noun"
+    },
+    "Bestätigung": {
+      "lemma": "Bestätigung",
+      "partOfSpeech": "noun"
+    },
+    "Betrag": {
+      "lemma": "Betrag",
+      "partOfSpeech": "noun"
+    },
+    "Betrieb": {
+      "lemma": "Betrieb",
+      "partOfSpeech": "noun"
+    },
+    "Betriebssystem": {
+      "lemma": "Betriebssystem",
+      "partOfSpeech": "noun"
+    },
+    "Beurteilung": {
+      "lemma": "Beurteilung",
+      "partOfSpeech": "noun"
+    },
+    "Beute": {
+      "lemma": "Beute",
+      "partOfSpeech": "noun"
+    },
+    "Beutel": {
+      "lemma": "Beutel",
+      "partOfSpeech": "noun"
+    },
+    "Bevölkerung": {
+      "lemma": "Bevölkerung",
+      "partOfSpeech": "noun"
+    },
+    "Beweis": {
+      "lemma": "Beweis",
+      "partOfSpeech": "noun"
+    },
+    "Bewerbung": {
+      "lemma": "Bewerbung",
+      "partOfSpeech": "noun"
+    },
+    "Bewusstsein": {
+      "lemma": "Bewusstsein",
+      "partOfSpeech": "noun"
+    },
+    "Bewährung": {
+      "lemma": "Bewährung",
+      "partOfSpeech": "noun"
+    },
+    "Beziehung": {
+      "lemma": "Beziehung",
+      "partOfSpeech": "noun"
+    },
+    "Bezirk": {
+      "lemma": "Bezirk",
+      "partOfSpeech": "noun"
+    },
+    "Bezug": {
+      "lemma": "Bezug",
+      "partOfSpeech": "noun"
+    },
+    "Bilanz": {
+      "lemma": "Bilanz",
+      "partOfSpeech": "noun"
+    },
+    "Bildschirm": {
+      "lemma": "Bildschirm",
+      "partOfSpeech": "noun"
+    },
+    "Bildung": {
+      "lemma": "Bildung",
+      "partOfSpeech": "noun"
+    },
+    "Blase": {
+      "lemma": "Blase",
+      "partOfSpeech": "noun"
+    },
+    "Blech": {
+      "lemma": "Blech",
+      "partOfSpeech": "noun"
+    },
+    "Blei": {
+      "lemma": "Blei",
+      "partOfSpeech": "noun"
+    },
+    "Blickwinkel": {
+      "lemma": "Blickwinkel",
+      "partOfSpeech": "noun"
+    },
+    "Blutdruck": {
+      "lemma": "Blutdruck",
+      "partOfSpeech": "noun"
+    },
+    "Blüte": {
+      "lemma": "Blüte",
+      "partOfSpeech": "noun"
+    },
+    "Boden": {
+      "lemma": "Boden",
+      "partOfSpeech": "noun"
+    },
+    "Bogen": {
+      "lemma": "Bogen",
+      "partOfSpeech": "noun"
+    },
+    "Bonus": {
+      "lemma": "Bonus",
+      "partOfSpeech": "noun"
+    },
+    "Bord": {
+      "lemma": "Bord",
+      "partOfSpeech": "noun"
+    },
+    "Botschaft": {
+      "lemma": "Botschaft",
+      "partOfSpeech": "noun"
+    },
+    "Branche": {
+      "lemma": "Branche",
+      "partOfSpeech": "noun"
+    },
+    "Brand": {
+      "lemma": "Brand",
+      "partOfSpeech": "noun"
+    },
+    "Brandstiftung": {
+      "lemma": "Brandstiftung",
+      "partOfSpeech": "noun"
+    },
+    "Brauch": {
+      "lemma": "Brauch",
+      "partOfSpeech": "noun"
+    },
+    "Bremse": {
+      "lemma": "Bremse",
+      "partOfSpeech": "noun"
+    },
+    "Brett": {
+      "lemma": "Brett",
+      "partOfSpeech": "noun"
+    },
+    "Broschüre": {
+      "lemma": "Broschüre",
+      "partOfSpeech": "noun"
+    },
+    "Bruch": {
+      "lemma": "Bruch",
+      "partOfSpeech": "noun"
+    },
+    "Budget": {
+      "lemma": "Budget",
+      "partOfSpeech": "noun"
+    },
+    "Bußgeld": {
+      "lemma": "Bußgeld",
+      "partOfSpeech": "noun"
+    },
+    "Börse": {
+      "lemma": "Börse",
+      "partOfSpeech": "noun"
+    },
+    "Bühne": {
+      "lemma": "Bühne",
+      "partOfSpeech": "noun"
+    },
+    "Bürgerkrieg": {
+      "lemma": "Bürgerkrieg",
+      "partOfSpeech": "noun"
+    },
+    "Dach": {
+      "lemma": "Dach",
+      "partOfSpeech": "noun"
+    },
+    "Damm": {
+      "lemma": "Damm",
+      "partOfSpeech": "noun"
+    },
+    "Dampf": {
+      "lemma": "Dampf",
+      "partOfSpeech": "noun"
+    },
+    "Dankbarkeit": {
+      "lemma": "Dankbarkeit",
+      "partOfSpeech": "noun"
+    },
+    "Darlehen": {
+      "lemma": "Darlehen",
+      "partOfSpeech": "noun"
+    },
+    "Datei": {
+      "lemma": "Datei",
+      "partOfSpeech": "noun"
+    },
+    "Dauer": {
+      "lemma": "Dauer",
+      "partOfSpeech": "noun"
+    },
+    "Debatte": {
+      "lemma": "Debatte",
+      "partOfSpeech": "noun"
+    },
+    "Deck": {
+      "lemma": "Deck",
+      "partOfSpeech": "noun"
+    },
+    "Deckel": {
+      "lemma": "Deckel",
+      "partOfSpeech": "noun"
+    },
+    "Deckung": {
+      "lemma": "Deckung",
+      "partOfSpeech": "noun"
+    },
+    "Dekoration": {
+      "lemma": "Dekoration",
+      "partOfSpeech": "noun"
+    },
+    "Demokratie": {
+      "lemma": "Demokratie",
+      "partOfSpeech": "noun"
+    },
+    "Demonstration": {
+      "lemma": "Demonstration",
+      "partOfSpeech": "noun"
+    },
+    "Depression": {
+      "lemma": "Depression",
+      "partOfSpeech": "noun"
+    },
+    "Detail": {
+      "lemma": "Detail",
+      "partOfSpeech": "noun"
+    },
+    "Diagnose": {
+      "lemma": "Diagnose",
+      "partOfSpeech": "noun"
+    },
+    "Dialekt": {
+      "lemma": "Dialekt",
+      "partOfSpeech": "noun"
+    },
+    "Diamant": {
+      "lemma": "Diamant",
+      "partOfSpeech": "noun"
+    },
+    "Dichte": {
+      "lemma": "Dichte",
+      "partOfSpeech": "noun"
+    },
+    "Dichtung": {
+      "lemma": "Dichtung",
+      "partOfSpeech": "noun"
+    },
+    "Diebstahl": {
+      "lemma": "Diebstahl",
+      "partOfSpeech": "noun"
+    },
+    "Dienst": {
+      "lemma": "Dienst",
+      "partOfSpeech": "noun"
+    },
+    "Diesel": {
+      "lemma": "Diesel",
+      "partOfSpeech": "noun"
+    },
+    "Dietrich": {
+      "lemma": "Dietrich",
+      "partOfSpeech": "noun"
+    },
+    "Diktatur": {
+      "lemma": "Diktatur",
+      "partOfSpeech": "noun"
+    },
+    "Dilemma": {
+      "lemma": "Dilemma",
+      "partOfSpeech": "noun"
+    },
+    "Diplom": {
+      "lemma": "Diplom",
+      "partOfSpeech": "noun"
+    },
+    "Distanz": {
+      "lemma": "Distanz",
+      "partOfSpeech": "noun"
+    },
+    "Disziplin": {
+      "lemma": "Disziplin",
+      "partOfSpeech": "noun"
+    },
+    "Dokument": {
+      "lemma": "Dokument",
+      "partOfSpeech": "noun"
+    },
+    "Dokumentation": {
+      "lemma": "Dokumentation",
+      "partOfSpeech": "noun"
+    },
+    "Dosis": {
+      "lemma": "Dosis",
+      "partOfSpeech": "noun"
+    },
+    "Draht": {
+      "lemma": "Draht",
+      "partOfSpeech": "noun"
+    },
+    "Drang": {
+      "lemma": "Drang",
+      "partOfSpeech": "noun"
+    },
+    "Drehbuch": {
+      "lemma": "Drehbuch",
+      "partOfSpeech": "noun"
+    },
+    "Dreieck": {
+      "lemma": "Dreieck",
+      "partOfSpeech": "noun"
+    },
+    "Drohung": {
+      "lemma": "Drohung",
+      "partOfSpeech": "noun"
+    },
+    "Druck": {
+      "lemma": "Druck",
+      "partOfSpeech": "noun"
+    },
+    "Durchbruch": {
+      "lemma": "Durchbruch",
+      "partOfSpeech": "noun"
+    },
+    "Durchfall": {
+      "lemma": "Durchfall",
+      "partOfSpeech": "noun"
+    },
+    "Durchmesser": {
+      "lemma": "Durchmesser",
+      "partOfSpeech": "noun"
+    },
+    "Durchschnitt": {
+      "lemma": "Durchschnitt",
+      "partOfSpeech": "noun"
+    },
+    "Dämmerung": {
+      "lemma": "Dämmerung",
+      "partOfSpeech": "noun"
+    },
+    "Ebene": {
+      "lemma": "Ebene",
+      "partOfSpeech": "noun"
+    },
+    "Echo": {
+      "lemma": "Echo",
+      "partOfSpeech": "noun"
+    },
+    "Effekt": {
+      "lemma": "Effekt",
+      "partOfSpeech": "noun"
+    },
+    "Ehre": {
+      "lemma": "Ehre",
+      "partOfSpeech": "noun"
+    },
+    "Ehrgeiz": {
+      "lemma": "Ehrgeiz",
+      "partOfSpeech": "noun"
+    },
+    "Ehrlichkeit": {
+      "lemma": "Ehrlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Eid": {
+      "lemma": "Eid",
+      "partOfSpeech": "noun"
+    },
+    "Eifersucht": {
+      "lemma": "Eifersucht",
+      "partOfSpeech": "noun"
+    },
+    "Eigentum": {
+      "lemma": "Eigentum",
+      "partOfSpeech": "noun"
+    },
+    "Eimer": {
+      "lemma": "Eimer",
+      "partOfSpeech": "noun"
+    },
+    "Einbruch": {
+      "lemma": "Einbruch",
+      "partOfSpeech": "noun"
+    },
+    "Eindruck": {
+      "lemma": "Eindruck",
+      "partOfSpeech": "noun"
+    },
+    "Einfluss": {
+      "lemma": "Einfluss",
+      "partOfSpeech": "noun"
+    },
+    "Einheit": {
+      "lemma": "Einheit",
+      "partOfSpeech": "noun"
+    },
+    "Einigkeit": {
+      "lemma": "Einigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Einigung": {
+      "lemma": "Einigung",
+      "partOfSpeech": "noun"
+    },
+    "Einklang": {
+      "lemma": "Einklang",
+      "partOfSpeech": "noun"
+    },
+    "Einkommen": {
+      "lemma": "Einkommen",
+      "partOfSpeech": "noun"
+    },
+    "Einrichtung": {
+      "lemma": "Einrichtung",
+      "partOfSpeech": "noun"
+    },
+    "Einsatz": {
+      "lemma": "Einsatz",
+      "partOfSpeech": "noun"
+    },
+    "Einschätzung": {
+      "lemma": "Einschätzung",
+      "partOfSpeech": "noun"
+    },
+    "Einspruch": {
+      "lemma": "Einspruch",
+      "partOfSpeech": "noun"
+    },
+    "Einstellung": {
+      "lemma": "Einstellung",
+      "partOfSpeech": "noun"
+    },
+    "Einstieg": {
+      "lemma": "Einstieg",
+      "partOfSpeech": "noun"
+    },
+    "Eintritt": {
+      "lemma": "Eintritt",
+      "partOfSpeech": "noun"
+    },
+    "Einverständnis": {
+      "lemma": "Einverständnis",
+      "partOfSpeech": "noun"
+    },
+    "Einwand": {
+      "lemma": "Einwand",
+      "partOfSpeech": "noun"
+    },
+    "Einwilligung": {
+      "lemma": "Einwilligung",
+      "partOfSpeech": "noun"
+    },
+    "Elektrizität": {
+      "lemma": "Elektrizität",
+      "partOfSpeech": "noun"
+    },
+    "Element": {
+      "lemma": "Element",
+      "partOfSpeech": "noun"
+    },
+    "Empfang": {
+      "lemma": "Empfang",
+      "partOfSpeech": "noun"
+    },
+    "Empfehlung": {
+      "lemma": "Empfehlung",
+      "partOfSpeech": "noun"
+    },
+    "Empörung": {
+      "lemma": "Empörung",
+      "partOfSpeech": "noun"
+    },
+    "Energie": {
+      "lemma": "Energie",
+      "partOfSpeech": "noun"
+    },
+    "Engagement": {
+      "lemma": "Engagement",
+      "partOfSpeech": "noun"
+    },
+    "Entdeckung": {
+      "lemma": "Entdeckung",
+      "partOfSpeech": "noun"
+    },
+    "Entfernung": {
+      "lemma": "Entfernung",
+      "partOfSpeech": "noun"
+    },
+    "Entführung": {
+      "lemma": "Entführung",
+      "partOfSpeech": "noun"
+    },
+    "Entlassung": {
+      "lemma": "Entlassung",
+      "partOfSpeech": "noun"
+    },
+    "Entscheidung": {
+      "lemma": "Entscheidung",
+      "partOfSpeech": "noun"
+    },
+    "Entschluss": {
+      "lemma": "Entschluss",
+      "partOfSpeech": "noun"
+    },
+    "Entspannung": {
+      "lemma": "Entspannung",
+      "partOfSpeech": "noun"
+    },
+    "Enttäuschung": {
+      "lemma": "Enttäuschung",
+      "partOfSpeech": "noun"
+    },
+    "Entwurf": {
+      "lemma": "Entwurf",
+      "partOfSpeech": "noun"
+    },
+    "Epidemie": {
+      "lemma": "Epidemie",
+      "partOfSpeech": "noun"
+    },
+    "Episode": {
+      "lemma": "Episode",
+      "partOfSpeech": "noun"
+    },
+    "Epoche": {
+      "lemma": "Epoche",
+      "partOfSpeech": "noun"
+    },
+    "Erbe": {
+      "lemma": "Erbe",
+      "partOfSpeech": "noun"
+    },
+    "Erdbeben": {
+      "lemma": "Erdbeben",
+      "partOfSpeech": "noun"
+    },
+    "Erdgas": {
+      "lemma": "Erdgas",
+      "partOfSpeech": "noun"
+    },
+    "Erdgeschoss": {
+      "lemma": "Erdgeschoss",
+      "partOfSpeech": "noun"
+    },
+    "Erdöl": {
+      "lemma": "Erdöl",
+      "partOfSpeech": "noun"
+    },
+    "Ereignis": {
+      "lemma": "Ereignis",
+      "partOfSpeech": "noun"
+    },
+    "Erfahrung": {
+      "lemma": "Erfahrung",
+      "partOfSpeech": "noun"
+    },
+    "Erfindung": {
+      "lemma": "Erfindung",
+      "partOfSpeech": "noun"
+    },
+    "Erfüllung": {
+      "lemma": "Erfüllung",
+      "partOfSpeech": "noun"
+    },
+    "Ergebnis": {
+      "lemma": "Ergebnis",
+      "partOfSpeech": "noun"
+    },
+    "Erholung": {
+      "lemma": "Erholung",
+      "partOfSpeech": "noun"
+    },
+    "Erhöhung": {
+      "lemma": "Erhöhung",
+      "partOfSpeech": "noun"
+    },
+    "Erkrankung": {
+      "lemma": "Erkrankung",
+      "partOfSpeech": "noun"
+    },
+    "Erlaubnis": {
+      "lemma": "Erlaubnis",
+      "partOfSpeech": "noun"
+    },
+    "Erlebnis": {
+      "lemma": "Erlebnis",
+      "partOfSpeech": "noun"
+    },
+    "Erleichterung": {
+      "lemma": "Erleichterung",
+      "partOfSpeech": "noun"
+    },
+    "Ernte": {
+      "lemma": "Ernte",
+      "partOfSpeech": "noun"
+    },
+    "Ernährung": {
+      "lemma": "Ernährung",
+      "partOfSpeech": "noun"
+    },
+    "Ersatz": {
+      "lemma": "Ersatz",
+      "partOfSpeech": "noun"
+    },
+    "Erscheinung": {
+      "lemma": "Erscheinung",
+      "partOfSpeech": "noun"
+    },
+    "Ertrag": {
+      "lemma": "Ertrag",
+      "partOfSpeech": "noun"
+    },
+    "Erwartung": {
+      "lemma": "Erwartung",
+      "partOfSpeech": "noun"
+    },
+    "Erweiterung": {
+      "lemma": "Erweiterung",
+      "partOfSpeech": "noun"
+    },
+    "Erwägung": {
+      "lemma": "Erwägung",
+      "partOfSpeech": "noun"
+    },
+    "Erwärmung": {
+      "lemma": "Erwärmung",
+      "partOfSpeech": "noun"
+    },
+    "Erziehung": {
+      "lemma": "Erziehung",
+      "partOfSpeech": "noun"
+    },
+    "Erzählung": {
+      "lemma": "Erzählung",
+      "partOfSpeech": "noun"
+    },
+    "Eröffnung": {
+      "lemma": "Eröffnung",
+      "partOfSpeech": "noun"
+    },
+    "Etage": {
+      "lemma": "Etage",
+      "partOfSpeech": "noun"
+    },
+    "Ewigkeit": {
+      "lemma": "Ewigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Exemplar": {
+      "lemma": "Exemplar",
+      "partOfSpeech": "noun"
+    },
+    "Existenz": {
+      "lemma": "Existenz",
+      "partOfSpeech": "noun"
+    },
+    "Expedition": {
+      "lemma": "Expedition",
+      "partOfSpeech": "noun"
+    },
+    "Experiment": {
+      "lemma": "Experiment",
+      "partOfSpeech": "noun"
+    },
+    "Explosion": {
+      "lemma": "Explosion",
+      "partOfSpeech": "noun"
+    },
+    "Export": {
+      "lemma": "Export",
+      "partOfSpeech": "noun"
+    },
+    "Fabrik": {
+      "lemma": "Fabrik",
+      "partOfSpeech": "noun"
+    },
+    "Fach": {
+      "lemma": "Fach",
+      "partOfSpeech": "noun"
+    },
+    "Fachgebiet": {
+      "lemma": "Fachgebiet",
+      "partOfSpeech": "noun"
+    },
+    "Faden": {
+      "lemma": "Faden",
+      "partOfSpeech": "noun"
+    },
+    "Falle": {
+      "lemma": "Falle",
+      "partOfSpeech": "noun"
+    },
+    "Fass": {
+      "lemma": "Fass",
+      "partOfSpeech": "noun"
+    },
+    "Fassung": {
+      "lemma": "Fassung",
+      "partOfSpeech": "noun"
+    },
+    "Faust": {
+      "lemma": "Faust",
+      "partOfSpeech": "noun"
+    },
+    "Feder": {
+      "lemma": "Feder",
+      "partOfSpeech": "noun"
+    },
+    "Feedback": {
+      "lemma": "Feedback",
+      "partOfSpeech": "noun"
+    },
+    "Festland": {
+      "lemma": "Festland",
+      "partOfSpeech": "noun"
+    },
+    "Festnahme": {
+      "lemma": "Festnahme",
+      "partOfSpeech": "noun"
+    },
+    "Festplatte": {
+      "lemma": "Festplatte",
+      "partOfSpeech": "noun"
+    },
+    "Feuchtigkeit": {
+      "lemma": "Feuchtigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Filiale": {
+      "lemma": "Filiale",
+      "partOfSpeech": "noun"
+    },
+    "Filter": {
+      "lemma": "Filter",
+      "partOfSpeech": "noun"
+    },
+    "Finanzkrise": {
+      "lemma": "Finanzkrise",
+      "partOfSpeech": "noun"
+    },
+    "Fleck": {
+      "lemma": "Fleck",
+      "partOfSpeech": "noun"
+    },
+    "Flexibilität": {
+      "lemma": "Flexibilität",
+      "partOfSpeech": "noun"
+    },
+    "Fluch": {
+      "lemma": "Fluch",
+      "partOfSpeech": "noun"
+    },
+    "Flucht": {
+      "lemma": "Flucht",
+      "partOfSpeech": "noun"
+    },
+    "Fluggesellschaft": {
+      "lemma": "Fluggesellschaft",
+      "partOfSpeech": "noun"
+    },
+    "Flur": {
+      "lemma": "Flur",
+      "partOfSpeech": "noun"
+    },
+    "Flut": {
+      "lemma": "Flut",
+      "partOfSpeech": "noun"
+    },
+    "Fläche": {
+      "lemma": "Fläche",
+      "partOfSpeech": "noun"
+    },
+    "Flüssigkeit": {
+      "lemma": "Flüssigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Fokus": {
+      "lemma": "Fokus",
+      "partOfSpeech": "noun"
+    },
+    "Forderung": {
+      "lemma": "Forderung",
+      "partOfSpeech": "noun"
+    },
+    "Formel": {
+      "lemma": "Formel",
+      "partOfSpeech": "noun"
+    },
+    "Formular": {
+      "lemma": "Formular",
+      "partOfSpeech": "noun"
+    },
+    "Forschung": {
+      "lemma": "Forschung",
+      "partOfSpeech": "noun"
+    },
+    "Fortschritt": {
+      "lemma": "Fortschritt",
+      "partOfSpeech": "noun"
+    },
+    "Freiheitsstrafe": {
+      "lemma": "Freiheitsstrafe",
+      "partOfSpeech": "noun"
+    },
+    "Fremdsprache": {
+      "lemma": "Fremdsprache",
+      "partOfSpeech": "noun"
+    },
+    "Freundeskreis": {
+      "lemma": "Freundeskreis",
+      "partOfSpeech": "noun"
+    },
+    "Freundlichkeit": {
+      "lemma": "Freundlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Friedhof": {
+      "lemma": "Friedhof",
+      "partOfSpeech": "noun"
+    },
+    "Frist": {
+      "lemma": "Frist",
+      "partOfSpeech": "noun"
+    },
+    "Frost": {
+      "lemma": "Frost",
+      "partOfSpeech": "noun"
+    },
+    "Fundament": {
+      "lemma": "Fundament",
+      "partOfSpeech": "noun"
+    },
+    "Funk": {
+      "lemma": "Funk",
+      "partOfSpeech": "noun"
+    },
+    "Funken": {
+      "lemma": "Funken",
+      "partOfSpeech": "noun"
+    },
+    "Furcht": {
+      "lemma": "Furcht",
+      "partOfSpeech": "noun"
+    },
+    "Fusion": {
+      "lemma": "Fusion",
+      "partOfSpeech": "noun"
+    },
+    "Fälschung": {
+      "lemma": "Fälschung",
+      "partOfSpeech": "noun"
+    },
+    "Färbung": {
+      "lemma": "Färbung",
+      "partOfSpeech": "noun"
+    },
+    "Führung": {
+      "lemma": "Führung",
+      "partOfSpeech": "noun"
+    },
+    "Fülle": {
+      "lemma": "Fülle",
+      "partOfSpeech": "noun"
+    },
+    "Füllung": {
+      "lemma": "Füllung",
+      "partOfSpeech": "noun"
+    },
+    "Gabe": {
+      "lemma": "Gabe",
+      "partOfSpeech": "noun"
+    },
+    "Galerie": {
+      "lemma": "Galerie",
+      "partOfSpeech": "noun"
+    },
+    "Garantie": {
+      "lemma": "Garantie",
+      "partOfSpeech": "noun"
+    },
+    "Garderobe": {
+      "lemma": "Garderobe",
+      "partOfSpeech": "noun"
+    },
+    "Gas": {
+      "lemma": "Gas",
+      "partOfSpeech": "noun"
+    },
+    "Gasse": {
+      "lemma": "Gasse",
+      "partOfSpeech": "noun"
+    },
+    "Gebiet": {
+      "lemma": "Gebiet",
+      "partOfSpeech": "noun"
+    },
+    "Gebirge": {
+      "lemma": "Gebirge",
+      "partOfSpeech": "noun"
+    },
+    "Gebrauch": {
+      "lemma": "Gebrauch",
+      "partOfSpeech": "noun"
+    },
+    "Gebäude": {
+      "lemma": "Gebäude",
+      "partOfSpeech": "noun"
+    },
+    "Gebühr": {
+      "lemma": "Gebühr",
+      "partOfSpeech": "noun"
+    },
+    "Geduld": {
+      "lemma": "Geduld",
+      "partOfSpeech": "noun"
+    },
+    "Gedächtnis": {
+      "lemma": "Gedächtnis",
+      "partOfSpeech": "noun"
+    },
+    "Gefahr": {
+      "lemma": "Gefahr",
+      "partOfSpeech": "noun"
+    },
+    "Gefangenschaft": {
+      "lemma": "Gefangenschaft",
+      "partOfSpeech": "noun"
+    },
+    "Gefängnis": {
+      "lemma": "Gefängnis",
+      "partOfSpeech": "noun"
+    },
+    "Gegend": {
+      "lemma": "Gegend",
+      "partOfSpeech": "noun"
+    },
+    "Gegenleistung": {
+      "lemma": "Gegenleistung",
+      "partOfSpeech": "noun"
+    },
+    "Gegensatz": {
+      "lemma": "Gegensatz",
+      "partOfSpeech": "noun"
+    },
+    "Gegenstand": {
+      "lemma": "Gegenstand",
+      "partOfSpeech": "noun"
+    },
+    "Gegenwart": {
+      "lemma": "Gegenwart",
+      "partOfSpeech": "noun"
+    },
+    "Gegenzug": {
+      "lemma": "Gegenzug",
+      "partOfSpeech": "noun"
+    },
+    "Gehalt": {
+      "lemma": "Gehalt",
+      "partOfSpeech": "noun"
+    },
+    "Geheimdienst": {
+      "lemma": "Geheimdienst",
+      "partOfSpeech": "noun"
+    },
+    "Geheimnis": {
+      "lemma": "Geheimnis",
+      "partOfSpeech": "noun"
+    },
+    "Gehör": {
+      "lemma": "Gehör",
+      "partOfSpeech": "noun"
+    },
+    "Geisel": {
+      "lemma": "Geisel",
+      "partOfSpeech": "noun"
+    },
+    "Geltung": {
+      "lemma": "Geltung",
+      "partOfSpeech": "noun"
+    },
+    "Gelächter": {
+      "lemma": "Gelächter",
+      "partOfSpeech": "noun"
+    },
+    "Gelände": {
+      "lemma": "Gelände",
+      "partOfSpeech": "noun"
+    },
+    "Gemeinde": {
+      "lemma": "Gemeinde",
+      "partOfSpeech": "noun"
+    },
+    "Gemeinschaft": {
+      "lemma": "Gemeinschaft",
+      "partOfSpeech": "noun"
+    },
+    "Gemälde": {
+      "lemma": "Gemälde",
+      "partOfSpeech": "noun"
+    },
+    "Genehmigung": {
+      "lemma": "Genehmigung",
+      "partOfSpeech": "noun"
+    },
+    "Generation": {
+      "lemma": "Generation",
+      "partOfSpeech": "noun"
+    },
+    "Genesung": {
+      "lemma": "Genesung",
+      "partOfSpeech": "noun"
+    },
+    "Genuss": {
+      "lemma": "Genuss",
+      "partOfSpeech": "noun"
+    },
+    "Gepäck": {
+      "lemma": "Gepäck",
+      "partOfSpeech": "noun"
+    },
+    "Gerechtigkeit": {
+      "lemma": "Gerechtigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Gericht": {
+      "lemma": "Gericht",
+      "partOfSpeech": "noun"
+    },
+    "Gerichtshof": {
+      "lemma": "Gerichtshof",
+      "partOfSpeech": "noun"
+    },
+    "Geruch": {
+      "lemma": "Geruch",
+      "partOfSpeech": "noun"
+    },
+    "Gerät": {
+      "lemma": "Gerät",
+      "partOfSpeech": "noun"
+    },
+    "Geräusch": {
+      "lemma": "Geräusch",
+      "partOfSpeech": "noun"
+    },
+    "Gerücht": {
+      "lemma": "Gerücht",
+      "partOfSpeech": "noun"
+    },
+    "Geschirr": {
+      "lemma": "Geschirr",
+      "partOfSpeech": "noun"
+    },
+    "Geschlecht": {
+      "lemma": "Geschlecht",
+      "partOfSpeech": "noun"
+    },
+    "Geschwindigkeit": {
+      "lemma": "Geschwindigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Gesetz": {
+      "lemma": "Gesetz",
+      "partOfSpeech": "noun"
+    },
+    "Gesetzentwurf": {
+      "lemma": "Gesetzentwurf",
+      "partOfSpeech": "noun"
+    },
+    "Gesichtsausdruck": {
+      "lemma": "Gesichtsausdruck",
+      "partOfSpeech": "noun"
+    },
+    "Gesprächspartner": {
+      "lemma": "Gesprächspartner",
+      "partOfSpeech": "noun"
+    },
+    "Gestalt": {
+      "lemma": "Gestalt",
+      "partOfSpeech": "noun"
+    },
+    "Geste": {
+      "lemma": "Geste",
+      "partOfSpeech": "noun"
+    },
+    "Geständnis": {
+      "lemma": "Geständnis",
+      "partOfSpeech": "noun"
+    },
+    "Gesundheitswesen": {
+      "lemma": "Gesundheitswesen",
+      "partOfSpeech": "noun"
+    },
+    "Getreide": {
+      "lemma": "Getreide",
+      "partOfSpeech": "noun"
+    },
+    "Gewand": {
+      "lemma": "Gewand",
+      "partOfSpeech": "noun"
+    },
+    "Gewehr": {
+      "lemma": "Gewehr",
+      "partOfSpeech": "noun"
+    },
+    "Gewerkschaft": {
+      "lemma": "Gewerkschaft",
+      "partOfSpeech": "noun"
+    },
+    "Gewinn": {
+      "lemma": "Gewinn",
+      "partOfSpeech": "noun"
+    },
+    "Gewissen": {
+      "lemma": "Gewissen",
+      "partOfSpeech": "noun"
+    },
+    "Gewissheit": {
+      "lemma": "Gewissheit",
+      "partOfSpeech": "noun"
+    },
+    "Gewitter": {
+      "lemma": "Gewitter",
+      "partOfSpeech": "noun"
+    },
+    "Gewohnheit": {
+      "lemma": "Gewohnheit",
+      "partOfSpeech": "noun"
+    },
+    "Gift": {
+      "lemma": "Gift",
+      "partOfSpeech": "noun"
+    },
+    "Gipfel": {
+      "lemma": "Gipfel",
+      "partOfSpeech": "noun"
+    },
+    "Gitter": {
+      "lemma": "Gitter",
+      "partOfSpeech": "noun"
+    },
+    "Glaubwürdigkeit": {
+      "lemma": "Glaubwürdigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Gleichberechtigung": {
+      "lemma": "Gleichberechtigung",
+      "partOfSpeech": "noun"
+    },
+    "Gleichgewicht": {
+      "lemma": "Gleichgewicht",
+      "partOfSpeech": "noun"
+    },
+    "Gleis": {
+      "lemma": "Gleis",
+      "partOfSpeech": "noun"
+    },
+    "Glied": {
+      "lemma": "Glied",
+      "partOfSpeech": "noun"
+    },
+    "Glücksspiel": {
+      "lemma": "Glücksspiel",
+      "partOfSpeech": "noun"
+    },
+    "Gnade": {
+      "lemma": "Gnade",
+      "partOfSpeech": "noun"
+    },
+    "Gremium": {
+      "lemma": "Gremium",
+      "partOfSpeech": "noun"
+    },
+    "Grenze": {
+      "lemma": "Grenze",
+      "partOfSpeech": "noun"
+    },
+    "Grube": {
+      "lemma": "Grube",
+      "partOfSpeech": "noun"
+    },
+    "Grundlage": {
+      "lemma": "Grundlage",
+      "partOfSpeech": "noun"
+    },
+    "Grundstück": {
+      "lemma": "Grundstück",
+      "partOfSpeech": "noun"
+    },
+    "Gründung": {
+      "lemma": "Gründung",
+      "partOfSpeech": "noun"
+    },
+    "Gutschein": {
+      "lemma": "Gutschein",
+      "partOfSpeech": "noun"
+    },
+    "Gänsehaut": {
+      "lemma": "Gänsehaut",
+      "partOfSpeech": "noun"
+    },
+    "Gürtel": {
+      "lemma": "Gürtel",
+      "partOfSpeech": "noun"
+    },
+    "Güte": {
+      "lemma": "Güte",
+      "partOfSpeech": "noun"
+    },
+    "Hafen": {
+      "lemma": "Hafen",
+      "partOfSpeech": "noun"
+    },
+    "Haft": {
+      "lemma": "Haft",
+      "partOfSpeech": "noun"
+    },
+    "Haftbefehl": {
+      "lemma": "Haftbefehl",
+      "partOfSpeech": "noun"
+    },
+    "Haftstrafe": {
+      "lemma": "Haftstrafe",
+      "partOfSpeech": "noun"
+    },
+    "Haken": {
+      "lemma": "Haken",
+      "partOfSpeech": "noun"
+    },
+    "Halbinsel": {
+      "lemma": "Halbinsel",
+      "partOfSpeech": "noun"
+    },
+    "Halbzeit": {
+      "lemma": "Halbzeit",
+      "partOfSpeech": "noun"
+    },
+    "Halter": {
+      "lemma": "Halter",
+      "partOfSpeech": "noun"
+    },
+    "Haltung": {
+      "lemma": "Haltung",
+      "partOfSpeech": "noun"
+    },
+    "Handbuch": {
+      "lemma": "Handbuch",
+      "partOfSpeech": "noun"
+    },
+    "Handel": {
+      "lemma": "Handel",
+      "partOfSpeech": "noun"
+    },
+    "Handgelenk": {
+      "lemma": "Handgelenk",
+      "partOfSpeech": "noun"
+    },
+    "Handlung": {
+      "lemma": "Handlung",
+      "partOfSpeech": "noun"
+    },
+    "Handschrift": {
+      "lemma": "Handschrift",
+      "partOfSpeech": "noun"
+    },
+    "Handwerk": {
+      "lemma": "Handwerk",
+      "partOfSpeech": "noun"
+    },
+    "Hang": {
+      "lemma": "Hang",
+      "partOfSpeech": "noun"
+    },
+    "Haushalt": {
+      "lemma": "Haushalt",
+      "partOfSpeech": "noun"
+    },
+    "Hebel": {
+      "lemma": "Hebel",
+      "partOfSpeech": "noun"
+    },
+    "Heer": {
+      "lemma": "Heer",
+      "partOfSpeech": "noun"
+    },
+    "Heilmittel": {
+      "lemma": "Heilmittel",
+      "partOfSpeech": "noun"
+    },
+    "Heilung": {
+      "lemma": "Heilung",
+      "partOfSpeech": "noun"
+    },
+    "Heimat": {
+      "lemma": "Heimat",
+      "partOfSpeech": "noun"
+    },
+    "Herausforderung": {
+      "lemma": "Herausforderung",
+      "partOfSpeech": "noun"
+    },
+    "Herkunft": {
+      "lemma": "Herkunft",
+      "partOfSpeech": "noun"
+    },
+    "Herrschaft": {
+      "lemma": "Herrschaft",
+      "partOfSpeech": "noun"
+    },
+    "Hindernis": {
+      "lemma": "Hindernis",
+      "partOfSpeech": "noun"
+    },
+    "Hingabe": {
+      "lemma": "Hingabe",
+      "partOfSpeech": "noun"
+    },
+    "Hinsicht": {
+      "lemma": "Hinsicht",
+      "partOfSpeech": "noun"
+    },
+    "Hintergrund": {
+      "lemma": "Hintergrund",
+      "partOfSpeech": "noun"
+    },
+    "Hinweis": {
+      "lemma": "Hinweis",
+      "partOfSpeech": "noun"
+    },
+    "Hochschule": {
+      "lemma": "Hochschule",
+      "partOfSpeech": "noun"
+    },
+    "Hochwasser": {
+      "lemma": "Hochwasser",
+      "partOfSpeech": "noun"
+    },
+    "Horizont": {
+      "lemma": "Horizont",
+      "partOfSpeech": "noun"
+    },
+    "Hubschrauber": {
+      "lemma": "Hubschrauber",
+      "partOfSpeech": "noun"
+    },
+    "Hypothese": {
+      "lemma": "Hypothese",
+      "partOfSpeech": "noun"
+    },
+    "Hüfte": {
+      "lemma": "Hüfte",
+      "partOfSpeech": "noun"
+    },
+    "Hülle": {
+      "lemma": "Hülle",
+      "partOfSpeech": "noun"
+    },
+    "Identität": {
+      "lemma": "Identität",
+      "partOfSpeech": "noun"
+    },
+    "Ignoranz": {
+      "lemma": "Ignoranz",
+      "partOfSpeech": "noun"
+    },
+    "Illusion": {
+      "lemma": "Illusion",
+      "partOfSpeech": "noun"
+    },
+    "Immunsystem": {
+      "lemma": "Immunsystem",
+      "partOfSpeech": "noun"
+    },
+    "Import": {
+      "lemma": "Import",
+      "partOfSpeech": "noun"
+    },
+    "Index": {
+      "lemma": "Index",
+      "partOfSpeech": "noun"
+    },
+    "Individuum": {
+      "lemma": "Individuum",
+      "partOfSpeech": "noun"
+    },
+    "Industrie": {
+      "lemma": "Industrie",
+      "partOfSpeech": "noun"
+    },
+    "Infektion": {
+      "lemma": "Infektion",
+      "partOfSpeech": "noun"
+    },
+    "Inflation": {
+      "lemma": "Inflation",
+      "partOfSpeech": "noun"
+    },
+    "Inhalt": {
+      "lemma": "Inhalt",
+      "partOfSpeech": "noun"
+    },
+    "Initiative": {
+      "lemma": "Initiative",
+      "partOfSpeech": "noun"
+    },
+    "Inschrift": {
+      "lemma": "Inschrift",
+      "partOfSpeech": "noun"
+    },
+    "Inspiration": {
+      "lemma": "Inspiration",
+      "partOfSpeech": "noun"
+    },
+    "Instrument": {
+      "lemma": "Instrument",
+      "partOfSpeech": "noun"
+    },
+    "Intelligenz": {
+      "lemma": "Intelligenz",
+      "partOfSpeech": "noun"
+    },
+    "Internat": {
+      "lemma": "Internat",
+      "partOfSpeech": "noun"
+    },
+    "Investition": {
+      "lemma": "Investition",
+      "partOfSpeech": "noun"
+    },
+    "Irrtum": {
+      "lemma": "Irrtum",
+      "partOfSpeech": "noun"
+    },
+    "Jahrbuch": {
+      "lemma": "Jahrbuch",
+      "partOfSpeech": "noun"
+    },
+    "Jahrestag": {
+      "lemma": "Jahrestag",
+      "partOfSpeech": "noun"
+    },
+    "Jubiläum": {
+      "lemma": "Jubiläum",
+      "partOfSpeech": "noun"
+    },
+    "Kabel": {
+      "lemma": "Kabel",
+      "partOfSpeech": "noun"
+    },
+    "Kabine": {
+      "lemma": "Kabine",
+      "partOfSpeech": "noun"
+    },
+    "Kabinett": {
+      "lemma": "Kabinett",
+      "partOfSpeech": "noun"
+    },
+    "Kanal": {
+      "lemma": "Kanal",
+      "partOfSpeech": "noun"
+    },
+    "Kapital": {
+      "lemma": "Kapital",
+      "partOfSpeech": "noun"
+    },
+    "Kapsel": {
+      "lemma": "Kapsel",
+      "partOfSpeech": "noun"
+    },
+    "Karriere": {
+      "lemma": "Karriere",
+      "partOfSpeech": "noun"
+    },
+    "Karton": {
+      "lemma": "Karton",
+      "partOfSpeech": "noun"
+    },
+    "Katalog": {
+      "lemma": "Katalog",
+      "partOfSpeech": "noun"
+    },
+    "Katastrophe": {
+      "lemma": "Katastrophe",
+      "partOfSpeech": "noun"
+    },
+    "Kaution": {
+      "lemma": "Kaution",
+      "partOfSpeech": "noun"
+    },
+    "Kehle": {
+      "lemma": "Kehle",
+      "partOfSpeech": "noun"
+    },
+    "Kenntnis": {
+      "lemma": "Kenntnis",
+      "partOfSpeech": "noun"
+    },
+    "Kern": {
+      "lemma": "Kern",
+      "partOfSpeech": "noun"
+    },
+    "Kessel": {
+      "lemma": "Kessel",
+      "partOfSpeech": "noun"
+    },
+    "Kinderbetreuung": {
+      "lemma": "Kinderbetreuung",
+      "partOfSpeech": "noun"
+    },
+    "Kindheit": {
+      "lemma": "Kindheit",
+      "partOfSpeech": "noun"
+    },
+    "Kiste": {
+      "lemma": "Kiste",
+      "partOfSpeech": "noun"
+    },
+    "Klage": {
+      "lemma": "Klage",
+      "partOfSpeech": "noun"
+    },
+    "Klartext": {
+      "lemma": "Klartext",
+      "partOfSpeech": "noun"
+    },
+    "Klassiker": {
+      "lemma": "Klassiker",
+      "partOfSpeech": "noun"
+    },
+    "Klausur": {
+      "lemma": "Klausur",
+      "partOfSpeech": "noun"
+    },
+    "Kleinigkeit": {
+      "lemma": "Kleinigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Klimaanlage": {
+      "lemma": "Klimaanlage",
+      "partOfSpeech": "noun"
+    },
+    "Klimawandel": {
+      "lemma": "Klimawandel",
+      "partOfSpeech": "noun"
+    },
+    "Klinge": {
+      "lemma": "Klinge",
+      "partOfSpeech": "noun"
+    },
+    "Klinik": {
+      "lemma": "Klinik",
+      "partOfSpeech": "noun"
+    },
+    "Klischee": {
+      "lemma": "Klischee",
+      "partOfSpeech": "noun"
+    },
+    "Kloster": {
+      "lemma": "Kloster",
+      "partOfSpeech": "noun"
+    },
+    "Knoten": {
+      "lemma": "Knoten",
+      "partOfSpeech": "noun"
+    },
+    "Kohle": {
+      "lemma": "Kohle",
+      "partOfSpeech": "noun"
+    },
+    "Kombination": {
+      "lemma": "Kombination",
+      "partOfSpeech": "noun"
+    },
+    "Komfort": {
+      "lemma": "Komfort",
+      "partOfSpeech": "noun"
+    },
+    "Kommando": {
+      "lemma": "Kommando",
+      "partOfSpeech": "noun"
+    },
+    "Kommentar": {
+      "lemma": "Kommentar",
+      "partOfSpeech": "noun"
+    },
+    "Kommission": {
+      "lemma": "Kommission",
+      "partOfSpeech": "noun"
+    },
+    "Kommune": {
+      "lemma": "Kommune",
+      "partOfSpeech": "noun"
+    },
+    "Kommunikation": {
+      "lemma": "Kommunikation",
+      "partOfSpeech": "noun"
+    },
+    "Kompass": {
+      "lemma": "Kompass",
+      "partOfSpeech": "noun"
+    },
+    "Kompetenz": {
+      "lemma": "Kompetenz",
+      "partOfSpeech": "noun"
+    },
+    "Kompliment": {
+      "lemma": "Kompliment",
+      "partOfSpeech": "noun"
+    },
+    "Kompromiss": {
+      "lemma": "Kompromiss",
+      "partOfSpeech": "noun"
+    },
+    "Konferenz": {
+      "lemma": "Konferenz",
+      "partOfSpeech": "noun"
+    },
+    "Konflikt": {
+      "lemma": "Konflikt",
+      "partOfSpeech": "noun"
+    },
+    "Konkurrenz": {
+      "lemma": "Konkurrenz",
+      "partOfSpeech": "noun"
+    },
+    "Kontext": {
+      "lemma": "Kontext",
+      "partOfSpeech": "noun"
+    },
+    "Kontrolle": {
+      "lemma": "Kontrolle",
+      "partOfSpeech": "noun"
+    },
+    "Kontroverse": {
+      "lemma": "Kontroverse",
+      "partOfSpeech": "noun"
+    },
+    "Konzept": {
+      "lemma": "Konzept",
+      "partOfSpeech": "noun"
+    },
+    "Konzern": {
+      "lemma": "Konzern",
+      "partOfSpeech": "noun"
+    },
+    "Koordination": {
+      "lemma": "Koordination",
+      "partOfSpeech": "noun"
+    },
+    "Kopfhörer": {
+      "lemma": "Kopfhörer",
+      "partOfSpeech": "noun"
+    },
+    "Korrektur": {
+      "lemma": "Korrektur",
+      "partOfSpeech": "noun"
+    },
+    "Korruption": {
+      "lemma": "Korruption",
+      "partOfSpeech": "noun"
+    },
+    "Kostüm": {
+      "lemma": "Kostüm",
+      "partOfSpeech": "noun"
+    },
+    "Kragen": {
+      "lemma": "Kragen",
+      "partOfSpeech": "noun"
+    },
+    "Krankenversicherung": {
+      "lemma": "Krankenversicherung",
+      "partOfSpeech": "noun"
+    },
+    "Kratzer": {
+      "lemma": "Kratzer",
+      "partOfSpeech": "noun"
+    },
+    "Kreativität": {
+      "lemma": "Kreativität",
+      "partOfSpeech": "noun"
+    },
+    "Kredit": {
+      "lemma": "Kredit",
+      "partOfSpeech": "noun"
+    },
+    "Krise": {
+      "lemma": "Krise",
+      "partOfSpeech": "noun"
+    },
+    "Kritik": {
+      "lemma": "Kritik",
+      "partOfSpeech": "noun"
+    },
+    "Kunststoff": {
+      "lemma": "Kunststoff",
+      "partOfSpeech": "noun"
+    },
+    "Kunstwerk": {
+      "lemma": "Kunstwerk",
+      "partOfSpeech": "noun"
+    },
+    "Kupfer": {
+      "lemma": "Kupfer",
+      "partOfSpeech": "noun"
+    },
+    "Kurve": {
+      "lemma": "Kurve",
+      "partOfSpeech": "noun"
+    },
+    "Käfig": {
+      "lemma": "Käfig",
+      "partOfSpeech": "noun"
+    },
+    "Kündigung": {
+      "lemma": "Kündigung",
+      "partOfSpeech": "noun"
+    },
+    "Labor": {
+      "lemma": "Labor",
+      "partOfSpeech": "noun"
+    },
+    "Lack": {
+      "lemma": "Lack",
+      "partOfSpeech": "noun"
+    },
+    "Ladung": {
+      "lemma": "Ladung",
+      "partOfSpeech": "noun"
+    },
+    "Lager": {
+      "lemma": "Lager",
+      "partOfSpeech": "noun"
+    },
+    "Landwirtschaft": {
+      "lemma": "Landwirtschaft",
+      "partOfSpeech": "noun"
+    },
+    "Last": {
+      "lemma": "Last",
+      "partOfSpeech": "noun"
+    },
+    "Laub": {
+      "lemma": "Laub",
+      "partOfSpeech": "noun"
+    },
+    "Lautsprecher": {
+      "lemma": "Lautsprecher",
+      "partOfSpeech": "noun"
+    },
+    "Lautstärke": {
+      "lemma": "Lautstärke",
+      "partOfSpeech": "noun"
+    },
+    "Lebenserwartung": {
+      "lemma": "Lebenserwartung",
+      "partOfSpeech": "noun"
+    },
+    "Lebensgefahr": {
+      "lemma": "Lebensgefahr",
+      "partOfSpeech": "noun"
+    },
+    "Lebenslauf": {
+      "lemma": "Lebenslauf",
+      "partOfSpeech": "noun"
+    },
+    "Lebensmittel": {
+      "lemma": "Lebensmittel",
+      "partOfSpeech": "noun"
+    },
+    "Lebensstil": {
+      "lemma": "Lebensstil",
+      "partOfSpeech": "noun"
+    },
+    "Lebensunterhalt": {
+      "lemma": "Lebensunterhalt",
+      "partOfSpeech": "noun"
+    },
+    "Lebensweise": {
+      "lemma": "Lebensweise",
+      "partOfSpeech": "noun"
+    },
+    "Leber": {
+      "lemma": "Leber",
+      "partOfSpeech": "noun"
+    },
+    "Lebewesen": {
+      "lemma": "Lebewesen",
+      "partOfSpeech": "noun"
+    },
+    "Leder": {
+      "lemma": "Leder",
+      "partOfSpeech": "noun"
+    },
+    "Lehre": {
+      "lemma": "Lehre",
+      "partOfSpeech": "noun"
+    },
+    "Leichtigkeit": {
+      "lemma": "Leichtigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Leidenschaft": {
+      "lemma": "Leidenschaft",
+      "partOfSpeech": "noun"
+    },
+    "Leistung": {
+      "lemma": "Leistung",
+      "partOfSpeech": "noun"
+    },
+    "Leitung": {
+      "lemma": "Leitung",
+      "partOfSpeech": "noun"
+    },
+    "Lektüre": {
+      "lemma": "Lektüre",
+      "partOfSpeech": "noun"
+    },
+    "Lenkrad": {
+      "lemma": "Lenkrad",
+      "partOfSpeech": "noun"
+    },
+    "Leuchtturm": {
+      "lemma": "Leuchtturm",
+      "partOfSpeech": "noun"
+    },
+    "Lieferung": {
+      "lemma": "Lieferung",
+      "partOfSpeech": "noun"
+    },
+    "Lizenz": {
+      "lemma": "Lizenz",
+      "partOfSpeech": "noun"
+    },
+    "Lob": {
+      "lemma": "Lob",
+      "partOfSpeech": "noun"
+    },
+    "Lobby": {
+      "lemma": "Lobby",
+      "partOfSpeech": "noun"
+    },
+    "Logik": {
+      "lemma": "Logik",
+      "partOfSpeech": "noun"
+    },
+    "Lohn": {
+      "lemma": "Lohn",
+      "partOfSpeech": "noun"
+    },
+    "Loyalität": {
+      "lemma": "Loyalität",
+      "partOfSpeech": "noun"
+    },
+    "Luftfeuchtigkeit": {
+      "lemma": "Luftfeuchtigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Lunge": {
+      "lemma": "Lunge",
+      "partOfSpeech": "noun"
+    },
+    "Lupe": {
+      "lemma": "Lupe",
+      "partOfSpeech": "noun"
+    },
+    "Luxus": {
+      "lemma": "Luxus",
+      "partOfSpeech": "noun"
+    },
+    "Länge": {
+      "lemma": "Länge",
+      "partOfSpeech": "noun"
+    },
+    "Lärm": {
+      "lemma": "Lärm",
+      "partOfSpeech": "noun"
+    },
+    "Lösung": {
+      "lemma": "Lösung",
+      "partOfSpeech": "noun"
+    },
+    "Mangel": {
+      "lemma": "Mangel",
+      "partOfSpeech": "noun"
+    },
+    "Manuskript": {
+      "lemma": "Manuskript",
+      "partOfSpeech": "noun"
+    },
+    "Marmor": {
+      "lemma": "Marmor",
+      "partOfSpeech": "noun"
+    },
+    "Maschinenbau": {
+      "lemma": "Maschinenbau",
+      "partOfSpeech": "noun"
+    },
+    "Masse": {
+      "lemma": "Masse",
+      "partOfSpeech": "noun"
+    },
+    "Material": {
+      "lemma": "Material",
+      "partOfSpeech": "noun"
+    },
+    "Materie": {
+      "lemma": "Materie",
+      "partOfSpeech": "noun"
+    },
+    "Matratze": {
+      "lemma": "Matratze",
+      "partOfSpeech": "noun"
+    },
+    "Maßnahme": {
+      "lemma": "Maßnahme",
+      "partOfSpeech": "noun"
+    },
+    "Medaille": {
+      "lemma": "Medaille",
+      "partOfSpeech": "noun"
+    },
+    "Medikament": {
+      "lemma": "Medikament",
+      "partOfSpeech": "noun"
+    },
+    "Mehrheit": {
+      "lemma": "Mehrheit",
+      "partOfSpeech": "noun"
+    },
+    "Mehrzahl": {
+      "lemma": "Mehrzahl",
+      "partOfSpeech": "noun"
+    },
+    "Meilenstein": {
+      "lemma": "Meilenstein",
+      "partOfSpeech": "noun"
+    },
+    "Meisterschaft": {
+      "lemma": "Meisterschaft",
+      "partOfSpeech": "noun"
+    },
+    "Meisterwerk": {
+      "lemma": "Meisterwerk",
+      "partOfSpeech": "noun"
+    },
+    "Meldung": {
+      "lemma": "Meldung",
+      "partOfSpeech": "noun"
+    },
+    "Menschenleben": {
+      "lemma": "Menschenleben",
+      "partOfSpeech": "noun"
+    },
+    "Menschheit": {
+      "lemma": "Menschheit",
+      "partOfSpeech": "noun"
+    },
+    "Menschlichkeit": {
+      "lemma": "Menschlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Messe": {
+      "lemma": "Messe",
+      "partOfSpeech": "noun"
+    },
+    "Messung": {
+      "lemma": "Messung",
+      "partOfSpeech": "noun"
+    },
+    "Metall": {
+      "lemma": "Metall",
+      "partOfSpeech": "noun"
+    },
+    "Methode": {
+      "lemma": "Methode",
+      "partOfSpeech": "noun"
+    },
+    "Mietvertrag": {
+      "lemma": "Mietvertrag",
+      "partOfSpeech": "noun"
+    },
+    "Mikrofon": {
+      "lemma": "Mikrofon",
+      "partOfSpeech": "noun"
+    },
+    "Mikrowelle": {
+      "lemma": "Mikrowelle",
+      "partOfSpeech": "noun"
+    },
+    "Minderheit": {
+      "lemma": "Minderheit",
+      "partOfSpeech": "noun"
+    },
+    "Mindestlohn": {
+      "lemma": "Mindestlohn",
+      "partOfSpeech": "noun"
+    },
+    "Mine": {
+      "lemma": "Mine",
+      "partOfSpeech": "noun"
+    },
+    "Minimum": {
+      "lemma": "Minimum",
+      "partOfSpeech": "noun"
+    },
+    "Mischung": {
+      "lemma": "Mischung",
+      "partOfSpeech": "noun"
+    },
+    "Misstrauen": {
+      "lemma": "Misstrauen",
+      "partOfSpeech": "noun"
+    },
+    "Missverständnis": {
+      "lemma": "Missverständnis",
+      "partOfSpeech": "noun"
+    },
+    "Mitarbeit": {
+      "lemma": "Mitarbeit",
+      "partOfSpeech": "noun"
+    },
+    "Mitgefühl": {
+      "lemma": "Mitgefühl",
+      "partOfSpeech": "noun"
+    },
+    "Mitgliedschaft": {
+      "lemma": "Mitgliedschaft",
+      "partOfSpeech": "noun"
+    },
+    "Mithilfe": {
+      "lemma": "Mithilfe",
+      "partOfSpeech": "noun"
+    },
+    "Mitleid": {
+      "lemma": "Mitleid",
+      "partOfSpeech": "noun"
+    },
+    "Mitteilung": {
+      "lemma": "Mitteilung",
+      "partOfSpeech": "noun"
+    },
+    "Mittelpunkt": {
+      "lemma": "Mittelpunkt",
+      "partOfSpeech": "noun"
+    },
+    "Modell": {
+      "lemma": "Modell",
+      "partOfSpeech": "noun"
+    },
+    "Moral": {
+      "lemma": "Moral",
+      "partOfSpeech": "noun"
+    },
+    "Motiv": {
+      "lemma": "Motiv",
+      "partOfSpeech": "noun"
+    },
+    "Motivation": {
+      "lemma": "Motivation",
+      "partOfSpeech": "noun"
+    },
+    "Munition": {
+      "lemma": "Munition",
+      "partOfSpeech": "noun"
+    },
+    "Muster": {
+      "lemma": "Muster",
+      "partOfSpeech": "noun"
+    },
+    "Nachbarschaft": {
+      "lemma": "Nachbarschaft",
+      "partOfSpeech": "noun"
+    },
+    "Nachfrage": {
+      "lemma": "Nachfrage",
+      "partOfSpeech": "noun"
+    },
+    "Nachlass": {
+      "lemma": "Nachlass",
+      "partOfSpeech": "noun"
+    },
+    "Nachwuchs": {
+      "lemma": "Nachwuchs",
+      "partOfSpeech": "noun"
+    },
+    "Nahrung": {
+      "lemma": "Nahrung",
+      "partOfSpeech": "noun"
+    },
+    "Nahrungsmittel": {
+      "lemma": "Nahrungsmittel",
+      "partOfSpeech": "noun"
+    },
+    "Narbe": {
+      "lemma": "Narbe",
+      "partOfSpeech": "noun"
+    },
+    "Naturschutz": {
+      "lemma": "Naturschutz",
+      "partOfSpeech": "noun"
+    },
+    "Neid": {
+      "lemma": "Neid",
+      "partOfSpeech": "noun"
+    },
+    "Neigung": {
+      "lemma": "Neigung",
+      "partOfSpeech": "noun"
+    },
+    "Netz": {
+      "lemma": "Netz",
+      "partOfSpeech": "noun"
+    },
+    "Neuanfang": {
+      "lemma": "Neuanfang",
+      "partOfSpeech": "noun"
+    },
+    "Neugier": {
+      "lemma": "Neugier",
+      "partOfSpeech": "noun"
+    },
+    "Niederlage": {
+      "lemma": "Niederlage",
+      "partOfSpeech": "noun"
+    },
+    "Niveau": {
+      "lemma": "Niveau",
+      "partOfSpeech": "noun"
+    },
+    "Notaufnahme": {
+      "lemma": "Notaufnahme",
+      "partOfSpeech": "noun"
+    },
+    "Notfall": {
+      "lemma": "Notfall",
+      "partOfSpeech": "noun"
+    },
+    "Notiz": {
+      "lemma": "Notiz",
+      "partOfSpeech": "noun"
+    },
+    "Notruf": {
+      "lemma": "Notruf",
+      "partOfSpeech": "noun"
+    },
+    "Notwendigkeit": {
+      "lemma": "Notwendigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Nutzen": {
+      "lemma": "Nutzen",
+      "partOfSpeech": "noun"
+    },
+    "Oberfläche": {
+      "lemma": "Oberfläche",
+      "partOfSpeech": "noun"
+    },
+    "Obergeschoss": {
+      "lemma": "Obergeschoss",
+      "partOfSpeech": "noun"
+    },
+    "Obhut": {
+      "lemma": "Obhut",
+      "partOfSpeech": "noun"
+    },
+    "Objekt": {
+      "lemma": "Objekt",
+      "partOfSpeech": "noun"
+    },
+    "Offenheit": {
+      "lemma": "Offenheit",
+      "partOfSpeech": "noun"
+    },
+    "Offensive": {
+      "lemma": "Offensive",
+      "partOfSpeech": "noun"
+    },
+    "Ohnmacht": {
+      "lemma": "Ohnmacht",
+      "partOfSpeech": "noun"
+    },
+    "Operation": {
+      "lemma": "Operation",
+      "partOfSpeech": "noun"
+    },
+    "Opposition": {
+      "lemma": "Opposition",
+      "partOfSpeech": "noun"
+    },
+    "Optimismus": {
+      "lemma": "Optimismus",
+      "partOfSpeech": "noun"
+    },
+    "Option": {
+      "lemma": "Option",
+      "partOfSpeech": "noun"
+    },
+    "Ordner": {
+      "lemma": "Ordner",
+      "partOfSpeech": "noun"
+    },
+    "Organ": {
+      "lemma": "Organ",
+      "partOfSpeech": "noun"
+    },
+    "Orientierung": {
+      "lemma": "Orientierung",
+      "partOfSpeech": "noun"
+    },
+    "Pandemie": {
+      "lemma": "Pandemie",
+      "partOfSpeech": "noun"
+    },
+    "Panik": {
+      "lemma": "Panik",
+      "partOfSpeech": "noun"
+    },
+    "Panne": {
+      "lemma": "Panne",
+      "partOfSpeech": "noun"
+    },
+    "Parlament": {
+      "lemma": "Parlament",
+      "partOfSpeech": "noun"
+    },
+    "Passwort": {
+      "lemma": "Passwort",
+      "partOfSpeech": "noun"
+    },
+    "Pension": {
+      "lemma": "Pension",
+      "partOfSpeech": "noun"
+    },
+    "Personal": {
+      "lemma": "Personal",
+      "partOfSpeech": "noun"
+    },
+    "Perspektive": {
+      "lemma": "Perspektive",
+      "partOfSpeech": "noun"
+    },
+    "Persönlichkeit": {
+      "lemma": "Persönlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Petition": {
+      "lemma": "Petition",
+      "partOfSpeech": "noun"
+    },
+    "Pfad": {
+      "lemma": "Pfad",
+      "partOfSpeech": "noun"
+    },
+    "Pflaster": {
+      "lemma": "Pflaster",
+      "partOfSpeech": "noun"
+    },
+    "Pflege": {
+      "lemma": "Pflege",
+      "partOfSpeech": "noun"
+    },
+    "Pflicht": {
+      "lemma": "Pflicht",
+      "partOfSpeech": "noun"
+    },
+    "Phänomen": {
+      "lemma": "Phänomen",
+      "partOfSpeech": "noun"
+    },
+    "Pinsel": {
+      "lemma": "Pinsel",
+      "partOfSpeech": "noun"
+    },
+    "Planung": {
+      "lemma": "Planung",
+      "partOfSpeech": "noun"
+    },
+    "Porzellan": {
+      "lemma": "Porzellan",
+      "partOfSpeech": "noun"
+    },
+    "Position": {
+      "lemma": "Position",
+      "partOfSpeech": "noun"
+    },
+    "Potential": {
+      "lemma": "Potential",
+      "partOfSpeech": "noun"
+    },
+    "Praktikum": {
+      "lemma": "Praktikum",
+      "partOfSpeech": "noun"
+    },
+    "Praxis": {
+      "lemma": "Praxis",
+      "partOfSpeech": "noun"
+    },
+    "Prinzip": {
+      "lemma": "Prinzip",
+      "partOfSpeech": "noun"
+    },
+    "Priorität": {
+      "lemma": "Priorität",
+      "partOfSpeech": "noun"
+    },
+    "Privatsphäre": {
+      "lemma": "Privatsphäre",
+      "partOfSpeech": "noun"
+    },
+    "Privileg": {
+      "lemma": "Privileg",
+      "partOfSpeech": "noun"
+    },
+    "Probe": {
+      "lemma": "Probe",
+      "partOfSpeech": "noun"
+    },
+    "Produktion": {
+      "lemma": "Produktion",
+      "partOfSpeech": "noun"
+    },
+    "Profil": {
+      "lemma": "Profil",
+      "partOfSpeech": "noun"
+    },
+    "Protokoll": {
+      "lemma": "Protokoll",
+      "partOfSpeech": "noun"
+    },
+    "Prozess": {
+      "lemma": "Prozess",
+      "partOfSpeech": "noun"
+    },
+    "Präsentation": {
+      "lemma": "Präsentation",
+      "partOfSpeech": "noun"
+    },
+    "Publikum": {
+      "lemma": "Publikum",
+      "partOfSpeech": "noun"
+    },
+    "Puls": {
+      "lemma": "Puls",
+      "partOfSpeech": "noun"
+    },
+    "Qualität": {
+      "lemma": "Qualität",
+      "partOfSpeech": "noun"
+    },
+    "Quartier": {
+      "lemma": "Quartier",
+      "partOfSpeech": "noun"
+    },
+    "Quelle": {
+      "lemma": "Quelle",
+      "partOfSpeech": "noun"
+    },
+    "Rabatt": {
+      "lemma": "Rabatt",
+      "partOfSpeech": "noun"
+    },
+    "Rache": {
+      "lemma": "Rache",
+      "partOfSpeech": "noun"
+    },
+    "Rahmen": {
+      "lemma": "Rahmen",
+      "partOfSpeech": "noun"
+    },
+    "Rand": {
+      "lemma": "Rand",
+      "partOfSpeech": "noun"
+    },
+    "Rasen": {
+      "lemma": "Rasen",
+      "partOfSpeech": "noun"
+    },
+    "Rassismus": {
+      "lemma": "Rassismus",
+      "partOfSpeech": "noun"
+    },
+    "Reaktion": {
+      "lemma": "Reaktion",
+      "partOfSpeech": "noun"
+    },
+    "Realität": {
+      "lemma": "Realität",
+      "partOfSpeech": "noun"
+    },
+    "Rechenschaft": {
+      "lemma": "Rechenschaft",
+      "partOfSpeech": "noun"
+    },
+    "Rechner": {
+      "lemma": "Rechner",
+      "partOfSpeech": "noun"
+    },
+    "Rechtschreibung": {
+      "lemma": "Rechtschreibung",
+      "partOfSpeech": "noun"
+    },
+    "Rede": {
+      "lemma": "Rede",
+      "partOfSpeech": "noun"
+    },
+    "Referat": {
+      "lemma": "Referat",
+      "partOfSpeech": "noun"
+    },
+    "Reform": {
+      "lemma": "Reform",
+      "partOfSpeech": "noun"
+    },
+    "Regelung": {
+      "lemma": "Regelung",
+      "partOfSpeech": "noun"
+    },
+    "Register": {
+      "lemma": "Register",
+      "partOfSpeech": "noun"
+    },
+    "Registrierung": {
+      "lemma": "Registrierung",
+      "partOfSpeech": "noun"
+    },
+    "Rehabilitation": {
+      "lemma": "Rehabilitation",
+      "partOfSpeech": "noun"
+    },
+    "Reichtum": {
+      "lemma": "Reichtum",
+      "partOfSpeech": "noun"
+    },
+    "Reichweite": {
+      "lemma": "Reichweite",
+      "partOfSpeech": "noun"
+    },
+    "Reifen": {
+      "lemma": "Reifen",
+      "partOfSpeech": "noun"
+    },
+    "Reihenfolge": {
+      "lemma": "Reihenfolge",
+      "partOfSpeech": "noun"
+    },
+    "Reinigung": {
+      "lemma": "Reinigung",
+      "partOfSpeech": "noun"
+    },
+    "Relevanz": {
+      "lemma": "Relevanz",
+      "partOfSpeech": "noun"
+    },
+    "Rente": {
+      "lemma": "Rente",
+      "partOfSpeech": "noun"
+    },
+    "Reparatur": {
+      "lemma": "Reparatur",
+      "partOfSpeech": "noun"
+    },
+    "Respekt": {
+      "lemma": "Respekt",
+      "partOfSpeech": "noun"
+    },
+    "Resultat": {
+      "lemma": "Resultat",
+      "partOfSpeech": "noun"
+    },
+    "Rettung": {
+      "lemma": "Rettung",
+      "partOfSpeech": "noun"
+    },
+    "Revier": {
+      "lemma": "Revier",
+      "partOfSpeech": "noun"
+    },
+    "Revolution": {
+      "lemma": "Revolution",
+      "partOfSpeech": "noun"
+    },
+    "Rhythmus": {
+      "lemma": "Rhythmus",
+      "partOfSpeech": "noun"
+    },
+    "Risiko": {
+      "lemma": "Risiko",
+      "partOfSpeech": "noun"
+    },
+    "Rohr": {
+      "lemma": "Rohr",
+      "partOfSpeech": "noun"
+    },
+    "Rollstuhl": {
+      "lemma": "Rollstuhl",
+      "partOfSpeech": "noun"
+    },
+    "Router": {
+      "lemma": "Router",
+      "partOfSpeech": "noun"
+    },
+    "Routine": {
+      "lemma": "Routine",
+      "partOfSpeech": "noun"
+    },
+    "Ruhestand": {
+      "lemma": "Ruhestand",
+      "partOfSpeech": "noun"
+    },
+    "Ruine": {
+      "lemma": "Ruine",
+      "partOfSpeech": "noun"
+    },
+    "Rückmeldung": {
+      "lemma": "Rückmeldung",
+      "partOfSpeech": "noun"
+    },
+    "Rücksicht": {
+      "lemma": "Rücksicht",
+      "partOfSpeech": "noun"
+    },
+    "Rückstand": {
+      "lemma": "Rückstand",
+      "partOfSpeech": "noun"
+    },
+    "Rücktritt": {
+      "lemma": "Rücktritt",
+      "partOfSpeech": "noun"
+    },
+    "Rückzug": {
+      "lemma": "Rückzug",
+      "partOfSpeech": "noun"
+    },
+    "Saison": {
+      "lemma": "Saison",
+      "partOfSpeech": "noun"
+    },
+    "Sammlung": {
+      "lemma": "Sammlung",
+      "partOfSpeech": "noun"
+    },
+    "Sattel": {
+      "lemma": "Sattel",
+      "partOfSpeech": "noun"
+    },
+    "Sauerstoff": {
+      "lemma": "Sauerstoff",
+      "partOfSpeech": "noun"
+    },
+    "Schachtel": {
+      "lemma": "Schachtel",
+      "partOfSpeech": "noun"
+    },
+    "Schaden": {
+      "lemma": "Schaden",
+      "partOfSpeech": "noun"
+    },
+    "Scham": {
+      "lemma": "Scham",
+      "partOfSpeech": "noun"
+    },
+    "Schande": {
+      "lemma": "Schande",
+      "partOfSpeech": "noun"
+    },
+    "Scheibe": {
+      "lemma": "Scheibe",
+      "partOfSpeech": "noun"
+    },
+    "Scheidung": {
+      "lemma": "Scheidung",
+      "partOfSpeech": "noun"
+    },
+    "Schein": {
+      "lemma": "Schein",
+      "partOfSpeech": "noun"
+    },
+    "Scheinwerfer": {
+      "lemma": "Scheinwerfer",
+      "partOfSpeech": "noun"
+    },
+    "Schicht": {
+      "lemma": "Schicht",
+      "partOfSpeech": "noun"
+    },
+    "Schicksal": {
+      "lemma": "Schicksal",
+      "partOfSpeech": "noun"
+    },
+    "Schiene": {
+      "lemma": "Schiene",
+      "partOfSpeech": "noun"
+    },
+    "Schimmel": {
+      "lemma": "Schimmel",
+      "partOfSpeech": "noun"
+    },
+    "Schließung": {
+      "lemma": "Schließung",
+      "partOfSpeech": "noun"
+    },
+    "Schlucht": {
+      "lemma": "Schlucht",
+      "partOfSpeech": "noun"
+    },
+    "Schlussfolgerung": {
+      "lemma": "Schlussfolgerung",
+      "partOfSpeech": "noun"
+    },
+    "Schmuck": {
+      "lemma": "Schmuck",
+      "partOfSpeech": "noun"
+    },
+    "Schmutz": {
+      "lemma": "Schmutz",
+      "partOfSpeech": "noun"
+    },
+    "Schnäppchen": {
+      "lemma": "Schnäppchen",
+      "partOfSpeech": "noun"
+    },
+    "Schock": {
+      "lemma": "Schock",
+      "partOfSpeech": "noun"
+    },
+    "Schraube": {
+      "lemma": "Schraube",
+      "partOfSpeech": "noun"
+    },
+    "Schreck": {
+      "lemma": "Schreck",
+      "partOfSpeech": "noun"
+    },
+    "Schrift": {
+      "lemma": "Schrift",
+      "partOfSpeech": "noun"
+    },
+    "Schrott": {
+      "lemma": "Schrott",
+      "partOfSpeech": "noun"
+    },
+    "Schublade": {
+      "lemma": "Schublade",
+      "partOfSpeech": "noun"
+    },
+    "Schulabschluss": {
+      "lemma": "Schulabschluss",
+      "partOfSpeech": "noun"
+    },
+    "Schuld": {
+      "lemma": "Schuld",
+      "partOfSpeech": "noun"
+    },
+    "Schulden": {
+      "lemma": "Schulden",
+      "partOfSpeech": "noun"
+    },
+    "Schutz": {
+      "lemma": "Schutz",
+      "partOfSpeech": "noun"
+    },
+    "Schwangerschaft": {
+      "lemma": "Schwangerschaft",
+      "partOfSpeech": "noun"
+    },
+    "Schwerpunkt": {
+      "lemma": "Schwerpunkt",
+      "partOfSpeech": "noun"
+    },
+    "Schwung": {
+      "lemma": "Schwung",
+      "partOfSpeech": "noun"
+    },
+    "Schwäche": {
+      "lemma": "Schwäche",
+      "partOfSpeech": "noun"
+    },
+    "Selbstbewusstsein": {
+      "lemma": "Selbstbewusstsein",
+      "partOfSpeech": "noun"
+    },
+    "Selbstverständlichkeit": {
+      "lemma": "Selbstverständlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Selbstvertrauen": {
+      "lemma": "Selbstvertrauen",
+      "partOfSpeech": "noun"
+    },
+    "Semester": {
+      "lemma": "Semester",
+      "partOfSpeech": "noun"
+    },
+    "Seminar": {
+      "lemma": "Seminar",
+      "partOfSpeech": "noun"
+    },
+    "Senkung": {
+      "lemma": "Senkung",
+      "partOfSpeech": "noun"
+    },
+    "Server": {
+      "lemma": "Server",
+      "partOfSpeech": "noun"
+    },
+    "Seuche": {
+      "lemma": "Seuche",
+      "partOfSpeech": "noun"
+    },
+    "Sicherung": {
+      "lemma": "Sicherung",
+      "partOfSpeech": "noun"
+    },
+    "Sicht": {
+      "lemma": "Sicht",
+      "partOfSpeech": "noun"
+    },
+    "Sichtweise": {
+      "lemma": "Sichtweise",
+      "partOfSpeech": "noun"
+    },
+    "Sitzung": {
+      "lemma": "Sitzung",
+      "partOfSpeech": "noun"
+    },
+    "Skala": {
+      "lemma": "Skala",
+      "partOfSpeech": "noun"
+    },
+    "Skandal": {
+      "lemma": "Skandal",
+      "partOfSpeech": "noun"
+    },
+    "Skulptur": {
+      "lemma": "Skulptur",
+      "partOfSpeech": "noun"
+    },
+    "Sorgfalt": {
+      "lemma": "Sorgfalt",
+      "partOfSpeech": "noun"
+    },
+    "Sorte": {
+      "lemma": "Sorte",
+      "partOfSpeech": "noun"
+    },
+    "Spaltung": {
+      "lemma": "Spaltung",
+      "partOfSpeech": "noun"
+    },
+    "Spannung": {
+      "lemma": "Spannung",
+      "partOfSpeech": "noun"
+    },
+    "Speicher": {
+      "lemma": "Speicher",
+      "partOfSpeech": "noun"
+    },
+    "Spende": {
+      "lemma": "Spende",
+      "partOfSpeech": "noun"
+    },
+    "Spielraum": {
+      "lemma": "Spielraum",
+      "partOfSpeech": "noun"
+    },
+    "Sprichwort": {
+      "lemma": "Sprichwort",
+      "partOfSpeech": "noun"
+    },
+    "Spritze": {
+      "lemma": "Spritze",
+      "partOfSpeech": "noun"
+    },
+    "Spur": {
+      "lemma": "Spur",
+      "partOfSpeech": "noun"
+    },
+    "Standpunkt": {
+      "lemma": "Standpunkt",
+      "partOfSpeech": "noun"
+    },
+    "Stapel": {
+      "lemma": "Stapel",
+      "partOfSpeech": "noun"
+    },
+    "Statistik": {
+      "lemma": "Statistik",
+      "partOfSpeech": "noun"
+    },
+    "Status": {
+      "lemma": "Status",
+      "partOfSpeech": "noun"
+    },
+    "Stellung": {
+      "lemma": "Stellung",
+      "partOfSpeech": "noun"
+    },
+    "Stellvertreter": {
+      "lemma": "Stellvertreter",
+      "partOfSpeech": "noun"
+    },
+    "Steuer": {
+      "lemma": "Steuer",
+      "partOfSpeech": "noun"
+    },
+    "Stich": {
+      "lemma": "Stich",
+      "partOfSpeech": "noun"
+    },
+    "Stillstand": {
+      "lemma": "Stillstand",
+      "partOfSpeech": "noun"
+    },
+    "Stimmung": {
+      "lemma": "Stimmung",
+      "partOfSpeech": "noun"
+    },
+    "Stipendium": {
+      "lemma": "Stipendium",
+      "partOfSpeech": "noun"
+    },
+    "Stockwerk": {
+      "lemma": "Stockwerk",
+      "partOfSpeech": "noun"
+    },
+    "Stoff": {
+      "lemma": "Stoff",
+      "partOfSpeech": "noun"
+    },
+    "Strahlung": {
+      "lemma": "Strahlung",
+      "partOfSpeech": "noun"
+    },
+    "Strategie": {
+      "lemma": "Strategie",
+      "partOfSpeech": "noun"
+    },
+    "Strömung": {
+      "lemma": "Strömung",
+      "partOfSpeech": "noun"
+    },
+    "Störung": {
+      "lemma": "Störung",
+      "partOfSpeech": "noun"
+    },
+    "Symbol": {
+      "lemma": "Symbol",
+      "partOfSpeech": "noun"
+    },
+    "System": {
+      "lemma": "System",
+      "partOfSpeech": "noun"
+    },
+    "Tatsache": {
+      "lemma": "Tatsache",
+      "partOfSpeech": "noun"
+    },
+    "Technik": {
+      "lemma": "Technik",
+      "partOfSpeech": "noun"
+    },
+    "Teilzeit": {
+      "lemma": "Teilzeit",
+      "partOfSpeech": "noun"
+    },
+    "Tempo": {
+      "lemma": "Tempo",
+      "partOfSpeech": "noun"
+    },
+    "Theorie": {
+      "lemma": "Theorie",
+      "partOfSpeech": "noun"
+    },
+    "Treibstoff": {
+      "lemma": "Treibstoff",
+      "partOfSpeech": "noun"
+    },
+    "Trennung": {
+      "lemma": "Trennung",
+      "partOfSpeech": "noun"
+    },
+    "Trost": {
+      "lemma": "Trost",
+      "partOfSpeech": "noun"
+    },
+    "Tugend": {
+      "lemma": "Tugend",
+      "partOfSpeech": "noun"
+    },
+    "Tätigkeit": {
+      "lemma": "Tätigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Umfang": {
+      "lemma": "Umfang",
+      "partOfSpeech": "noun"
+    },
+    "Umgang": {
+      "lemma": "Umgang",
+      "partOfSpeech": "noun"
+    },
+    "Umgebung": {
+      "lemma": "Umgebung",
+      "partOfSpeech": "noun"
+    },
+    "Umschlag": {
+      "lemma": "Umschlag",
+      "partOfSpeech": "noun"
+    },
+    "Umstand": {
+      "lemma": "Umstand",
+      "partOfSpeech": "noun"
+    },
+    "Umwelt": {
+      "lemma": "Umwelt",
+      "partOfSpeech": "noun"
+    },
+    "Umweltschutz": {
+      "lemma": "Umweltschutz",
+      "partOfSpeech": "noun"
+    },
+    "Umzug": {
+      "lemma": "Umzug",
+      "partOfSpeech": "noun"
+    },
+    "Unabhängigkeit": {
+      "lemma": "Unabhängigkeit",
+      "partOfSpeech": "noun"
+    },
+    "Unglück": {
+      "lemma": "Unglück",
+      "partOfSpeech": "noun"
+    },
+    "Unterbrechung": {
+      "lemma": "Unterbrechung",
+      "partOfSpeech": "noun"
+    },
+    "Unterkunft": {
+      "lemma": "Unterkunft",
+      "partOfSpeech": "noun"
+    },
+    "Unterricht": {
+      "lemma": "Unterricht",
+      "partOfSpeech": "noun"
+    },
+    "Unterschied": {
+      "lemma": "Unterschied",
+      "partOfSpeech": "noun"
+    },
+    "Unterstützung": {
+      "lemma": "Unterstützung",
+      "partOfSpeech": "noun"
+    },
+    "Untersuchung": {
+      "lemma": "Untersuchung",
+      "partOfSpeech": "noun"
+    },
+    "Ursache": {
+      "lemma": "Ursache",
+      "partOfSpeech": "noun"
+    },
+    "Urteil": {
+      "lemma": "Urteil",
+      "partOfSpeech": "noun"
+    },
+    "Veranstaltung": {
+      "lemma": "Veranstaltung",
+      "partOfSpeech": "noun"
+    },
+    "Verantwortung": {
+      "lemma": "Verantwortung",
+      "partOfSpeech": "noun"
+    },
+    "Verbesserung": {
+      "lemma": "Verbesserung",
+      "partOfSpeech": "noun"
+    },
+    "Verbindung": {
+      "lemma": "Verbindung",
+      "partOfSpeech": "noun"
+    },
+    "Verbrechen": {
+      "lemma": "Verbrechen",
+      "partOfSpeech": "noun"
+    },
+    "Verdacht": {
+      "lemma": "Verdacht",
+      "partOfSpeech": "noun"
+    },
+    "Vereinbarung": {
+      "lemma": "Vereinbarung",
+      "partOfSpeech": "noun"
+    },
+    "Verfassung": {
+      "lemma": "Verfassung",
+      "partOfSpeech": "noun"
+    },
+    "Vergleich": {
+      "lemma": "Vergleich",
+      "partOfSpeech": "noun"
+    },
+    "Verhalten": {
+      "lemma": "Verhalten",
+      "partOfSpeech": "noun"
+    },
+    "Verhandlung": {
+      "lemma": "Verhandlung",
+      "partOfSpeech": "noun"
+    },
+    "Verhältnis": {
+      "lemma": "Verhältnis",
+      "partOfSpeech": "noun"
+    },
+    "Verkehr": {
+      "lemma": "Verkehr",
+      "partOfSpeech": "noun"
+    },
+    "Verletzung": {
+      "lemma": "Verletzung",
+      "partOfSpeech": "noun"
+    },
+    "Verlust": {
+      "lemma": "Verlust",
+      "partOfSpeech": "noun"
+    },
+    "Vermittlung": {
+      "lemma": "Vermittlung",
+      "partOfSpeech": "noun"
+    },
+    "Vermutung": {
+      "lemma": "Vermutung",
+      "partOfSpeech": "noun"
+    },
+    "Vermögen": {
+      "lemma": "Vermögen",
+      "partOfSpeech": "noun"
+    },
+    "Verpflichtung": {
+      "lemma": "Verpflichtung",
+      "partOfSpeech": "noun"
+    },
+    "Verrat": {
+      "lemma": "Verrat",
+      "partOfSpeech": "noun"
+    },
+    "Versammlung": {
+      "lemma": "Versammlung",
+      "partOfSpeech": "noun"
+    },
+    "Versand": {
+      "lemma": "Versand",
+      "partOfSpeech": "noun"
+    },
+    "Versicherung": {
+      "lemma": "Versicherung",
+      "partOfSpeech": "noun"
+    },
+    "Versorgung": {
+      "lemma": "Versorgung",
+      "partOfSpeech": "noun"
+    },
+    "Verständnis": {
+      "lemma": "Verständnis",
+      "partOfSpeech": "noun"
+    },
+    "Verstärkung": {
+      "lemma": "Verstärkung",
+      "partOfSpeech": "noun"
+    },
+    "Versuch": {
+      "lemma": "Versuch",
+      "partOfSpeech": "noun"
+    },
+    "Verwaltung": {
+      "lemma": "Verwaltung",
+      "partOfSpeech": "noun"
+    },
+    "Verwendung": {
+      "lemma": "Verwendung",
+      "partOfSpeech": "noun"
+    },
+    "Veröffentlichung": {
+      "lemma": "Veröffentlichung",
+      "partOfSpeech": "noun"
+    },
+    "Vorhaben": {
+      "lemma": "Vorhaben",
+      "partOfSpeech": "noun"
+    },
+    "Vorliebe": {
+      "lemma": "Vorliebe",
+      "partOfSpeech": "noun"
+    },
+    "Vorrat": {
+      "lemma": "Vorrat",
+      "partOfSpeech": "noun"
+    },
+    "Vorschlag": {
+      "lemma": "Vorschlag",
+      "partOfSpeech": "noun"
+    },
+    "Vorschrift": {
+      "lemma": "Vorschrift",
+      "partOfSpeech": "noun"
+    },
+    "Vorsicht": {
+      "lemma": "Vorsicht",
+      "partOfSpeech": "noun"
+    },
+    "Vorstand": {
+      "lemma": "Vorstand",
+      "partOfSpeech": "noun"
+    },
+    "Vorstellung": {
+      "lemma": "Vorstellung",
+      "partOfSpeech": "noun"
+    },
+    "Vorstellungsgespräch": {
+      "lemma": "Vorstellungsgespräch",
+      "partOfSpeech": "noun"
+    },
+    "Vorteil": {
+      "lemma": "Vorteil",
+      "partOfSpeech": "noun"
+    },
+    "Vorwurf": {
+      "lemma": "Vorwurf",
+      "partOfSpeech": "noun"
+    },
+    "Wachstum": {
+      "lemma": "Wachstum",
+      "partOfSpeech": "noun"
+    },
+    "Waffe": {
+      "lemma": "Waffe",
+      "partOfSpeech": "noun"
+    },
+    "Wahrnehmung": {
+      "lemma": "Wahrnehmung",
+      "partOfSpeech": "noun"
+    },
+    "Wandel": {
+      "lemma": "Wandel",
+      "partOfSpeech": "noun"
+    },
+    "Warnung": {
+      "lemma": "Warnung",
+      "partOfSpeech": "noun"
+    },
+    "Wechsel": {
+      "lemma": "Wechsel",
+      "partOfSpeech": "noun"
+    },
+    "Werkstatt": {
+      "lemma": "Werkstatt",
+      "partOfSpeech": "noun"
+    },
+    "Werkzeug": {
+      "lemma": "Werkzeug",
+      "partOfSpeech": "noun"
+    },
+    "Wettbewerb": {
+      "lemma": "Wettbewerb",
+      "partOfSpeech": "noun"
+    },
+    "Widerspruch": {
+      "lemma": "Widerspruch",
+      "partOfSpeech": "noun"
+    },
+    "Widerstand": {
+      "lemma": "Widerstand",
+      "partOfSpeech": "noun"
+    },
+    "Wiederaufbau": {
+      "lemma": "Wiederaufbau",
+      "partOfSpeech": "noun"
+    },
+    "Wirkung": {
+      "lemma": "Wirkung",
+      "partOfSpeech": "noun"
+    },
+    "Wirtschaft": {
+      "lemma": "Wirtschaft",
+      "partOfSpeech": "noun"
+    },
+    "Wissenschaft": {
+      "lemma": "Wissenschaft",
+      "partOfSpeech": "noun"
+    },
+    "Wohlbefinden": {
+      "lemma": "Wohlbefinden",
+      "partOfSpeech": "noun"
+    },
+    "Wohlstand": {
+      "lemma": "Wohlstand",
+      "partOfSpeech": "noun"
+    },
+    "Wohnsitz": {
+      "lemma": "Wohnsitz",
+      "partOfSpeech": "noun"
+    },
+    "Wohnwagen": {
+      "lemma": "Wohnwagen",
+      "partOfSpeech": "noun"
+    },
+    "Wortschatz": {
+      "lemma": "Wortschatz",
+      "partOfSpeech": "noun"
+    },
+    "Wrack": {
+      "lemma": "Wrack",
+      "partOfSpeech": "noun"
+    },
+    "Wucht": {
+      "lemma": "Wucht",
+      "partOfSpeech": "noun"
+    },
+    "Wunde": {
+      "lemma": "Wunde",
+      "partOfSpeech": "noun"
+    },
+    "Wurzel": {
+      "lemma": "Wurzel",
+      "partOfSpeech": "noun"
+    },
+    "Währung": {
+      "lemma": "Währung",
+      "partOfSpeech": "noun"
+    },
+    "Wärme": {
+      "lemma": "Wärme",
+      "partOfSpeech": "noun"
+    },
+    "Würfel": {
+      "lemma": "Würfel",
+      "partOfSpeech": "noun"
+    },
+    "Zeitalter": {
+      "lemma": "Zeitalter",
+      "partOfSpeech": "noun"
+    },
+    "Zeitplan": {
+      "lemma": "Zeitplan",
+      "partOfSpeech": "noun"
+    },
+    "Zeitpunkt": {
+      "lemma": "Zeitpunkt",
+      "partOfSpeech": "noun"
+    },
+    "Zeitraum": {
+      "lemma": "Zeitraum",
+      "partOfSpeech": "noun"
+    },
+    "Zelle": {
+      "lemma": "Zelle",
+      "partOfSpeech": "noun"
+    },
+    "Zentrale": {
+      "lemma": "Zentrale",
+      "partOfSpeech": "noun"
+    },
+    "Zeremonie": {
+      "lemma": "Zeremonie",
+      "partOfSpeech": "noun"
+    },
+    "Zitat": {
+      "lemma": "Zitat",
+      "partOfSpeech": "noun"
+    },
+    "Zubereitung": {
+      "lemma": "Zubereitung",
+      "partOfSpeech": "noun"
+    },
+    "Zufall": {
+      "lemma": "Zufall",
+      "partOfSpeech": "noun"
+    },
+    "Zuflucht": {
+      "lemma": "Zuflucht",
+      "partOfSpeech": "noun"
+    },
+    "Zufriedenheit": {
+      "lemma": "Zufriedenheit",
+      "partOfSpeech": "noun"
+    },
+    "Zugang": {
+      "lemma": "Zugang",
+      "partOfSpeech": "noun"
+    },
+    "Zulassung": {
+      "lemma": "Zulassung",
+      "partOfSpeech": "noun"
+    },
+    "Zunahme": {
+      "lemma": "Zunahme",
+      "partOfSpeech": "noun"
+    },
+    "Zuneigung": {
+      "lemma": "Zuneigung",
+      "partOfSpeech": "noun"
+    },
+    "Zusage": {
+      "lemma": "Zusage",
+      "partOfSpeech": "noun"
+    },
+    "Zusammenarbeit": {
+      "lemma": "Zusammenarbeit",
+      "partOfSpeech": "noun"
+    },
+    "Zusammenhang": {
+      "lemma": "Zusammenhang",
+      "partOfSpeech": "noun"
+    },
+    "Zustand": {
+      "lemma": "Zustand",
+      "partOfSpeech": "noun"
+    },
+    "Zustimmung": {
+      "lemma": "Zustimmung",
+      "partOfSpeech": "noun"
+    },
+    "Zutritt": {
+      "lemma": "Zutritt",
+      "partOfSpeech": "noun"
+    },
+    "Zuversicht": {
+      "lemma": "Zuversicht",
+      "partOfSpeech": "noun"
+    },
+    "Zuwachs": {
+      "lemma": "Zuwachs",
+      "partOfSpeech": "noun"
+    },
+    "Zweck": {
+      "lemma": "Zweck",
+      "partOfSpeech": "noun"
+    },
+    "Zweifel": {
+      "lemma": "Zweifel",
+      "partOfSpeech": "noun"
+    },
+    "Zwischenfall": {
+      "lemma": "Zwischenfall",
+      "partOfSpeech": "noun"
+    },
+    "Zähler": {
+      "lemma": "Zähler",
+      "partOfSpeech": "noun"
+    },
+    "abbauen": {
+      "lemma": "abbauen",
+      "partOfSpeech": "verb"
+    },
+    "abbrechen": {
+      "lemma": "abbrechen",
+      "partOfSpeech": "verb"
+    },
+    "abgeben": {
+      "lemma": "abgeben",
+      "partOfSpeech": "verb"
+    },
+    "abhalten": {
+      "lemma": "abhalten",
+      "partOfSpeech": "verb"
+    },
+    "abheben": {
+      "lemma": "abheben",
+      "partOfSpeech": "verb"
+    },
+    "abhängen": {
+      "lemma": "abhängen",
+      "partOfSpeech": "verb"
+    },
+    "ablegen": {
+      "lemma": "ablegen",
+      "partOfSpeech": "verb"
+    },
+    "ablehnen": {
+      "lemma": "ablehnen",
+      "partOfSpeech": "verb"
+    },
+    "ablenken": {
+      "lemma": "ablenken",
+      "partOfSpeech": "verb"
+    },
+    "abnehmen": {
+      "lemma": "abnehmen",
+      "partOfSpeech": "verb"
+    },
+    "abreißen": {
+      "lemma": "abreißen",
+      "partOfSpeech": "verb"
+    },
+    "absagen": {
+      "lemma": "absagen",
+      "partOfSpeech": "verb"
+    },
+    "abschaffen": {
+      "lemma": "abschaffen",
+      "partOfSpeech": "verb"
+    },
+    "abschalten": {
+      "lemma": "abschalten",
+      "partOfSpeech": "verb"
+    },
+    "abschließen": {
+      "lemma": "abschließen",
+      "partOfSpeech": "verb"
+    },
+    "abschneiden": {
+      "lemma": "abschneiden",
+      "partOfSpeech": "verb"
+    },
+    "absetzen": {
+      "lemma": "absetzen",
+      "partOfSpeech": "verb"
+    },
+    "abstellen": {
+      "lemma": "abstellen",
+      "partOfSpeech": "verb"
+    },
+    "abwarten": {
+      "lemma": "abwarten",
+      "partOfSpeech": "verb"
+    },
+    "achten": {
+      "lemma": "achten",
+      "partOfSpeech": "verb"
+    },
+    "agieren": {
+      "lemma": "agieren",
+      "partOfSpeech": "verb"
+    },
+    "ahnen": {
+      "lemma": "ahnen",
+      "partOfSpeech": "verb"
+    },
+    "akzeptieren": {
+      "lemma": "akzeptieren",
+      "partOfSpeech": "verb"
+    },
+    "analysieren": {
+      "lemma": "analysieren",
+      "partOfSpeech": "verb"
+    },
+    "anbieten": {
+      "lemma": "anbieten",
+      "partOfSpeech": "verb"
+    },
+    "angeben": {
+      "lemma": "angeben",
+      "partOfSpeech": "verb"
+    },
+    "angehen": {
+      "lemma": "angehen",
+      "partOfSpeech": "verb"
+    },
+    "anhalten": {
+      "lemma": "anhalten",
+      "partOfSpeech": "verb"
+    },
+    "anhören": {
+      "lemma": "anhören",
+      "partOfSpeech": "verb"
+    },
+    "anlegen": {
+      "lemma": "anlegen",
+      "partOfSpeech": "verb"
+    },
+    "anmelden": {
+      "lemma": "anmelden",
+      "partOfSpeech": "verb"
+    },
+    "annehmen": {
+      "lemma": "annehmen",
+      "partOfSpeech": "verb"
+    },
+    "anpassen": {
+      "lemma": "anpassen",
+      "partOfSpeech": "verb"
+    },
+    "anrichten": {
+      "lemma": "anrichten",
+      "partOfSpeech": "verb"
+    },
+    "anschließen": {
+      "lemma": "anschließen",
+      "partOfSpeech": "verb"
+    },
+    "ansprechen": {
+      "lemma": "ansprechen",
+      "partOfSpeech": "verb"
+    },
+    "anstellen": {
+      "lemma": "anstellen",
+      "partOfSpeech": "verb"
+    },
+    "antreten": {
+      "lemma": "antreten",
+      "partOfSpeech": "verb"
+    },
+    "anwenden": {
+      "lemma": "anwenden",
+      "partOfSpeech": "verb"
+    },
+    "anzeigen": {
+      "lemma": "anzeigen",
+      "partOfSpeech": "verb"
+    },
+    "anzünden": {
+      "lemma": "anzünden",
+      "partOfSpeech": "verb"
+    },
+    "argumentieren": {
+      "lemma": "argumentieren",
+      "partOfSpeech": "verb"
+    },
+    "aufbauen": {
+      "lemma": "aufbauen",
+      "partOfSpeech": "verb"
+    },
+    "aufbrechen": {
+      "lemma": "aufbrechen",
+      "partOfSpeech": "verb"
+    },
+    "auffallen": {
+      "lemma": "auffallen",
+      "partOfSpeech": "verb"
+    },
+    "aufgeben": {
+      "lemma": "aufgeben",
+      "partOfSpeech": "verb"
+    },
+    "aufgehen": {
+      "lemma": "aufgehen",
+      "partOfSpeech": "verb"
+    },
+    "aufhalten": {
+      "lemma": "aufhalten",
+      "partOfSpeech": "verb"
+    },
+    "aufheben": {
+      "lemma": "aufheben",
+      "partOfSpeech": "verb"
+    },
+    "aufhängen": {
+      "lemma": "aufhängen",
+      "partOfSpeech": "verb"
+    },
+    "aufklären": {
+      "lemma": "aufklären",
+      "partOfSpeech": "verb"
+    },
+    "aufkommen": {
+      "lemma": "aufkommen",
+      "partOfSpeech": "verb"
+    },
+    "auflösen": {
+      "lemma": "auflösen",
+      "partOfSpeech": "verb"
+    },
+    "aufnehmen": {
+      "lemma": "aufnehmen",
+      "partOfSpeech": "verb"
+    },
+    "aufrechterhalten": {
+      "lemma": "aufrechterhalten",
+      "partOfSpeech": "verb"
+    },
+    "aufregen": {
+      "lemma": "aufregen",
+      "partOfSpeech": "verb"
+    },
+    "aufsetzen": {
+      "lemma": "aufsetzen",
+      "partOfSpeech": "verb"
+    },
+    "aufsteigen": {
+      "lemma": "aufsteigen",
+      "partOfSpeech": "verb"
+    },
+    "aufstellen": {
+      "lemma": "aufstellen",
+      "partOfSpeech": "verb"
+    },
+    "aufsuchen": {
+      "lemma": "aufsuchen",
+      "partOfSpeech": "verb"
+    },
+    "auftauchen": {
+      "lemma": "auftauchen",
+      "partOfSpeech": "verb"
+    },
+    "auftreten": {
+      "lemma": "auftreten",
+      "partOfSpeech": "verb"
+    },
+    "aufzeigen": {
+      "lemma": "aufzeigen",
+      "partOfSpeech": "verb"
+    },
+    "ausdenken": {
+      "lemma": "ausdenken",
+      "partOfSpeech": "verb"
+    },
+    "ausdrücken": {
+      "lemma": "ausdrücken",
+      "partOfSpeech": "verb"
+    },
+    "auseinandersetzen": {
+      "lemma": "auseinandersetzen",
+      "partOfSpeech": "verb"
+    },
+    "ausfallen": {
+      "lemma": "ausfallen",
+      "partOfSpeech": "verb"
+    },
+    "ausführen": {
+      "lemma": "ausführen",
+      "partOfSpeech": "verb"
+    },
+    "ausgleichen": {
+      "lemma": "ausgleichen",
+      "partOfSpeech": "verb"
+    },
+    "aushalten": {
+      "lemma": "aushalten",
+      "partOfSpeech": "verb"
+    },
+    "auskommen": {
+      "lemma": "auskommen",
+      "partOfSpeech": "verb"
+    },
+    "auslösen": {
+      "lemma": "auslösen",
+      "partOfSpeech": "verb"
+    },
+    "ausmachen": {
+      "lemma": "ausmachen",
+      "partOfSpeech": "verb"
+    },
+    "ausnutzen": {
+      "lemma": "ausnutzen",
+      "partOfSpeech": "verb"
+    },
+    "ausreden": {
+      "lemma": "ausreden",
+      "partOfSpeech": "verb"
+    },
+    "ausreichen": {
+      "lemma": "ausreichen",
+      "partOfSpeech": "verb"
+    },
+    "ausrichten": {
+      "lemma": "ausrichten",
+      "partOfSpeech": "verb"
+    },
+    "aussagen": {
+      "lemma": "aussagen",
+      "partOfSpeech": "verb"
+    },
+    "ausschließen": {
+      "lemma": "ausschließen",
+      "partOfSpeech": "verb"
+    },
+    "aussprechen": {
+      "lemma": "aussprechen",
+      "partOfSpeech": "verb"
+    },
+    "ausstellen": {
+      "lemma": "ausstellen",
+      "partOfSpeech": "verb"
+    },
+    "austauschen": {
+      "lemma": "austauschen",
+      "partOfSpeech": "verb"
+    },
+    "auswählen": {
+      "lemma": "auswählen",
+      "partOfSpeech": "verb"
+    },
+    "beachten": {
+      "lemma": "beachten",
+      "partOfSpeech": "verb"
+    },
+    "bearbeiten": {
+      "lemma": "bearbeiten",
+      "partOfSpeech": "verb"
+    },
+    "bedauern": {
+      "lemma": "bedauern",
+      "partOfSpeech": "verb"
+    },
+    "bedienen": {
+      "lemma": "bedienen",
+      "partOfSpeech": "verb"
+    },
+    "bedürfen": {
+      "lemma": "bedürfen",
+      "partOfSpeech": "verb"
+    },
+    "beeindrucken": {
+      "lemma": "beeindrucken",
+      "partOfSpeech": "verb"
+    },
+    "beeinflussen": {
+      "lemma": "beeinflussen",
+      "partOfSpeech": "verb"
+    },
+    "befahren": {
+      "lemma": "befahren",
+      "partOfSpeech": "verb"
+    },
+    "befassen": {
+      "lemma": "befassen",
+      "partOfSpeech": "verb"
+    },
+    "befinden": {
+      "lemma": "befinden",
+      "partOfSpeech": "verb"
+    },
+    "befolgen": {
+      "lemma": "befolgen",
+      "partOfSpeech": "verb"
+    },
+    "befragen": {
+      "lemma": "befragen",
+      "partOfSpeech": "verb"
+    },
+    "befreien": {
+      "lemma": "befreien",
+      "partOfSpeech": "verb"
+    },
+    "befördern": {
+      "lemma": "befördern",
+      "partOfSpeech": "verb"
+    },
+    "befürchten": {
+      "lemma": "befürchten",
+      "partOfSpeech": "verb"
+    },
+    "begeben": {
+      "lemma": "begeben",
+      "partOfSpeech": "verb"
+    },
+    "begegnen": {
+      "lemma": "begegnen",
+      "partOfSpeech": "verb"
+    },
+    "begehen": {
+      "lemma": "begehen",
+      "partOfSpeech": "verb"
+    },
+    "begleiten": {
+      "lemma": "begleiten",
+      "partOfSpeech": "verb"
+    },
+    "begreifen": {
+      "lemma": "begreifen",
+      "partOfSpeech": "verb"
+    },
+    "behalten": {
+      "lemma": "behalten",
+      "partOfSpeech": "verb"
+    },
+    "behandeln": {
+      "lemma": "behandeln",
+      "partOfSpeech": "verb"
+    },
+    "behaupten": {
+      "lemma": "behaupten",
+      "partOfSpeech": "verb"
+    },
+    "beheben": {
+      "lemma": "beheben",
+      "partOfSpeech": "verb"
+    },
+    "beherrschen": {
+      "lemma": "beherrschen",
+      "partOfSpeech": "verb"
+    },
+    "beibehalten": {
+      "lemma": "beibehalten",
+      "partOfSpeech": "verb"
+    },
+    "beibringen": {
+      "lemma": "beibringen",
+      "partOfSpeech": "verb"
+    },
+    "beitragen": {
+      "lemma": "beitragen",
+      "partOfSpeech": "verb"
+    },
+    "beitreten": {
+      "lemma": "beitreten",
+      "partOfSpeech": "verb"
+    },
+    "bekennen": {
+      "lemma": "bekennen",
+      "partOfSpeech": "verb"
+    },
+    "beklagen": {
+      "lemma": "beklagen",
+      "partOfSpeech": "verb"
+    },
+    "bekämpfen": {
+      "lemma": "bekämpfen",
+      "partOfSpeech": "verb"
+    },
+    "belassen": {
+      "lemma": "belassen",
+      "partOfSpeech": "verb"
+    },
+    "belasten": {
+      "lemma": "belasten",
+      "partOfSpeech": "verb"
+    },
+    "belegen": {
+      "lemma": "belegen",
+      "partOfSpeech": "verb"
+    },
+    "beleidigen": {
+      "lemma": "beleidigen",
+      "partOfSpeech": "verb"
+    },
+    "belästigen": {
+      "lemma": "belästigen",
+      "partOfSpeech": "verb"
+    },
+    "bemühen": {
+      "lemma": "bemühen",
+      "partOfSpeech": "verb"
+    },
+    "benehmen": {
+      "lemma": "benehmen",
+      "partOfSpeech": "verb"
+    },
+    "benennen": {
+      "lemma": "benennen",
+      "partOfSpeech": "verb"
+    },
+    "benötigen": {
+      "lemma": "benötigen",
+      "partOfSpeech": "verb"
+    },
+    "beobachten": {
+      "lemma": "beobachten",
+      "partOfSpeech": "verb"
+    },
+    "beraten": {
+      "lemma": "beraten",
+      "partOfSpeech": "verb"
+    },
+    "berechnen": {
+      "lemma": "berechnen",
+      "partOfSpeech": "verb"
+    },
+    "bereiten": {
+      "lemma": "bereiten",
+      "partOfSpeech": "verb"
+    },
+    "bereuen": {
+      "lemma": "bereuen",
+      "partOfSpeech": "verb"
+    },
+    "berichten": {
+      "lemma": "berichten",
+      "partOfSpeech": "verb"
+    },
+    "berufen": {
+      "lemma": "berufen",
+      "partOfSpeech": "verb"
+    },
+    "beruhen": {
+      "lemma": "beruhen",
+      "partOfSpeech": "verb"
+    },
+    "beruhigen": {
+      "lemma": "beruhigen",
+      "partOfSpeech": "verb"
+    },
+    "berücksichtigen": {
+      "lemma": "berücksichtigen",
+      "partOfSpeech": "verb"
+    },
+    "berühren": {
+      "lemma": "berühren",
+      "partOfSpeech": "verb"
+    },
+    "beschaffen": {
+      "lemma": "beschaffen",
+      "partOfSpeech": "verb"
+    },
+    "beschleunigen": {
+      "lemma": "beschleunigen",
+      "partOfSpeech": "verb"
+    },
+    "beschweren": {
+      "lemma": "beschweren",
+      "partOfSpeech": "verb"
+    },
+    "beschäftigen": {
+      "lemma": "beschäftigen",
+      "partOfSpeech": "verb"
+    },
+    "beschützen": {
+      "lemma": "beschützen",
+      "partOfSpeech": "verb"
+    },
+    "beseitigen": {
+      "lemma": "beseitigen",
+      "partOfSpeech": "verb"
+    },
+    "besichtigen": {
+      "lemma": "besichtigen",
+      "partOfSpeech": "verb"
+    },
+    "besiegen": {
+      "lemma": "besiegen",
+      "partOfSpeech": "verb"
+    },
+    "besitzen": {
+      "lemma": "besitzen",
+      "partOfSpeech": "verb"
+    },
+    "besorgen": {
+      "lemma": "besorgen",
+      "partOfSpeech": "verb"
+    },
+    "besprechen": {
+      "lemma": "besprechen",
+      "partOfSpeech": "verb"
+    },
+    "bestehen": {
+      "lemma": "bestehen",
+      "partOfSpeech": "verb"
+    },
+    "bestimmen": {
+      "lemma": "bestimmen",
+      "partOfSpeech": "verb"
+    },
+    "bestrafen": {
+      "lemma": "bestrafen",
+      "partOfSpeech": "verb"
+    },
+    "bestreiten": {
+      "lemma": "bestreiten",
+      "partOfSpeech": "verb"
+    },
+    "bestätigen": {
+      "lemma": "bestätigen",
+      "partOfSpeech": "verb"
+    },
+    "beteiligen": {
+      "lemma": "beteiligen",
+      "partOfSpeech": "verb"
+    },
+    "betonen": {
+      "lemma": "betonen",
+      "partOfSpeech": "verb"
+    },
+    "betrachten": {
+      "lemma": "betrachten",
+      "partOfSpeech": "verb"
+    },
+    "betreffen": {
+      "lemma": "betreffen",
+      "partOfSpeech": "verb"
+    },
+    "betreiben": {
+      "lemma": "betreiben",
+      "partOfSpeech": "verb"
+    },
+    "betreten": {
+      "lemma": "betreten",
+      "partOfSpeech": "verb"
+    },
+    "betreuen": {
+      "lemma": "betreuen",
+      "partOfSpeech": "verb"
+    },
+    "beugen": {
+      "lemma": "beugen",
+      "partOfSpeech": "verb"
+    },
+    "beurteilen": {
+      "lemma": "beurteilen",
+      "partOfSpeech": "verb"
+    },
+    "bevorzugen": {
+      "lemma": "bevorzugen",
+      "partOfSpeech": "verb"
+    },
+    "bewahren": {
+      "lemma": "bewahren",
+      "partOfSpeech": "verb"
+    },
+    "beweisen": {
+      "lemma": "beweisen",
+      "partOfSpeech": "verb"
+    },
+    "bewerben": {
+      "lemma": "bewerben",
+      "partOfSpeech": "verb"
+    },
+    "bewerten": {
+      "lemma": "bewerten",
+      "partOfSpeech": "verb"
+    },
+    "bewirken": {
+      "lemma": "bewirken",
+      "partOfSpeech": "verb"
+    },
+    "bewundern": {
+      "lemma": "bewundern",
+      "partOfSpeech": "verb"
+    },
+    "bewältigen": {
+      "lemma": "bewältigen",
+      "partOfSpeech": "verb"
+    },
+    "bezeichnen": {
+      "lemma": "bezeichnen",
+      "partOfSpeech": "verb"
+    },
+    "beziehen": {
+      "lemma": "beziehen",
+      "partOfSpeech": "verb"
+    },
+    "bezweifeln": {
+      "lemma": "bezweifeln",
+      "partOfSpeech": "verb"
+    },
+    "biegen": {
+      "lemma": "biegen",
+      "partOfSpeech": "verb"
+    },
+    "bieten": {
+      "lemma": "bieten",
+      "partOfSpeech": "verb"
+    },
+    "bilden": {
+      "lemma": "bilden",
+      "partOfSpeech": "verb"
+    },
+    "billigen": {
+      "lemma": "billigen",
+      "partOfSpeech": "verb"
+    },
+    "binden": {
+      "lemma": "binden",
+      "partOfSpeech": "verb"
+    },
+    "blühen": {
+      "lemma": "blühen",
+      "partOfSpeech": "verb"
+    },
+    "brechen": {
+      "lemma": "brechen",
+      "partOfSpeech": "verb"
+    },
+    "darstellen": {
+      "lemma": "darstellen",
+      "partOfSpeech": "verb"
+    },
+    "definieren": {
+      "lemma": "definieren",
+      "partOfSpeech": "verb"
+    },
+    "demonstrieren": {
+      "lemma": "demonstrieren",
+      "partOfSpeech": "verb"
+    },
+    "deuten": {
+      "lemma": "deuten",
+      "partOfSpeech": "verb"
+    },
+    "dienen": {
+      "lemma": "dienen",
+      "partOfSpeech": "verb"
+    },
+    "diskutieren": {
+      "lemma": "diskutieren",
+      "partOfSpeech": "verb"
+    },
+    "dominieren": {
+      "lemma": "dominieren",
+      "partOfSpeech": "verb"
+    },
+    "drohen": {
+      "lemma": "drohen",
+      "partOfSpeech": "verb"
+    },
+    "drängen": {
+      "lemma": "drängen",
+      "partOfSpeech": "verb"
+    },
+    "dulden": {
+      "lemma": "dulden",
+      "partOfSpeech": "verb"
+    },
+    "durchbrechen": {
+      "lemma": "durchbrechen",
+      "partOfSpeech": "verb"
+    },
+    "durchführen": {
+      "lemma": "durchführen",
+      "partOfSpeech": "verb"
+    },
+    "durchgehen": {
+      "lemma": "durchgehen",
+      "partOfSpeech": "verb"
+    },
+    "durchhalten": {
+      "lemma": "durchhalten",
+      "partOfSpeech": "verb"
+    },
+    "durchlaufen": {
+      "lemma": "durchlaufen",
+      "partOfSpeech": "verb"
+    },
+    "durchsetzen": {
+      "lemma": "durchsetzen",
+      "partOfSpeech": "verb"
+    },
+    "durchsuchen": {
+      "lemma": "durchsuchen",
+      "partOfSpeech": "verb"
+    },
+    "eignen": {
+      "lemma": "eignen",
+      "partOfSpeech": "verb"
+    },
+    "einbauen": {
+      "lemma": "einbauen",
+      "partOfSpeech": "verb"
+    },
+    "einberufen": {
+      "lemma": "einberufen",
+      "partOfSpeech": "verb"
+    },
+    "einbringen": {
+      "lemma": "einbringen",
+      "partOfSpeech": "verb"
+    },
+    "einfallen": {
+      "lemma": "einfallen",
+      "partOfSpeech": "verb"
+    },
+    "einfügen": {
+      "lemma": "einfügen",
+      "partOfSpeech": "verb"
+    },
+    "eingehen": {
+      "lemma": "eingehen",
+      "partOfSpeech": "verb"
+    },
+    "einhalten": {
+      "lemma": "einhalten",
+      "partOfSpeech": "verb"
+    },
+    "einholen": {
+      "lemma": "einholen",
+      "partOfSpeech": "verb"
+    },
+    "einlassen": {
+      "lemma": "einlassen",
+      "partOfSpeech": "verb"
+    },
+    "einlegen": {
+      "lemma": "einlegen",
+      "partOfSpeech": "verb"
+    },
+    "einnehmen": {
+      "lemma": "einnehmen",
+      "partOfSpeech": "verb"
+    },
+    "einreichen": {
+      "lemma": "einreichen",
+      "partOfSpeech": "verb"
+    },
+    "einrichten": {
+      "lemma": "einrichten",
+      "partOfSpeech": "verb"
+    },
+    "einschlagen": {
+      "lemma": "einschlagen",
+      "partOfSpeech": "verb"
+    },
+    "einschätzen": {
+      "lemma": "einschätzen",
+      "partOfSpeech": "verb"
+    },
+    "einsehen": {
+      "lemma": "einsehen",
+      "partOfSpeech": "verb"
+    },
+    "einsetzen": {
+      "lemma": "einsetzen",
+      "partOfSpeech": "verb"
+    },
+    "einstecken": {
+      "lemma": "einstecken",
+      "partOfSpeech": "verb"
+    },
+    "einstellen": {
+      "lemma": "einstellen",
+      "partOfSpeech": "verb"
+    },
+    "eintreffen": {
+      "lemma": "eintreffen",
+      "partOfSpeech": "verb"
+    },
+    "eintreten": {
+      "lemma": "eintreten",
+      "partOfSpeech": "verb"
+    },
+    "einziehen": {
+      "lemma": "einziehen",
+      "partOfSpeech": "verb"
+    },
+    "empfangen": {
+      "lemma": "empfangen",
+      "partOfSpeech": "verb"
+    },
+    "empfehlen": {
+      "lemma": "empfehlen",
+      "partOfSpeech": "verb"
+    },
+    "empfinden": {
+      "lemma": "empfinden",
+      "partOfSpeech": "verb"
+    },
+    "engagieren": {
+      "lemma": "engagieren",
+      "partOfSpeech": "verb"
+    },
+    "entfallen": {
+      "lemma": "entfallen",
+      "partOfSpeech": "verb"
+    },
+    "entfernen": {
+      "lemma": "entfernen",
+      "partOfSpeech": "verb"
+    },
+    "entgehen": {
+      "lemma": "entgehen",
+      "partOfSpeech": "verb"
+    },
+    "enthalten": {
+      "lemma": "enthalten",
+      "partOfSpeech": "verb"
+    },
+    "entkommen": {
+      "lemma": "entkommen",
+      "partOfSpeech": "verb"
+    },
+    "entlassen": {
+      "lemma": "entlassen",
+      "partOfSpeech": "verb"
+    },
+    "entnehmen": {
+      "lemma": "entnehmen",
+      "partOfSpeech": "verb"
+    },
+    "entscheiden": {
+      "lemma": "entscheiden",
+      "partOfSpeech": "verb"
+    },
+    "entsorgen": {
+      "lemma": "entsorgen",
+      "partOfSpeech": "verb"
+    },
+    "entspannen": {
+      "lemma": "entspannen",
+      "partOfSpeech": "verb"
+    },
+    "entsprechen": {
+      "lemma": "entsprechen",
+      "partOfSpeech": "verb"
+    },
+    "entstehen": {
+      "lemma": "entstehen",
+      "partOfSpeech": "verb"
+    },
+    "enttäuschen": {
+      "lemma": "enttäuschen",
+      "partOfSpeech": "verb"
+    },
+    "entwerfen": {
+      "lemma": "entwerfen",
+      "partOfSpeech": "verb"
+    },
+    "entwickeln": {
+      "lemma": "entwickeln",
+      "partOfSpeech": "verb"
+    },
+    "entziehen": {
+      "lemma": "entziehen",
+      "partOfSpeech": "verb"
+    },
+    "erben": {
+      "lemma": "erben",
+      "partOfSpeech": "verb"
+    },
+    "erbringen": {
+      "lemma": "erbringen",
+      "partOfSpeech": "verb"
+    },
+    "erfahren": {
+      "lemma": "erfahren",
+      "partOfSpeech": "verb"
+    },
+    "erfassen": {
+      "lemma": "erfassen",
+      "partOfSpeech": "verb"
+    },
+    "erfinden": {
+      "lemma": "erfinden",
+      "partOfSpeech": "verb"
+    },
+    "erfordern": {
+      "lemma": "erfordern",
+      "partOfSpeech": "verb"
+    },
+    "erfreuen": {
+      "lemma": "erfreuen",
+      "partOfSpeech": "verb"
+    },
+    "erfüllen": {
+      "lemma": "erfüllen",
+      "partOfSpeech": "verb"
+    },
+    "ergeben": {
+      "lemma": "ergeben",
+      "partOfSpeech": "verb"
+    },
+    "ergreifen": {
+      "lemma": "ergreifen",
+      "partOfSpeech": "verb"
+    },
+    "ergänzen": {
+      "lemma": "ergänzen",
+      "partOfSpeech": "verb"
+    },
+    "erheben": {
+      "lemma": "erheben",
+      "partOfSpeech": "verb"
+    },
+    "erhöhen": {
+      "lemma": "erhöhen",
+      "partOfSpeech": "verb"
+    },
+    "erkennen": {
+      "lemma": "erkennen",
+      "partOfSpeech": "verb"
+    },
+    "erkunden": {
+      "lemma": "erkunden",
+      "partOfSpeech": "verb"
+    },
+    "erlangen": {
+      "lemma": "erlangen",
+      "partOfSpeech": "verb"
+    },
+    "erlassen": {
+      "lemma": "erlassen",
+      "partOfSpeech": "verb"
+    },
+    "erleichtern": {
+      "lemma": "erleichtern",
+      "partOfSpeech": "verb"
+    },
+    "erleiden": {
+      "lemma": "erleiden",
+      "partOfSpeech": "verb"
+    },
+    "erlernen": {
+      "lemma": "erlernen",
+      "partOfSpeech": "verb"
+    },
+    "erläutern": {
+      "lemma": "erläutern",
+      "partOfSpeech": "verb"
+    },
+    "ermitteln": {
+      "lemma": "ermitteln",
+      "partOfSpeech": "verb"
+    },
+    "ermöglichen": {
+      "lemma": "ermöglichen",
+      "partOfSpeech": "verb"
+    },
+    "erneuern": {
+      "lemma": "erneuern",
+      "partOfSpeech": "verb"
+    },
+    "ernähren": {
+      "lemma": "ernähren",
+      "partOfSpeech": "verb"
+    },
+    "errichten": {
+      "lemma": "errichten",
+      "partOfSpeech": "verb"
+    },
+    "erschaffen": {
+      "lemma": "erschaffen",
+      "partOfSpeech": "verb"
+    },
+    "ersetzen": {
+      "lemma": "ersetzen",
+      "partOfSpeech": "verb"
+    },
+    "ersparen": {
+      "lemma": "ersparen",
+      "partOfSpeech": "verb"
+    },
+    "erstatten": {
+      "lemma": "erstatten",
+      "partOfSpeech": "verb"
+    },
+    "erstellen": {
+      "lemma": "erstellen",
+      "partOfSpeech": "verb"
+    },
+    "erteilen": {
+      "lemma": "erteilen",
+      "partOfSpeech": "verb"
+    },
+    "ertragen": {
+      "lemma": "ertragen",
+      "partOfSpeech": "verb"
+    },
+    "erweisen": {
+      "lemma": "erweisen",
+      "partOfSpeech": "verb"
+    },
+    "erweitern": {
+      "lemma": "erweitern",
+      "partOfSpeech": "verb"
+    },
+    "erwerben": {
+      "lemma": "erwerben",
+      "partOfSpeech": "verb"
+    },
+    "erwähnen": {
+      "lemma": "erwähnen",
+      "partOfSpeech": "verb"
+    },
+    "erzeugen": {
+      "lemma": "erzeugen",
+      "partOfSpeech": "verb"
+    },
+    "erziehen": {
+      "lemma": "erziehen",
+      "partOfSpeech": "verb"
+    },
+    "erzielen": {
+      "lemma": "erzielen",
+      "partOfSpeech": "verb"
+    },
+    "eröffnen": {
+      "lemma": "eröffnen",
+      "partOfSpeech": "verb"
+    },
+    "existieren": {
+      "lemma": "existieren",
+      "partOfSpeech": "verb"
+    },
+    "explodieren": {
+      "lemma": "explodieren",
+      "partOfSpeech": "verb"
+    },
+    "fassen": {
+      "lemma": "fassen",
+      "partOfSpeech": "verb"
+    },
+    "fesseln": {
+      "lemma": "fesseln",
+      "partOfSpeech": "verb"
+    },
+    "festhalten": {
+      "lemma": "festhalten",
+      "partOfSpeech": "verb"
+    },
+    "feststellen": {
+      "lemma": "feststellen",
+      "partOfSpeech": "verb"
+    },
+    "finanzieren": {
+      "lemma": "finanzieren",
+      "partOfSpeech": "verb"
+    },
+    "fliehen": {
+      "lemma": "fliehen",
+      "partOfSpeech": "verb"
+    },
+    "fließen": {
+      "lemma": "fließen",
+      "partOfSpeech": "verb"
+    },
+    "flüchten": {
+      "lemma": "flüchten",
+      "partOfSpeech": "verb"
+    },
+    "fordern": {
+      "lemma": "fordern",
+      "partOfSpeech": "verb"
+    },
+    "formulieren": {
+      "lemma": "formulieren",
+      "partOfSpeech": "verb"
+    },
+    "forschen": {
+      "lemma": "forschen",
+      "partOfSpeech": "verb"
+    },
+    "fortsetzen": {
+      "lemma": "fortsetzen",
+      "partOfSpeech": "verb"
+    },
+    "fällen": {
+      "lemma": "fällen",
+      "partOfSpeech": "verb"
+    },
+    "garantieren": {
+      "lemma": "garantieren",
+      "partOfSpeech": "verb"
+    },
+    "gedenken": {
+      "lemma": "gedenken",
+      "partOfSpeech": "verb"
+    },
+    "gefährden": {
+      "lemma": "gefährden",
+      "partOfSpeech": "verb"
+    },
+    "gelangen": {
+      "lemma": "gelangen",
+      "partOfSpeech": "verb"
+    },
+    "gelingen": {
+      "lemma": "gelingen",
+      "partOfSpeech": "verb"
+    },
+    "gelten": {
+      "lemma": "gelten",
+      "partOfSpeech": "verb"
+    },
+    "genießen": {
+      "lemma": "genießen",
+      "partOfSpeech": "verb"
+    },
+    "genügen": {
+      "lemma": "genügen",
+      "partOfSpeech": "verb"
+    },
+    "geraten": {
+      "lemma": "geraten",
+      "partOfSpeech": "verb"
+    },
+    "gestalten": {
+      "lemma": "gestalten",
+      "partOfSpeech": "verb"
+    },
+    "gestatten": {
+      "lemma": "gestatten",
+      "partOfSpeech": "verb"
+    },
+    "gestehen": {
+      "lemma": "gestehen",
+      "partOfSpeech": "verb"
+    },
+    "gewähren": {
+      "lemma": "gewähren",
+      "partOfSpeech": "verb"
+    },
+    "gewöhnen": {
+      "lemma": "gewöhnen",
+      "partOfSpeech": "verb"
+    },
+    "gleichen": {
+      "lemma": "gleichen",
+      "partOfSpeech": "verb"
+    },
+    "greifen": {
+      "lemma": "greifen",
+      "partOfSpeech": "verb"
+    },
+    "gönnen": {
+      "lemma": "gönnen",
+      "partOfSpeech": "verb"
+    },
+    "handeln": {
+      "lemma": "handeln",
+      "partOfSpeech": "verb"
+    },
+    "haushalten": {
+      "lemma": "haushalten",
+      "partOfSpeech": "verb"
+    },
+    "heilen": {
+      "lemma": "heilen",
+      "partOfSpeech": "verb"
+    },
+    "herausfinden": {
+      "lemma": "herausfinden",
+      "partOfSpeech": "verb"
+    },
+    "herstellen": {
+      "lemma": "herstellen",
+      "partOfSpeech": "verb"
+    },
+    "herunterladen": {
+      "lemma": "herunterladen",
+      "partOfSpeech": "verb"
+    },
+    "hindern": {
+      "lemma": "hindern",
+      "partOfSpeech": "verb"
+    },
+    "hinnehmen": {
+      "lemma": "hinnehmen",
+      "partOfSpeech": "verb"
+    },
+    "hinterfragen": {
+      "lemma": "hinterfragen",
+      "partOfSpeech": "verb"
+    },
+    "hinterlassen": {
+      "lemma": "hinterlassen",
+      "partOfSpeech": "verb"
+    },
+    "hinzufügen": {
+      "lemma": "hinzufügen",
+      "partOfSpeech": "verb"
+    },
+    "hochladen": {
+      "lemma": "hochladen",
+      "partOfSpeech": "verb"
+    },
+    "hüten": {
+      "lemma": "hüten",
+      "partOfSpeech": "verb"
+    },
+    "identifizieren": {
+      "lemma": "identifizieren",
+      "partOfSpeech": "verb"
+    },
+    "ignorieren": {
+      "lemma": "ignorieren",
+      "partOfSpeech": "verb"
+    },
+    "informieren": {
+      "lemma": "informieren",
+      "partOfSpeech": "verb"
+    },
+    "installieren": {
+      "lemma": "installieren",
+      "partOfSpeech": "verb"
+    },
+    "interpretieren": {
+      "lemma": "interpretieren",
+      "partOfSpeech": "verb"
+    },
+    "investieren": {
+      "lemma": "investieren",
+      "partOfSpeech": "verb"
+    },
+    "irren": {
+      "lemma": "irren",
+      "partOfSpeech": "verb"
+    },
+    "klammern": {
+      "lemma": "klammern",
+      "partOfSpeech": "verb"
+    },
+    "klären": {
+      "lemma": "klären",
+      "partOfSpeech": "verb"
+    },
+    "knüpfen": {
+      "lemma": "knüpfen",
+      "partOfSpeech": "verb"
+    },
+    "kommentieren": {
+      "lemma": "kommentieren",
+      "partOfSpeech": "verb"
+    },
+    "kommunizieren": {
+      "lemma": "kommunizieren",
+      "partOfSpeech": "verb"
+    },
+    "kontaktieren": {
+      "lemma": "kontaktieren",
+      "partOfSpeech": "verb"
+    },
+    "kontrollieren": {
+      "lemma": "kontrollieren",
+      "partOfSpeech": "verb"
+    },
+    "konzentrieren": {
+      "lemma": "konzentrieren",
+      "partOfSpeech": "verb"
+    },
+    "korrigieren": {
+      "lemma": "korrigieren",
+      "partOfSpeech": "verb"
+    },
+    "kritisieren": {
+      "lemma": "kritisieren",
+      "partOfSpeech": "verb"
+    },
+    "kräftigen": {
+      "lemma": "kräftigen",
+      "partOfSpeech": "verb"
+    },
+    "kümmern": {
+      "lemma": "kümmern",
+      "partOfSpeech": "verb"
+    },
+    "kündigen": {
+      "lemma": "kündigen",
+      "partOfSpeech": "verb"
+    },
+    "kürzen": {
+      "lemma": "kürzen",
+      "partOfSpeech": "verb"
+    },
+    "lauten": {
+      "lemma": "lauten",
+      "partOfSpeech": "verb"
+    },
+    "leeren": {
+      "lemma": "leeren",
+      "partOfSpeech": "verb"
+    },
+    "lehren": {
+      "lemma": "lehren",
+      "partOfSpeech": "verb"
+    },
+    "leiden": {
+      "lemma": "leiden",
+      "partOfSpeech": "verb"
+    },
+    "leisten": {
+      "lemma": "leisten",
+      "partOfSpeech": "verb"
+    },
+    "leiten": {
+      "lemma": "leiten",
+      "partOfSpeech": "verb"
+    },
+    "lenken": {
+      "lemma": "lenken",
+      "partOfSpeech": "verb"
+    },
+    "leugnen": {
+      "lemma": "leugnen",
+      "partOfSpeech": "verb"
+    },
+    "liefern": {
+      "lemma": "liefern",
+      "partOfSpeech": "verb"
+    },
+    "loben": {
+      "lemma": "loben",
+      "partOfSpeech": "verb"
+    },
+    "lohnen": {
+      "lemma": "lohnen",
+      "partOfSpeech": "verb"
+    },
+    "loslassen": {
+      "lemma": "loslassen",
+      "partOfSpeech": "verb"
+    },
+    "loswerden": {
+      "lemma": "loswerden",
+      "partOfSpeech": "verb"
+    },
+    "löschen": {
+      "lemma": "löschen",
+      "partOfSpeech": "verb"
+    },
+    "lösen": {
+      "lemma": "lösen",
+      "partOfSpeech": "verb"
+    },
+    "markieren": {
+      "lemma": "markieren",
+      "partOfSpeech": "verb"
+    },
+    "meiden": {
+      "lemma": "meiden",
+      "partOfSpeech": "verb"
+    },
+    "meistern": {
+      "lemma": "meistern",
+      "partOfSpeech": "verb"
+    },
+    "messen": {
+      "lemma": "messen",
+      "partOfSpeech": "verb"
+    },
+    "mischen": {
+      "lemma": "mischen",
+      "partOfSpeech": "verb"
+    },
+    "mitteilen": {
+      "lemma": "mitteilen",
+      "partOfSpeech": "verb"
+    },
+    "motivieren": {
+      "lemma": "motivieren",
+      "partOfSpeech": "verb"
+    },
+    "nachfragen": {
+      "lemma": "nachfragen",
+      "partOfSpeech": "verb"
+    },
+    "nachgehen": {
+      "lemma": "nachgehen",
+      "partOfSpeech": "verb"
+    },
+    "nachholen": {
+      "lemma": "nachholen",
+      "partOfSpeech": "verb"
+    },
+    "nachkommen": {
+      "lemma": "nachkommen",
+      "partOfSpeech": "verb"
+    },
+    "nachvollziehen": {
+      "lemma": "nachvollziehen",
+      "partOfSpeech": "verb"
+    },
+    "neigen": {
+      "lemma": "neigen",
+      "partOfSpeech": "verb"
+    },
+    "nähern": {
+      "lemma": "nähern",
+      "partOfSpeech": "verb"
+    },
+    "nötigen": {
+      "lemma": "nötigen",
+      "partOfSpeech": "verb"
+    },
+    "nützen": {
+      "lemma": "nützen",
+      "partOfSpeech": "verb"
+    },
+    "ordnen": {
+      "lemma": "ordnen",
+      "partOfSpeech": "verb"
+    },
+    "organisieren": {
+      "lemma": "organisieren",
+      "partOfSpeech": "verb"
+    },
+    "pflegen": {
+      "lemma": "pflegen",
+      "partOfSpeech": "verb"
+    },
+    "planen": {
+      "lemma": "planen",
+      "partOfSpeech": "verb"
+    },
+    "produzieren": {
+      "lemma": "produzieren",
+      "partOfSpeech": "verb"
+    },
+    "programmieren": {
+      "lemma": "programmieren",
+      "partOfSpeech": "verb"
+    },
+    "protestieren": {
+      "lemma": "protestieren",
+      "partOfSpeech": "verb"
+    },
+    "provozieren": {
+      "lemma": "provozieren",
+      "partOfSpeech": "verb"
+    },
+    "präsentieren": {
+      "lemma": "präsentieren",
+      "partOfSpeech": "verb"
+    },
+    "prüfen": {
+      "lemma": "prüfen",
+      "partOfSpeech": "verb"
+    },
+    "qualifizieren": {
+      "lemma": "qualifizieren",
+      "partOfSpeech": "verb"
+    },
+    "reagieren": {
+      "lemma": "reagieren",
+      "partOfSpeech": "verb"
+    },
+    "rechtfertigen": {
+      "lemma": "rechtfertigen",
+      "partOfSpeech": "verb"
+    },
+    "reduzieren": {
+      "lemma": "reduzieren",
+      "partOfSpeech": "verb"
+    },
+    "reinigen": {
+      "lemma": "reinigen",
+      "partOfSpeech": "verb"
+    },
+    "reparieren": {
+      "lemma": "reparieren",
+      "partOfSpeech": "verb"
+    },
+    "respektieren": {
+      "lemma": "respektieren",
+      "partOfSpeech": "verb"
+    },
+    "retten": {
+      "lemma": "retten",
+      "partOfSpeech": "verb"
+    },
+    "richten": {
+      "lemma": "richten",
+      "partOfSpeech": "verb"
+    },
+    "riskieren": {
+      "lemma": "riskieren",
+      "partOfSpeech": "verb"
+    },
+    "räumen": {
+      "lemma": "räumen",
+      "partOfSpeech": "verb"
+    },
+    "schalten": {
+      "lemma": "schalten",
+      "partOfSpeech": "verb"
+    },
+    "scheitern": {
+      "lemma": "scheitern",
+      "partOfSpeech": "verb"
+    },
+    "schieben": {
+      "lemma": "schieben",
+      "partOfSpeech": "verb"
+    },
+    "schildern": {
+      "lemma": "schildern",
+      "partOfSpeech": "verb"
+    },
+    "schließen": {
+      "lemma": "schließen",
+      "partOfSpeech": "verb"
+    },
+    "schmelzen": {
+      "lemma": "schmelzen",
+      "partOfSpeech": "verb"
+    },
+    "schonen": {
+      "lemma": "schonen",
+      "partOfSpeech": "verb"
+    },
+    "schwingen": {
+      "lemma": "schwingen",
+      "partOfSpeech": "verb"
+    },
+    "schämen": {
+      "lemma": "schämen",
+      "partOfSpeech": "verb"
+    },
+    "schätzen": {
+      "lemma": "schätzen",
+      "partOfSpeech": "verb"
+    },
+    "schützen": {
+      "lemma": "schützen",
+      "partOfSpeech": "verb"
+    },
+    "sehnen": {
+      "lemma": "sehnen",
+      "partOfSpeech": "verb"
+    },
+    "senden": {
+      "lemma": "senden",
+      "partOfSpeech": "verb"
+    },
+    "senken": {
+      "lemma": "senken",
+      "partOfSpeech": "verb"
+    },
+    "sichern": {
+      "lemma": "sichern",
+      "partOfSpeech": "verb"
+    },
+    "sicherstellen": {
+      "lemma": "sicherstellen",
+      "partOfSpeech": "verb"
+    },
+    "sinken": {
+      "lemma": "sinken",
+      "partOfSpeech": "verb"
+    },
+    "sortieren": {
+      "lemma": "sortieren",
+      "partOfSpeech": "verb"
+    },
+    "spenden": {
+      "lemma": "spenden",
+      "partOfSpeech": "verb"
+    },
+    "spiegeln": {
+      "lemma": "spiegeln",
+      "partOfSpeech": "verb"
+    },
+    "spüren": {
+      "lemma": "spüren",
+      "partOfSpeech": "verb"
+    },
+    "stammen": {
+      "lemma": "stammen",
+      "partOfSpeech": "verb"
+    },
+    "stattfinden": {
+      "lemma": "stattfinden",
+      "partOfSpeech": "verb"
+    },
+    "staunen": {
+      "lemma": "staunen",
+      "partOfSpeech": "verb"
+    },
+    "steigern": {
+      "lemma": "steigern",
+      "partOfSpeech": "verb"
+    },
+    "stoßen": {
+      "lemma": "stoßen",
+      "partOfSpeech": "verb"
+    },
+    "strahlen": {
+      "lemma": "strahlen",
+      "partOfSpeech": "verb"
+    },
+    "streben": {
+      "lemma": "streben",
+      "partOfSpeech": "verb"
+    },
+    "strecken": {
+      "lemma": "strecken",
+      "partOfSpeech": "verb"
+    },
+    "streichen": {
+      "lemma": "streichen",
+      "partOfSpeech": "verb"
+    },
+    "streiten": {
+      "lemma": "streiten",
+      "partOfSpeech": "verb"
+    },
+    "stören": {
+      "lemma": "stören",
+      "partOfSpeech": "verb"
+    },
+    "stürzen": {
+      "lemma": "stürzen",
+      "partOfSpeech": "verb"
+    },
+    "stützen": {
+      "lemma": "stützen",
+      "partOfSpeech": "verb"
+    },
+    "tauschen": {
+      "lemma": "tauschen",
+      "partOfSpeech": "verb"
+    },
+    "teilnehmen": {
+      "lemma": "teilnehmen",
+      "partOfSpeech": "verb"
+    },
+    "testen": {
+      "lemma": "testen",
+      "partOfSpeech": "verb"
+    },
+    "transportieren": {
+      "lemma": "transportieren",
+      "partOfSpeech": "verb"
+    },
+    "trauen": {
+      "lemma": "trauen",
+      "partOfSpeech": "verb"
+    },
+    "trauern": {
+      "lemma": "trauern",
+      "partOfSpeech": "verb"
+    },
+    "treiben": {
+      "lemma": "treiben",
+      "partOfSpeech": "verb"
+    },
+    "trennen": {
+      "lemma": "trennen",
+      "partOfSpeech": "verb"
+    },
+    "trösten": {
+      "lemma": "trösten",
+      "partOfSpeech": "verb"
+    },
+    "tätigen": {
+      "lemma": "tätigen",
+      "partOfSpeech": "verb"
+    },
+    "täuschen": {
+      "lemma": "täuschen",
+      "partOfSpeech": "verb"
+    },
+    "umdenken": {
+      "lemma": "umdenken",
+      "partOfSpeech": "verb"
+    },
+    "umfassen": {
+      "lemma": "umfassen",
+      "partOfSpeech": "verb"
+    },
+    "umgeben": {
+      "lemma": "umgeben",
+      "partOfSpeech": "verb"
+    },
+    "umgehen": {
+      "lemma": "umgehen",
+      "partOfSpeech": "verb"
+    },
+    "umsetzen": {
+      "lemma": "umsetzen",
+      "partOfSpeech": "verb"
+    },
+    "umstellen": {
+      "lemma": "umstellen",
+      "partOfSpeech": "verb"
+    },
+    "unterbinden": {
+      "lemma": "unterbinden",
+      "partOfSpeech": "verb"
+    },
+    "unterbrechen": {
+      "lemma": "unterbrechen",
+      "partOfSpeech": "verb"
+    },
+    "unterdrücken": {
+      "lemma": "unterdrücken",
+      "partOfSpeech": "verb"
+    },
+    "untergehen": {
+      "lemma": "untergehen",
+      "partOfSpeech": "verb"
+    },
+    "unterhalten": {
+      "lemma": "unterhalten",
+      "partOfSpeech": "verb"
+    },
+    "unterlassen": {
+      "lemma": "unterlassen",
+      "partOfSpeech": "verb"
+    },
+    "unterliegen": {
+      "lemma": "unterliegen",
+      "partOfSpeech": "verb"
+    },
+    "unterrichten": {
+      "lemma": "unterrichten",
+      "partOfSpeech": "verb"
+    },
+    "unterscheiden": {
+      "lemma": "unterscheiden",
+      "partOfSpeech": "verb"
+    },
+    "unterschätzen": {
+      "lemma": "unterschätzen",
+      "partOfSpeech": "verb"
+    },
+    "unterstellen": {
+      "lemma": "unterstellen",
+      "partOfSpeech": "verb"
+    },
+    "unterstützen": {
+      "lemma": "unterstützen",
+      "partOfSpeech": "verb"
+    },
+    "untersuchen": {
+      "lemma": "untersuchen",
+      "partOfSpeech": "verb"
+    },
+    "unterzeichnen": {
+      "lemma": "unterzeichnen",
+      "partOfSpeech": "verb"
+    },
+    "unterziehen": {
+      "lemma": "unterziehen",
+      "partOfSpeech": "verb"
+    },
+    "urteilen": {
+      "lemma": "urteilen",
+      "partOfSpeech": "verb"
+    },
+    "variieren": {
+      "lemma": "variieren",
+      "partOfSpeech": "verb"
+    },
+    "verabschieden": {
+      "lemma": "verabschieden",
+      "partOfSpeech": "verb"
+    },
+    "veranlassen": {
+      "lemma": "veranlassen",
+      "partOfSpeech": "verb"
+    },
+    "veranstalten": {
+      "lemma": "veranstalten",
+      "partOfSpeech": "verb"
+    },
+    "verantworten": {
+      "lemma": "verantworten",
+      "partOfSpeech": "verb"
+    },
+    "verarbeiten": {
+      "lemma": "verarbeiten",
+      "partOfSpeech": "verb"
+    },
+    "verbergen": {
+      "lemma": "verbergen",
+      "partOfSpeech": "verb"
+    },
+    "verbessern": {
+      "lemma": "verbessern",
+      "partOfSpeech": "verb"
+    },
+    "verbieten": {
+      "lemma": "verbieten",
+      "partOfSpeech": "verb"
+    },
+    "verbinden": {
+      "lemma": "verbinden",
+      "partOfSpeech": "verb"
+    },
+    "verbrauchen": {
+      "lemma": "verbrauchen",
+      "partOfSpeech": "verb"
+    },
+    "verbreiten": {
+      "lemma": "verbreiten",
+      "partOfSpeech": "verb"
+    },
+    "verbrennen": {
+      "lemma": "verbrennen",
+      "partOfSpeech": "verb"
+    },
+    "verdanken": {
+      "lemma": "verdanken",
+      "partOfSpeech": "verb"
+    },
+    "verderben": {
+      "lemma": "verderben",
+      "partOfSpeech": "verb"
+    },
+    "verdoppeln": {
+      "lemma": "verdoppeln",
+      "partOfSpeech": "verb"
+    },
+    "vereinbaren": {
+      "lemma": "vereinbaren",
+      "partOfSpeech": "verb"
+    },
+    "verfahren": {
+      "lemma": "verfahren",
+      "partOfSpeech": "verb"
+    },
+    "verfallen": {
+      "lemma": "verfallen",
+      "partOfSpeech": "verb"
+    },
+    "verfassen": {
+      "lemma": "verfassen",
+      "partOfSpeech": "verb"
+    },
+    "verfolgen": {
+      "lemma": "verfolgen",
+      "partOfSpeech": "verb"
+    },
+    "verfügen": {
+      "lemma": "verfügen",
+      "partOfSpeech": "verb"
+    },
+    "vergeben": {
+      "lemma": "vergeben",
+      "partOfSpeech": "verb"
+    },
+    "vergehen": {
+      "lemma": "vergehen",
+      "partOfSpeech": "verb"
+    },
+    "vergleichen": {
+      "lemma": "vergleichen",
+      "partOfSpeech": "verb"
+    },
+    "vergrößern": {
+      "lemma": "vergrößern",
+      "partOfSpeech": "verb"
+    },
+    "verhandeln": {
+      "lemma": "verhandeln",
+      "partOfSpeech": "verb"
+    },
+    "verhindern": {
+      "lemma": "verhindern",
+      "partOfSpeech": "verb"
+    },
+    "verkehren": {
+      "lemma": "verkehren",
+      "partOfSpeech": "verb"
+    },
+    "verklagen": {
+      "lemma": "verklagen",
+      "partOfSpeech": "verb"
+    },
+    "verlangen": {
+      "lemma": "verlangen",
+      "partOfSpeech": "verb"
+    },
+    "verlassen": {
+      "lemma": "verlassen",
+      "partOfSpeech": "verb"
+    },
+    "verlaufen": {
+      "lemma": "verlaufen",
+      "partOfSpeech": "verb"
+    },
+    "verlegen": {
+      "lemma": "verlegen",
+      "partOfSpeech": "verb"
+    },
+    "verleihen": {
+      "lemma": "verleihen",
+      "partOfSpeech": "verb"
+    },
+    "verletzen": {
+      "lemma": "verletzen",
+      "partOfSpeech": "verb"
+    },
+    "verlängern": {
+      "lemma": "verlängern",
+      "partOfSpeech": "verb"
+    },
+    "vermehren": {
+      "lemma": "vermehren",
+      "partOfSpeech": "verb"
+    },
+    "vermeiden": {
+      "lemma": "vermeiden",
+      "partOfSpeech": "verb"
+    },
+    "vermitteln": {
+      "lemma": "vermitteln",
+      "partOfSpeech": "verb"
+    },
+    "vernehmen": {
+      "lemma": "vernehmen",
+      "partOfSpeech": "verb"
+    },
+    "vernichten": {
+      "lemma": "vernichten",
+      "partOfSpeech": "verb"
+    },
+    "verpassen": {
+      "lemma": "verpassen",
+      "partOfSpeech": "verb"
+    },
+    "verraten": {
+      "lemma": "verraten",
+      "partOfSpeech": "verb"
+    },
+    "verringern": {
+      "lemma": "verringern",
+      "partOfSpeech": "verb"
+    },
+    "versammeln": {
+      "lemma": "versammeln",
+      "partOfSpeech": "verb"
+    },
+    "verschaffen": {
+      "lemma": "verschaffen",
+      "partOfSpeech": "verb"
+    },
+    "verschieben": {
+      "lemma": "verschieben",
+      "partOfSpeech": "verb"
+    },
+    "verschließen": {
+      "lemma": "verschließen",
+      "partOfSpeech": "verb"
+    },
+    "verschweigen": {
+      "lemma": "verschweigen",
+      "partOfSpeech": "verb"
+    },
+    "verschwenden": {
+      "lemma": "verschwenden",
+      "partOfSpeech": "verb"
+    },
+    "verschwinden": {
+      "lemma": "verschwinden",
+      "partOfSpeech": "verb"
+    },
+    "versenden": {
+      "lemma": "versenden",
+      "partOfSpeech": "verb"
+    },
+    "versetzen": {
+      "lemma": "versetzen",
+      "partOfSpeech": "verb"
+    },
+    "versichern": {
+      "lemma": "versichern",
+      "partOfSpeech": "verb"
+    },
+    "versorgen": {
+      "lemma": "versorgen",
+      "partOfSpeech": "verb"
+    },
+    "verstoßen": {
+      "lemma": "verstoßen",
+      "partOfSpeech": "verb"
+    },
+    "verständigen": {
+      "lemma": "verständigen",
+      "partOfSpeech": "verb"
+    },
+    "verteidigen": {
+      "lemma": "verteidigen",
+      "partOfSpeech": "verb"
+    },
+    "verteilen": {
+      "lemma": "verteilen",
+      "partOfSpeech": "verb"
+    },
+    "vertragen": {
+      "lemma": "vertragen",
+      "partOfSpeech": "verb"
+    },
+    "vertrauen": {
+      "lemma": "vertrauen",
+      "partOfSpeech": "verb"
+    },
+    "vertreiben": {
+      "lemma": "vertreiben",
+      "partOfSpeech": "verb"
+    },
+    "vertreten": {
+      "lemma": "vertreten",
+      "partOfSpeech": "verb"
+    },
+    "verursachen": {
+      "lemma": "verursachen",
+      "partOfSpeech": "verb"
+    },
+    "verwechseln": {
+      "lemma": "verwechseln",
+      "partOfSpeech": "verb"
+    },
+    "verweigern": {
+      "lemma": "verweigern",
+      "partOfSpeech": "verb"
+    },
+    "verweilen": {
+      "lemma": "verweilen",
+      "partOfSpeech": "verb"
+    },
+    "verwenden": {
+      "lemma": "verwenden",
+      "partOfSpeech": "verb"
+    },
+    "verwirklichen": {
+      "lemma": "verwirklichen",
+      "partOfSpeech": "verb"
+    },
+    "verzeichnen": {
+      "lemma": "verzeichnen",
+      "partOfSpeech": "verb"
+    },
+    "verzeihen": {
+      "lemma": "verzeihen",
+      "partOfSpeech": "verb"
+    },
+    "verzichten": {
+      "lemma": "verzichten",
+      "partOfSpeech": "verb"
+    },
+    "verändern": {
+      "lemma": "verändern",
+      "partOfSpeech": "verb"
+    },
+    "vorenthalten": {
+      "lemma": "vorenthalten",
+      "partOfSpeech": "verb"
+    },
+    "vorgehen": {
+      "lemma": "vorgehen",
+      "partOfSpeech": "verb"
+    },
+    "vorkommen": {
+      "lemma": "vorkommen",
+      "partOfSpeech": "verb"
+    },
+    "vorliegen": {
+      "lemma": "vorliegen",
+      "partOfSpeech": "verb"
+    },
+    "vornehmen": {
+      "lemma": "vornehmen",
+      "partOfSpeech": "verb"
+    },
+    "vorschlagen": {
+      "lemma": "vorschlagen",
+      "partOfSpeech": "verb"
+    },
+    "vorwerfen": {
+      "lemma": "vorwerfen",
+      "partOfSpeech": "verb"
+    },
+    "wahren": {
+      "lemma": "wahren",
+      "partOfSpeech": "verb"
+    },
+    "wahrnehmen": {
+      "lemma": "wahrnehmen",
+      "partOfSpeech": "verb"
+    },
+    "warnen": {
+      "lemma": "warnen",
+      "partOfSpeech": "verb"
+    },
+    "wechseln": {
+      "lemma": "wechseln",
+      "partOfSpeech": "verb"
+    },
+    "wehren": {
+      "lemma": "wehren",
+      "partOfSpeech": "verb"
+    },
+    "weichen": {
+      "lemma": "weichen",
+      "partOfSpeech": "verb"
+    },
+    "weisen": {
+      "lemma": "weisen",
+      "partOfSpeech": "verb"
+    },
+    "weitergeben": {
+      "lemma": "weitergeben",
+      "partOfSpeech": "verb"
+    },
+    "wenden": {
+      "lemma": "wenden",
+      "partOfSpeech": "verb"
+    },
+    "werben": {
+      "lemma": "werben",
+      "partOfSpeech": "verb"
+    },
+    "widersprechen": {
+      "lemma": "widersprechen",
+      "partOfSpeech": "verb"
+    },
+    "widerstehen": {
+      "lemma": "widerstehen",
+      "partOfSpeech": "verb"
+    },
+    "widmen": {
+      "lemma": "widmen",
+      "partOfSpeech": "verb"
+    },
+    "wirken": {
+      "lemma": "wirken",
+      "partOfSpeech": "verb"
+    },
+    "würdigen": {
+      "lemma": "würdigen",
+      "partOfSpeech": "verb"
+    },
+    "zerbrechen": {
+      "lemma": "zerbrechen",
+      "partOfSpeech": "verb"
+    },
+    "zerstören": {
+      "lemma": "zerstören",
+      "partOfSpeech": "verb"
+    },
+    "zitieren": {
+      "lemma": "zitieren",
+      "partOfSpeech": "verb"
+    },
+    "zittern": {
+      "lemma": "zittern",
+      "partOfSpeech": "verb"
+    },
+    "zugeben": {
+      "lemma": "zugeben",
+      "partOfSpeech": "verb"
+    },
+    "zugreifen": {
+      "lemma": "zugreifen",
+      "partOfSpeech": "verb"
+    },
+    "zukommen": {
+      "lemma": "zukommen",
+      "partOfSpeech": "verb"
+    },
+    "zulassen": {
+      "lemma": "zulassen",
+      "partOfSpeech": "verb"
+    },
+    "zulegen": {
+      "lemma": "zulegen",
+      "partOfSpeech": "verb"
+    },
+    "zunehmen": {
+      "lemma": "zunehmen",
+      "partOfSpeech": "verb"
+    },
+    "zurückgreifen": {
+      "lemma": "zurückgreifen",
+      "partOfSpeech": "verb"
+    },
+    "zurückhalten": {
+      "lemma": "zurückhalten",
+      "partOfSpeech": "verb"
+    },
+    "zurückkehren": {
+      "lemma": "zurückkehren",
+      "partOfSpeech": "verb"
+    },
+    "zurücktreten": {
+      "lemma": "zurücktreten",
+      "partOfSpeech": "verb"
+    },
+    "zusagen": {
+      "lemma": "zusagen",
+      "partOfSpeech": "verb"
+    },
+    "zusammenarbeiten": {
+      "lemma": "zusammenarbeiten",
+      "partOfSpeech": "verb"
+    },
+    "zusammenfassen": {
+      "lemma": "zusammenfassen",
+      "partOfSpeech": "verb"
+    },
+    "zuschlagen": {
+      "lemma": "zuschlagen",
+      "partOfSpeech": "verb"
+    },
+    "zusehen": {
+      "lemma": "zusehen",
+      "partOfSpeech": "verb"
+    },
+    "zustimmen": {
+      "lemma": "zustimmen",
+      "partOfSpeech": "verb"
+    },
+    "zweifeln": {
+      "lemma": "zweifeln",
+      "partOfSpeech": "verb"
+    },
+    "zwingen": {
+      "lemma": "zwingen",
+      "partOfSpeech": "verb"
+    },
+    "zögern": {
+      "lemma": "zögern",
+      "partOfSpeech": "verb"
+    },
+    "Ähnlichkeit": {
+      "lemma": "Ähnlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Änderung": {
+      "lemma": "Änderung",
+      "partOfSpeech": "noun"
+    },
+    "Ära": {
+      "lemma": "Ära",
+      "partOfSpeech": "noun"
+    },
+    "Äußerung": {
+      "lemma": "Äußerung",
+      "partOfSpeech": "noun"
+    },
+    "Öffentlichkeit": {
+      "lemma": "Öffentlichkeit",
+      "partOfSpeech": "noun"
+    },
+    "Überblick": {
+      "lemma": "Überblick",
+      "partOfSpeech": "noun"
+    },
+    "Übereinstimmung": {
+      "lemma": "Übereinstimmung",
+      "partOfSpeech": "noun"
+    },
+    "Überfall": {
+      "lemma": "Überfall",
+      "partOfSpeech": "noun"
+    },
+    "Übergewicht": {
+      "lemma": "Übergewicht",
+      "partOfSpeech": "noun"
+    },
+    "Überlegung": {
+      "lemma": "Überlegung",
+      "partOfSpeech": "noun"
+    },
+    "ähneln": {
+      "lemma": "ähneln",
+      "partOfSpeech": "verb"
+    },
+    "äußern": {
+      "lemma": "äußern",
+      "partOfSpeech": "verb"
+    },
+    "überdenken": {
+      "lemma": "überdenken",
+      "partOfSpeech": "verb"
+    },
+    "übergeben": {
+      "lemma": "übergeben",
+      "partOfSpeech": "verb"
+    },
+    "übergehen": {
+      "lemma": "übergehen",
+      "partOfSpeech": "verb"
+    },
+    "überlassen": {
+      "lemma": "überlassen",
+      "partOfSpeech": "verb"
+    },
+    "übernehmen": {
+      "lemma": "übernehmen",
+      "partOfSpeech": "verb"
+    },
+    "überprüfen": {
+      "lemma": "überprüfen",
+      "partOfSpeech": "verb"
+    },
+    "überqueren": {
+      "lemma": "überqueren",
+      "partOfSpeech": "verb"
+    },
+    "überreden": {
+      "lemma": "überreden",
+      "partOfSpeech": "verb"
+    },
+    "überschreiten": {
+      "lemma": "überschreiten",
+      "partOfSpeech": "verb"
+    },
+    "übersehen": {
+      "lemma": "übersehen",
+      "partOfSpeech": "verb"
+    },
+    "überstehen": {
+      "lemma": "überstehen",
+      "partOfSpeech": "verb"
+    },
+    "übertragen": {
+      "lemma": "übertragen",
+      "partOfSpeech": "verb"
+    },
+    "übertreffen": {
+      "lemma": "übertreffen",
+      "partOfSpeech": "verb"
+    },
+    "übertreiben": {
+      "lemma": "übertreiben",
+      "partOfSpeech": "verb"
+    },
+    "überwachen": {
+      "lemma": "überwachen",
+      "partOfSpeech": "verb"
+    },
+    "überweisen": {
+      "lemma": "überweisen",
+      "partOfSpeech": "verb"
+    },
+    "überwinden": {
+      "lemma": "überwinden",
+      "partOfSpeech": "verb"
+    },
+    "überzeugen": {
+      "lemma": "überzeugen",
+      "partOfSpeech": "verb"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+build/
+.build/
+.swiftpm/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# Build-time Python dependencies and caches
+__pycache__/
+*.py[cod]
+.data-venv/

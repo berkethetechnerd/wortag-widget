@@ -1,0 +1,49 @@
+name: Validate Wortag
+
+on:
+  push:
+    branches: [master, 'berke/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: wortag-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Tests, signed build and layouts (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-15, macos-15-intel]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Test learning and vocabulary behavior
+        run: |
+          python -m pip install wordfreq==3.1.1 nltk==3.9.2
+          python -m unittest discover -s Scripts -p 'test_*.py'
+          swift test
+      - name: Build and verify both sandboxed targets
+        run: |
+          brew install xcodegen
+          bash Scripts/build.sh
+      - name: Render production layouts with fixtures
+        run: |
+          swiftc -parse-as-library -D WORTAG_RENDER Shared/*.swift Widget/WortagWidget.swift Scripts/NativePreview.swift Scripts/render_widget.swift -o "$RUNNER_TEMP/render-widget"
+          "$RUNNER_TEMP/render-widget" "$PWD/build/Wortag.app" build/previews/widget
+          swiftc -parse-as-library -D WORTAG_RENDER_APP Shared/*.swift Shared/Presentation/*.swift App/*.swift Scripts/NativePreview.swift Scripts/render_app.swift -o "$RUNNER_TEMP/render-app"
+          "$RUNNER_TEMP/render-app" "$PWD/build/Wortag.app" build/previews/app
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: layouts-${{ matrix.os }}
+          path: build/previews
+          if-no-files-found: error
