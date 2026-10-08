@@ -1,0 +1,22 @@
+{
+  "look": [
+    {"german":"Der neue Look der Website macht die Navigation übersichtlicher.","english":"The website's new look makes navigation clearer.","attribution":"Wortag · original example"},
+    {"german":"Mit einer bunten Tasche kannst du deinem Look mehr Farbe geben.","english":"A colorful bag can add more color to your look.","attribution":"Wortag · original example"}
+  ],
+  "blogger": [
+    {"german":"Der Blogger testet kleine Restaurants und beschreibt ihre Speisekarten.","english":"The blogger tries small restaurants and describes their menus.","attribution":"Wortag · original example"},
+    {"german":"Manche Blogger verdienen Geld, indem sie Werbung auf ihrer Seite zeigen.","english":"Some bloggers earn money by displaying advertising on their websites.","attribution":"Wortag · original example"}
+  ],
+  "gepasst": [
+    {"german":"Der Termin hat allen gepasst, deshalb haben wir die Besprechung bestätigt.","english":"The time suited everyone, so we confirmed the meeting.","attribution":"Wortag · original example"},
+    {"german":"Das Sofa hätte ins Wohnzimmer gepasst, aber es war zu teuer.","english":"The sofa would have fit in the living room, but it was too expensive.","attribution":"Wortag · original example"}
+  ],
+  "thor": [
+    {"german":"Mein Neffe hat sich zum Geburtstag ein Comicbuch über Thor gewünscht.","english":"My nephew asked for a comic book about Thor for his birthday.","attribution":"Wortag · original example"},
+    {"german":"Im Museum erklärt eine Tafel, warum Thor oft mit einem Hammer dargestellt wird.","english":"At the museum, a sign explains why Thor is often depicted with a hammer.","attribution":"Wortag · original example"}
+  ],
+  "projektleiter": [
+    {"german":"Der Projektleiter informiert den Kunden über die Verzögerung.","english":"The project manager informs the customer about the delay.","attribution":"Wortag · original example"},
+    {"german":"Bei schwierigen Entscheidungen holt der Projektleiter die Meinung des Teams ein.","english":"For difficult decisions, the project manager asks the team for its opinion.","attribution":"Wortag · original example"}
+  ]
+}

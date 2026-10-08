@@ -1,0 +1,67 @@
+name: Wortag
+options:
+  bundleIdPrefix: de.wortag
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: "-"
+    ENABLE_HARDENED_RUNTIME: YES
+    MARKETING_VERSION: "1.0.8"
+    CURRENT_PROJECT_VERSION: "9"
+    CODE_SIGNING_ALLOWED: YES
+    CODE_SIGNING_REQUIRED: YES
+    GENERATE_INFOPLIST_FILE: YES
+    COMBINE_HIDPI_IMAGES: YES
+targets:
+  Wortag:
+    type: application
+    platform: macOS
+    sources:
+      - App
+      - Shared
+      - path: Resources
+        buildPhase: resources
+      - path: DATA-LICENSES.md
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.wortag.app
+        CODE_SIGN_ENTITLEMENTS: Configuration/Wortag.entitlements
+        INFOPLIST_FILE: Configuration/App-Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - target: WortagWidget
+        embed: true
+  WortagWidget:
+    type: app-extension
+    platform: macOS
+    sources:
+      - Widget
+      - path: Shared
+        excludes:
+          - Presentation
+      - path: Resources
+        buildPhase: resources
+      - path: DATA-LICENSES.md
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: de.wortag.app.widget
+        PRODUCT_NAME: WortagWidget
+        CODE_SIGN_ENTITLEMENTS: Configuration/Wortag.entitlements
+        INFOPLIST_FILE: Configuration/Widget-Info.plist
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+schemes:
+  Wortag:
+    build:
+      targets:
+        Wortag: all
+    run:
+      config: Debug
+    archive:
+      config: Release

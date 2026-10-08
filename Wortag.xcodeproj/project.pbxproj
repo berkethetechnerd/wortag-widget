@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C8E3E181167345A510116A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9EE170E392FAA64BC38E1 /* AppModel.swift */; };
+		131B77316026432FB6CC8871 /* WidgetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1E0584E44408F68055B9B /* WidgetSetupView.swift */; };
+		2244E911D12E67E584AA2EA3 /* WortagWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 08589C46F4AA4D8D5DD6C3BA /* WortagWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		225C18FC302D8CB31859735E /* LearningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5584D25835E6398B1F65C /* LearningState.swift */; };
+		2A1D733D080BD7CE1EB83757 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F755808007877720D7A25 /* Theme.swift */; };
+		2A5CD2A522E75446F0BA93BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */; };
+		31A3489B237F5BA36C6C15AE /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31CD607AF1510F53B01F4E /* LibraryView.swift */; };
+		320A76C1259E54DA601AAC75 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */; };
+		3650C6F24D5136AC55F1BE8F /* WortagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF614450503FB2A93A641264 /* WortagApp.swift */; };
+		4745B39890FEB510B3AD3BAE /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B704D328F957D452619873 /* TodayView.swift */; };
+		4B390180C089388167928DF9 /* Corpus-Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E22EF5EFB7D71F1020C6EF95 /* Corpus-Attribution.txt */; };
+		4D703B63A23C69ED6ABDC074 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F755808007877720D7A25 /* Theme.swift */; };
+		56972C950836FE6A40FD60C1 /* DATA-LICENSES.md in Resources */ = {isa = PBXBuildFile; fileRef = A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */; };
+		57B258C491FF9397C7F27542 /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B8200E598E44933E3CC3B43 /* vocabulary.json */; };
+		68434F4210CAB20731B1D21C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08E0F6652094A2A0A26F64 /* ContentView.swift */; };
+		76944BDA1CFB53D0FC78BFC0 /* DATA-LICENSES.md in Resources */ = {isa = PBXBuildFile; fileRef = A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */; };
+		793091D8759417585A96EDB6 /* LibrarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC37A6CAE9E0DF539E3DD20 /* LibrarySection.swift */; };
+		8341CF493157E1DB8246FB7E /* WordDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BE75178D00EFC3782CEA3 /* WordDetailsView.swift */; };
+		8BAEC8D0B7E50FD7B9FEB085 /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */; };
+		BA488C7E0BAB7ACA5B56C0FD /* LearningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5584D25835E6398B1F65C /* LearningState.swift */; };
+		C39367A94E6F29FB6642B879 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */; };
+		C4A5351DE5EA641650ED7393 /* ReviewSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */; };
+		C642E33B32368B947A79299D /* WortagWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC97B140FF85E893BDAF6EE /* WortagWidget.swift */; };
+		CD6BF0F026CD62BEA0E281D1 /* Corpus-Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E22EF5EFB7D71F1020C6EF95 /* Corpus-Attribution.txt */; };
+		D27571D726AC9CB120D6D4FF /* WordIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */; };
+		DC79863D7307CCCCAA76C791 /* WordIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */; };
+		ED0B850D8DE73F575F78F51B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7401EDA4C417E39C48FEDF /* SidebarView.swift */; };
+		F23810880C493F2E3E36D1D5 /* ReviewSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */; };
+		F89906047D68A3FF1E776E5C /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B8200E598E44933E3CC3B43 /* vocabulary.json */; };
+		FA1D9A5BBD6C34269E25E36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */; };
+		FF85DC479016032AC67D9D0A /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E07A2B785C0A94A3E37710D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90ABB31D1EC82618C7025365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C56D58C7D392B20062F50ECF;
+			remoteInfo = WortagWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F446610CAA01ED008D7B8171 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2244E911D12E67E584AA2EA3 /* WortagWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordIntents.swift; sourceTree = "<group>"; };
+		08589C46F4AA4D8D5DD6C3BA /* WortagWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WortagWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC0EAE6E2DCC403D2F66FF4 /* Wortag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wortag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7401EDA4C417E39C48FEDF /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		2BC97B140FF85E893BDAF6EE /* WortagWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WortagWidget.swift; sourceTree = "<group>"; };
+		40B704D328F957D452619873 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		4B8200E598E44933E3CC3B43 /* vocabulary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocabulary.json; sourceTree = "<group>"; };
+		6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSchedule.swift; sourceTree = "<group>"; };
+		7A0BE75178D00EFC3782CEA3 /* WordDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailsView.swift; sourceTree = "<group>"; };
+		8BC37A6CAE9E0DF539E3DD20 /* LibrarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySection.swift; sourceTree = "<group>"; };
+		9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F31CD607AF1510F53B01F4E /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "DATA-LICENSES.md"; sourceTree = "<group>"; };
+		BAF9EE170E392FAA64BC38E1 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		CF614450503FB2A93A641264 /* WortagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WortagApp.swift; sourceTree = "<group>"; };
+		D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningStore.swift; sourceTree = "<group>"; };
+		DA08E0F6652094A2A0A26F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E22EF5EFB7D71F1020C6EF95 /* Corpus-Attribution.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Corpus-Attribution.txt"; sourceTree = "<group>"; };
+		E53F755808007877720D7A25 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F0B5584D25835E6398B1F65C /* LearningState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningState.swift; sourceTree = "<group>"; };
+		F9A1E0584E44408F68055B9B /* WidgetSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSetupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		479B8107F17605F15BCC0E4F = {
+			isa = PBXGroup;
+			children = (
+				A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */,
+				79B1E5EDC76424553C46F875 /* App */,
+				609BFC623DA1598A6DBB5C66 /* Resources */,
+				F9E9BB9FE1A9133819AD0E48 /* Shared */,
+				636BC716098474E841A5889B /* Widget */,
+				7DEEACB9506A0D24F23A31B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		609BFC623DA1598A6DBB5C66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */,
+				E22EF5EFB7D71F1020C6EF95 /* Corpus-Attribution.txt */,
+				4B8200E598E44933E3CC3B43 /* vocabulary.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		636BC716098474E841A5889B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				2BC97B140FF85E893BDAF6EE /* WortagWidget.swift */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		79B1E5EDC76424553C46F875 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DA08E0F6652094A2A0A26F64 /* ContentView.swift */,
+				9F31CD607AF1510F53B01F4E /* LibraryView.swift */,
+				1C7401EDA4C417E39C48FEDF /* SidebarView.swift */,
+				40B704D328F957D452619873 /* TodayView.swift */,
+				F9A1E0584E44408F68055B9B /* WidgetSetupView.swift */,
+				7A0BE75178D00EFC3782CEA3 /* WordDetailsView.swift */,
+				CF614450503FB2A93A641264 /* WortagApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7DEEACB9506A0D24F23A31B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC0EAE6E2DCC403D2F66FF4 /* Wortag.app */,
+				08589C46F4AA4D8D5DD6C3BA /* WortagWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE220CD2A9203EE122DE18E4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				BAF9EE170E392FAA64BC38E1 /* AppModel.swift */,
+				8BC37A6CAE9E0DF539E3DD20 /* LibrarySection.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F9E9BB9FE1A9133819AD0E48 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F0B5584D25835E6398B1F65C /* LearningState.swift */,
+				D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */,
+				6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */,
+				E53F755808007877720D7A25 /* Theme.swift */,
+				C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */,
+				043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */,
+				EE220CD2A9203EE122DE18E4 /* Presentation */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A699EEB9603298702F4E2BD /* Wortag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B049A8D302951396CFACF77 /* Build configuration list for PBXNativeTarget "Wortag" */;
+			buildPhases = (
+				9852256795F9958AE66DF11C /* Sources */,
+				4037A6F5EF7943DD9B54818F /* Resources */,
+				F446610CAA01ED008D7B8171 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49FE7ECA08D2C3B1511C573F /* PBXTargetDependency */,
+			);
+			name = Wortag;
+			packageProductDependencies = (
+			);
+			productName = Wortag;
+			productReference = 1BC0EAE6E2DCC403D2F66FF4 /* Wortag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C56D58C7D392B20062F50ECF /* WortagWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A538B65C90F6EA52998CE2A6 /* Build configuration list for PBXNativeTarget "WortagWidget" */;
+			buildPhases = (
+				D1FEB1BAA519F243CB219731 /* Sources */,
+				3870CE62AA0E4F329F2AF6D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WortagWidget;
+			packageProductDependencies = (
+			);
+			productName = WortagWidget;
+			productReference = 08589C46F4AA4D8D5DD6C3BA /* WortagWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90ABB31D1EC82618C7025365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1A699EEB9603298702F4E2BD = {
+						ProvisioningStyle = Manual;
+					};
+					C56D58C7D392B20062F50ECF = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = AC7B64C8FBC02E08C7B868F4 /* Build configuration list for PBXProject "Wortag" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 479B8107F17605F15BCC0E4F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7DEEACB9506A0D24F23A31B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A699EEB9603298702F4E2BD /* Wortag */,
+				C56D58C7D392B20062F50ECF /* WortagWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3870CE62AA0E4F329F2AF6D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A5CD2A522E75446F0BA93BF /* Assets.xcassets in Resources */,
+				4B390180C089388167928DF9 /* Corpus-Attribution.txt in Resources */,
+				56972C950836FE6A40FD60C1 /* DATA-LICENSES.md in Resources */,
+				57B258C491FF9397C7F27542 /* vocabulary.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4037A6F5EF7943DD9B54818F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1D9A5BBD6C34269E25E36D /* Assets.xcassets in Resources */,
+				CD6BF0F026CD62BEA0E281D1 /* Corpus-Attribution.txt in Resources */,
+				76944BDA1CFB53D0FC78BFC0 /* DATA-LICENSES.md in Resources */,
+				F89906047D68A3FF1E776E5C /* vocabulary.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9852256795F9958AE66DF11C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C8E3E181167345A510116A /* AppModel.swift in Sources */,
+				68434F4210CAB20731B1D21C /* ContentView.swift in Sources */,
+				225C18FC302D8CB31859735E /* LearningState.swift in Sources */,
+				FF85DC479016032AC67D9D0A /* LearningStore.swift in Sources */,
+				793091D8759417585A96EDB6 /* LibrarySection.swift in Sources */,
+				31A3489B237F5BA36C6C15AE /* LibraryView.swift in Sources */,
+				F23810880C493F2E3E36D1D5 /* ReviewSchedule.swift in Sources */,
+				ED0B850D8DE73F575F78F51B /* SidebarView.swift in Sources */,
+				2A1D733D080BD7CE1EB83757 /* Theme.swift in Sources */,
+				4745B39890FEB510B3AD3BAE /* TodayView.swift in Sources */,
+				C39367A94E6F29FB6642B879 /* Vocabulary.swift in Sources */,
+				131B77316026432FB6CC8871 /* WidgetSetupView.swift in Sources */,
+				8341CF493157E1DB8246FB7E /* WordDetailsView.swift in Sources */,
+				DC79863D7307CCCCAA76C791 /* WordIntents.swift in Sources */,
+				3650C6F24D5136AC55F1BE8F /* WortagApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1FEB1BAA519F243CB219731 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA488C7E0BAB7ACA5B56C0FD /* LearningState.swift in Sources */,
+				8BAEC8D0B7E50FD7B9FEB085 /* LearningStore.swift in Sources */,
+				C4A5351DE5EA641650ED7393 /* ReviewSchedule.swift in Sources */,
+				4D703B63A23C69ED6ABDC074 /* Theme.swift in Sources */,
+				320A76C1259E54DA601AAC75 /* Vocabulary.swift in Sources */,
+				D27571D726AC9CB120D6D4FF /* WordIntents.swift in Sources */,
+				C642E33B32368B947A79299D /* WortagWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49FE7ECA08D2C3B1511C573F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C56D58C7D392B20062F50ECF /* WortagWidget */;
+			targetProxy = E07A2B785C0A94A3E37710D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73C2EF74E34375D9F68734C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Wortag.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.wortag.app.widget;
+				PRODUCT_NAME = WortagWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7CAC6B891FFDABCDAB6E6630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.8;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B10052740D1E197E5EBB5BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Wortag.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.wortag.app.widget;
+				PRODUCT_NAME = WortagWidget;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA03BECE73665E90C0679D6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Wortag.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.wortag.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC0CE9D7825392FCD950369D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 9;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.8;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FD2729A3632775112CF616D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Configuration/Wortag.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Configuration/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.wortag.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B049A8D302951396CFACF77 /* Build configuration list for PBXNativeTarget "Wortag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2729A3632775112CF616D1 /* Debug */,
+				CA03BECE73665E90C0679D6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A538B65C90F6EA52998CE2A6 /* Build configuration list for PBXNativeTarget "WortagWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10052740D1E197E5EBB5BF5 /* Debug */,
+				73C2EF74E34375D9F68734C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC7B64C8FBC02E08C7B868F4 /* Build configuration list for PBXProject "Wortag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC0CE9D7825392FCD950369D /* Debug */,
+				7CAC6B891FFDABCDAB6E6630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90ABB31D1EC82618C7025365 /* Project object */;
+}
