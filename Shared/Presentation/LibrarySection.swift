@@ -1,13 +1,16 @@
 import Foundation
 
 enum LibrarySection: String, CaseIterable, Identifiable {
-    case today = "Today", vocabulary = "Vocabulary", reminders = "Reminders"
+    case today = "Today", vocabulary = "Vocabulary", reminders = "Reminders", practice = "Practice", progress = "Progress", settings = "Settings"
     var id: String { rawValue }
     var icon: String {
         switch self {
         case .today: return "sun.max"
         case .vocabulary: return "text.book.closed"
         case .reminders: return "bookmark"
+        case .practice: return "brain.head.profile"
+        case .progress: return "chart.bar"
+        case .settings: return "slider.horizontal.3"
         }
     }
 

@@ -7,14 +7,14 @@ struct SidebarView: View {
     @FocusState private var focusedSection: LibrarySection?
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 28) {
+        VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 6) {
                 Image(systemName: "leaf.fill").font(.system(size: 26)).foregroundStyle(WortagTheme.accent)
                 Text("Wortag").font(.system(size: 29, weight: .medium, design: .serif))
                 Text("A LITTLE GERMAN, EVERY DAY").font(.system(size: 8, weight: .bold)).tracking(1.1)
                     .foregroundStyle(WortagTheme.muted)
-            }.padding(.top, 36)
-            VStack(spacing: 8) {
+            }.padding(.top, 8)
+            VStack(spacing: 4) {
                 ForEach(LibrarySection.allCases) { item in
                     Button { section = item } label: {
                         HStack(spacing: 12) {
@@ -24,7 +24,7 @@ struct SidebarView: View {
                             if item == .reminders, let count = snapshot?.reviewCount, count > 0 {
                                 Text("\(count)").font(.caption2).foregroundStyle(WortagTheme.muted)
                             }
-                        }.padding(12)
+                        }.padding(6)
                             .background(section == item ? WortagTheme.paper : .clear, in: RoundedRectangle(cornerRadius: 10))
                             .overlay(RoundedRectangle(cornerRadius: 10).strokeBorder(
                                 focusedSection == item ? WortagTheme.accent : .clear, lineWidth: 1))
@@ -42,7 +42,7 @@ struct SidebarView: View {
             Button(action: showSetup) { Label("Add your widget", systemImage: "square.grid.2x2") }
                 .font(.system(size: 12)).buttonStyle(.plain).foregroundStyle(WortagTheme.accent)
             Text("OFFLINE · MADE FOR YOUR MAC").font(.system(size: 8, weight: .medium)).tracking(0.5).foregroundStyle(WortagTheme.muted)
-        }.padding(26).frame(width: 215).frame(maxHeight: .infinity)
+        }.padding(22).frame(width: 215).frame(maxHeight: .infinity)
             .background(WortagTheme.sage.opacity(0.6))
     }
 }

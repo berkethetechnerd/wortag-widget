@@ -5,10 +5,11 @@ struct Review: Codable, Equatable, Identifiable {
     var stage: Int
     var dueStep: Int
     var dueDate: Date
+    var graded: Bool? = nil
 }
 
 struct LearningState: Codable, Equatable {
-    var version = 1
+    var version = 2
     var history: [String] = []
     var cursor = 0
     var bag: [String] = []
@@ -18,6 +19,12 @@ struct LearningState: Codable, Equatable {
     var nextAutomaticAt = Date.distantPast
     var showTranslations = false
     var automaticRotation = true
+    var practice: PracticeChallenge?
+    var recallHistory: RecallHistory?
+    var practiceInWidget: Bool?
+    var dailyGoal: Int?
+    var dailyReminder: DailyReminder?
+
     var currentID: String? { history.indices.contains(cursor) ? history[cursor] : nil }
     var canGoBack: Bool { cursor > 0 }
 
@@ -50,7 +57,7 @@ struct LearningState: Codable, Equatable {
         }
         advances += 1
         let due = reviews.values.filter {
-            valid.contains($0.id) && $0.id != currentID && ($0.dueStep <= advances || $0.dueDate <= now)
+            $0.graded != true && valid.contains($0.id) && $0.id != currentID && ($0.dueStep <= advances || $0.dueDate <= now)
         }.min { $0.precedes($1) }
         let id: String
         if var review = due {
@@ -81,7 +88,7 @@ struct LearningState: Codable, Equatable {
         // Repeated clicks must not duplicate a review or postpone an earlier one.
         if let existing = reviews[id] {
             reviews[id] = Review(id: id, stage: 0, dueStep: min(existing.dueStep, fresh.dueStep),
-                                 dueDate: min(existing.dueDate, fresh.dueDate))
+                                 dueDate: min(existing.dueDate, fresh.dueDate), graded: existing.graded)
         } else { reviews[id] = fresh }
         bag.removeAll { $0 == id }
         nextAutomaticAt = now.addingTimeInterval(ReviewSchedule.automaticInterval)
@@ -90,14 +97,16 @@ struct LearningState: Codable, Equatable {
     /// Reject semantically corrupt JSON before it reaches array indexing or
     /// integer arithmetic. Preserve the file for recovery instead of resetting.
     func validate() throws {
-        guard version == 1, advances >= 0, advances <= ReviewSchedule.maximumCounter,
+        guard (1...2).contains(version), advances >= 0, advances <= ReviewSchedule.maximumCounter,
               history.isEmpty ? cursor == 0 : history.indices.contains(cursor),
               nextAutomaticAt.timeIntervalSinceReferenceDate.isFinite,
               reviews.allSatisfy({ key, review in
                   key == review.id && !key.isEmpty && ReviewSchedule.steps.indices.contains(review.stage)
                   && review.dueStep >= 0 && review.dueStep <= ReviewSchedule.maximumCounter
                   && review.dueDate.timeIntervalSinceReferenceDate.isFinite
-              }) else {
+              }), (recallHistory?.isValid ?? true), (dailyReminder?.isValid ?? true),
+              (dailyGoal.map { (1...100).contains($0) } ?? true),
+              (practice.map { !$0.cardID.isEmpty } ?? true) else {
             throw WortagError.message("Saved progress has an unsupported version or invalid history/review schedule. It has been preserved.")
         }
     }

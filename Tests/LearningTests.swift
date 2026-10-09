@@ -172,6 +172,81 @@ final class LearningTests: XCTestCase {
         XCTAssertEqual(try Data(contentsOf: file), bytes)
     }
 
+    func testResetClearsAllLearningDataAndBackupAcrossStoreInstances() throws {
+        let (a, b, folder) = try makeStores()
+        defer { try? FileManager.default.removeItem(at: folder) }
+        let first = try a.snapshot(now: now).card.id
+        try a.perform(.remind(first), now: now)
+        try a.perform(.practice(first), now: now)
+        let token = try XCTUnwrap(a.snapshot(now: now).state.practice?.id)
+        try a.perform(.reveal(token), now: now)
+        try a.perform(.grade(token, .hard), now: now)
+        let pending = try XCTUnwrap(a.snapshot(now: now).state.practice?.id)
+        try a.perform(.reveal(pending), now: now)
+        try a.perform(.translations(true), now: now)
+        try a.perform(.rotation(false), now: now)
+        try a.perform(.widgetPractice(true), now: now)
+        try a.perform(.dailyGoal(50), now: now)
+        var reminder = DailyReminder(); reminder.enabled = true; reminder.hour = 18
+        try a.perform(.dailyReminder(reminder), now: now)
+        let backup = folder.appendingPathComponent("learning-v1-backup.json")
+        try Data("old progress".utf8).write(to: backup)
+
+        try b.perform(.resetProgress, now: now)
+        let reset = try a.snapshot(now: now, rotateIfDue: true)
+        XCTAssertEqual(reset.state.version, 2)
+        XCTAssertEqual(reset.seenCount, 0)
+        XCTAssertEqual(reset.state.advances, 0)
+        XCTAssertEqual(reset.reviewCount, 0)
+        XCTAssertNil(reset.state.recallHistory)
+        XCTAssertNil(reset.state.practice)
+        XCTAssertNil(reset.state.practiceInWidget)
+        XCTAssertNil(reset.state.dailyReminder)
+        XCTAssertNil(reset.state.dailyGoal)
+        XCTAssertFalse(reset.state.showTranslations)
+        XCTAssertTrue(reset.state.automaticRotation)
+        XCTAssertFalse(reset.canGoBack)
+        XCTAssertEqual(reset.state.history, [reset.card.id])
+        XCTAssertEqual(reset.state.bag.count, ids.count - 1)
+        XCTAssertEqual(reset.state.nextAutomaticAt, now.addingTimeInterval(ReviewSchedule.automaticInterval))
+        XCTAssertFalse(FileManager.default.fileExists(atPath: backup.path))
+        // An already rendered widget must not recreate ratings after a reset.
+        try a.perform(.grade(pending, .easy), now: now)
+        XCTAssertEqual(try b.snapshot(now: now).state, reset.state)
+        try a.perform(.next, now: now)
+        XCTAssertEqual(try b.snapshot(now: now).seenCount, 1)
+    }
+
+    func testExplicitResetCanReplaceCorruptProgressWithoutDeletingVocabularyOrLock() throws {
+        let (store, _, folder) = try makeStores()
+        defer { try? FileManager.default.removeItem(at: folder) }
+        _ = try store.snapshot(now: now)
+        try Data("broken state".utf8).write(to: folder.appendingPathComponent("learning.json"))
+        let unrelated = folder.appendingPathComponent("keep.txt")
+        try Data("keep".utf8).write(to: unrelated)
+        try store.perform(.resetProgress, now: now)
+        XCTAssertEqual(try store.snapshot(now: now).seenCount, 0)
+        XCTAssertEqual(store.vocabulary.cards.count, ids.count)
+        XCTAssertTrue(FileManager.default.fileExists(atPath: folder.appendingPathComponent("learning.lock").path))
+        XCTAssertEqual(try Data(contentsOf: unrelated), Data("keep".utf8))
+    }
+
+    func testFailedResetWritePreservesMigrationBackup() throws {
+        let (store, _, folder) = try makeStores()
+        defer { try? FileManager.default.removeItem(at: folder) }
+        // A directory occupying the JSON path makes atomic replacement fail.
+        let file = folder.appendingPathComponent("learning.json")
+        try FileManager.default.createDirectory(at: file, withIntermediateDirectories: true)
+        let backup = folder.appendingPathComponent("learning-v1-backup.json")
+        let bytes = Data("original progress backup".utf8)
+        try bytes.write(to: backup)
+        XCTAssertThrowsError(try store.perform(.resetProgress, now: now))
+        XCTAssertEqual(try Data(contentsOf: backup), bytes)
+        var isDirectory: ObjCBool = false
+        XCTAssertTrue(FileManager.default.fileExists(atPath: file.path, isDirectory: &isDirectory))
+        XCTAssertTrue(isDirectory.boolValue)
+    }
+
     func testAutomaticRotationDoesNotSkipHoursOrAdvanceWhenDisabled() throws {
         let (a, _, folder) = try makeStores()
         defer { try? FileManager.default.removeItem(at: folder) }

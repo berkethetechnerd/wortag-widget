@@ -5,12 +5,20 @@ import WidgetKit
 @main
 struct WortagApp: App {
     @StateObject private var model = AppModel(reloadWidgets: { WidgetCenter.shared.reloadTimelines(ofKind: LearningStore.widgetKind) })
+    @StateObject private var speech = SpeechController()
+    @StateObject private var reminders: ReminderModel
+    init() {
+        let scheduler = MacReminderScheduler()
+        let reminderModel = ReminderModel(scheduler: scheduler)
+        scheduler.onOpenPractice = { [weak reminderModel] in reminderModel?.requestPractice() }
+        _reminders = StateObject(wrappedValue: reminderModel)
+    }
     var body: some Scene {
-        WindowGroup("Wortag") {
-            ContentView().environmentObject(model)
+        WindowGroup("Wortag", id: "WortagMain", for: String.self) { _ in
+            ContentView().environmentObject(model).environmentObject(speech).environmentObject(reminders)
                 .preferredColorScheme(.light)
                 .frame(minWidth: 780, minHeight: 590)
-        }
+        } defaultValue: { "main" }
         .defaultSize(width: 900, height: 690)
         .windowStyle(.hiddenTitleBar)
         .commands {

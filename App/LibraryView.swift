@@ -8,6 +8,7 @@ struct LibraryView: View {
     @Binding var selected: WordCard?
     let onAction: (LearningAction) -> Void
     let showToday: () -> Void
+    var practice: (String) -> Void = { _ in }
     private var libraryCards: [WordCard] {
         section.cards(in: cards, reviews: snapshot?.state.reviews ?? [:])
     }
@@ -44,6 +45,7 @@ struct LibraryView: View {
                             .frame(maxWidth: .infinity, alignment: .leading).padding(.bottom, 20)
                         WordDetailsView(card: selected, showTranslations: snapshot?.state.showTranslations == true)
                         HStack {
+                            Button("Practice this word") { practice(selected.id) }
                             Spacer()
                             if snapshot?.state.reviews[selected.id] != nil {
                                 Button("Stop reminding") { onAction(.unmark(selected.id)) }
@@ -66,7 +68,7 @@ struct LibraryView: View {
                                 Image(systemName: "chevron.right").font(.caption2)
                             }
                             if let review = snapshot?.state.reviews[card.id] {
-                                Text("\(max(0, review.dueStep - (snapshot?.state.advances ?? 0))) cards / \(review.dueDate.formatted(.relative(presentation: .named)))")
+                                Text("\(max(0, review.dueStep - (snapshot?.state.advances ?? 0))) steps / \(review.dueDate.formatted(.relative(presentation: .named)))")
                                     .font(.caption).foregroundStyle(WortagTheme.muted)
                             }
                         }.padding(.vertical, 7).frame(maxWidth: .infinity, alignment: .leading)
@@ -80,7 +82,7 @@ struct LibraryView: View {
                          ? "\(libraryCards.count.formatted()) saved \(libraryCards.count == 1 ? "word" : "words")"
                          : "\(filtered.count.formatted()) of \(libraryCards.count.formatted()) words")
                     Spacer()
-                    Text(section == .reminders ? "Longer intervals with each review" : "Examples from Tatoeba")
+                    Text(section == .reminders ? "Intervals depend on repetition or recall" : "Examples from Tatoeba")
                 }.font(.system(size: 10)).foregroundStyle(WortagTheme.muted)
             }
         }

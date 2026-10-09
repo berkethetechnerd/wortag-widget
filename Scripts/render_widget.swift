@@ -51,6 +51,26 @@ struct RenderWidget {
                          scheme: scheme, scale: scheme == .dark ? 1 : 2, to: folder)
             }
         }
+        for revealed in [false, true] {
+            for (name, family, width, height) in sizes {
+                for (suffix, mode, scheme) in [("", WidgetRenderingMode.fullColor, ColorScheme.light),
+                                                ("-accented", .accented, .light), ("-vibrant", .vibrant, .dark)] {
+                    var fixture = state
+                    fixture.practiceInWidget = true
+                    let sample = vocabulary["selbstverständlichkeit"]!
+                    fixture.practice = PracticeChallenge(id: UUID(), cardID: sample.id, revealed: revealed)
+                    let entry = WordEntry(date: .now, snapshot: LearningSnapshot(card: sample, state: fixture,
+                        wordCount: vocabulary.cards.count, practiceCard: sample), error: nil)
+                    let view = WortagCardView(entry: entry, family: family,
+                        contentMargins: EdgeInsets(top: 16, leading: 16, bottom: 16, trailing: 16), renderingMode: mode)
+                        .frame(width: width, height: height)
+                        .background(scheme == .dark ? Color(white: 0.15) : WortagTheme.paper)
+                        .environment(\.colorScheme, scheme)
+                    try save(view, name: name + (revealed ? "-practice-revealed" : "-practice-hidden") + suffix,
+                        size: CGSize(width: width, height: height), scheme: scheme, scale: 2, to: folder)
+                }
+            }
+        }
         for (name, family, width, height) in sizes {
             let entry = WordEntry(date: .now, snapshot: nil,
                                   error: "Saved progress could not be read. It has been preserved. Open Wortag to check the learning folder and try again.")

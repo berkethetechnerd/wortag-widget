@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct WordDetailsView: View {
+    @EnvironmentObject private var speech: SpeechController
     let card: WordCard
     var showTranslations = false
     var body: some View {
@@ -15,6 +16,11 @@ struct WordDetailsView: View {
                     Text("Articles vary by meaning or region.").font(.system(size: 11)).foregroundStyle(WortagTheme.muted)
                 }
             }
+            PronunciationControls(text: card.displayWord)
+            if let message = speech.message {
+                Text(message).font(.caption).foregroundStyle(WortagTheme.accent)
+            }
+            DictionaryDetailsView(card: card)
             Text("IN EVERYDAY SENTENCES").font(.system(size: 9, weight: .bold)).tracking(1.5).foregroundStyle(WortagTheme.muted)
             ForEach(Array(card.examples.enumerated()), id: \.offset) { index, example in
                 HStack(alignment: .top, spacing: 16) {
@@ -25,6 +31,7 @@ struct WordDetailsView: View {
                         if showTranslations && !example.english.isEmpty {
                             Text(example.english).font(.system(size: 13)).foregroundStyle(WortagTheme.muted).textSelection(.enabled)
                         }
+                        PronunciationControls(text: example.german, compact: true)
                         if let sourceURL = example.sourceURL {
                             Link("Tatoeba · source & credit ↗", destination: sourceURL)
                                 .font(.system(size: 9)).foregroundStyle(WortagTheme.muted)

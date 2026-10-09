@@ -68,3 +68,17 @@ final class VocabularyTests: XCTestCase {
         XCTAssertEqual(vocabulary[old.id], old)
     }
 }
+
+extension VocabularyTests {
+    func testDictionaryFormsAndClueAreAvailableWithoutChangingCardIdentity() throws {
+        let path = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent().appendingPathComponent("Resources/vocabulary.json")
+        let vocabulary = try Vocabulary(data: Data(contentsOf: path))
+        XCTAssertTrue(vocabulary.cards.allSatisfy { $0.dictionary?.isValid == true })
+        XCTAssertEqual(vocabulary["mietvertrag"]?.dictionary?.plurals, ["Mietverträge"])
+        XCTAssertEqual(vocabulary["verzichten"]?.dictionary?.usage, ["verzichten auf + Akkusativ"])
+        XCTAssertEqual(vocabulary["bewältigen"]?.dictionary?.participle, "bewältigt")
+        let word = vocabulary["selbstverständlichkeit"]!
+        XCTAssertFalse(word.recallClue.lowercased().contains(word.word.lowercased()))
+        XCTAssertEqual(URLComponents(url: word.pronunciationURL!, resolvingAgainstBaseURL: false)?.queryItems?.first?.value, word.id)
+    }
+}
