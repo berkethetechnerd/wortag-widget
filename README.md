@@ -3,6 +3,9 @@
 A native macOS desktop widget for a little German, every day. Built with SwiftUI,
 WidgetKit and App Intents. Requires macOS 14 or newer.
 
+Version **1.1.0** adds offline dictionary details, pronunciation, graded recall,
+optional daily notifications and practice statistics.
+
 ## Screenshots
 
 Rendered from the native app and widget views using sample learning data.
@@ -14,14 +17,24 @@ Desktop widget appearance can vary with macOS appearance settings.
 | :---: | :---: | :---: |
 | <img src="docs/screenshots/widget-small.png" alt="Small Wortag widget with a German noun, one example and navigation controls" width="164"> | <img src="docs/screenshots/widget-medium.png" alt="Medium Wortag widget with two example sentences and a scheduled reminder" width="344"> | <img src="docs/screenshots/widget-large.png" alt="Large Wortag widget with three example sentences, navigation and a reminder button" width="344"> |
 
+Practice mode hides the answer until you reveal it, then offers four recall grades.
+
+| Small · revealed answer | Medium · revealed answer | Large · meaning clue |
+| :---: | :---: | :---: |
+| <img src="docs/screenshots/widget-practice-small.png" alt="Small practice widget with a revealed answer and four recall grades" width="164"> | <img src="docs/screenshots/widget-practice-medium.png" alt="Medium practice widget with a clue, revealed answer and recall grades" width="344"> | <img src="docs/screenshots/widget-practice-large.png" alt="Large practice widget with a meaning clue and Reveal answer button" width="344"> |
+
 ### Companion app
 
-**Today** — the current word, varied examples and learning controls.
+**Today** — the current word, dictionary forms, pronunciation and varied examples.
 
-![Wortag Today page with die Genehmigung, three examples, Previous, Remind me and Next](docs/screenshots/app-today.png)
+![Wortag Today page with die Genehmigung, dictionary details and pronunciation](docs/screenshots/app-today.png)
+
+**Practice** — recall a word from its German definition, reveal and grade it.
+
+![Wortag Practice page with a revealed noun and Again, Hard, Good and Easy buttons](docs/screenshots/app-practice.png)
 
 <details>
-<summary>Vocabulary and Reminders</summary>
+<summary>Vocabulary, Reminders, Progress and Settings</summary>
 
 **Vocabulary** — browse and search the offline word library.
 
@@ -30,6 +43,14 @@ Desktop widget appearance can vary with macOS appearance settings.
 **Reminders** — saved words and their upcoming review intervals.
 
 ![Wortag Reminders page with four saved words and their review schedules](docs/screenshots/app-reminders.png)
+
+**Progress** — graded reviews, self-rated recall, daily goals and a seven-day chart.
+
+![Wortag Progress page with practice statistics, a daily goal and recent activity](docs/screenshots/app-progress.png)
+
+**Settings** — optional daily notifications at your chosen local time and weekdays.
+
+![Wortag Settings page with a weekday practice reminder set to 18:30](docs/screenshots/app-settings.png)
 
 </details>
 
@@ -97,7 +118,7 @@ distribution to other Macs. The local build uses a dedicated progress folder
 shared by its two sandboxed components. It does not request access to other apps'
 data.
 
-## How learning works
+## Discovery and word reminders
 
 - **Previous** replays the actual card history. **Next** moves forward through
   that history before selecting a new card. Command–Option–Left/Right also work in the app; plain arrow keys remain available for editing searches.
@@ -105,11 +126,13 @@ data.
   up, so learning continues indefinitely. Unmarked words are not repeated within
   one pass, and immediate repeats are avoided when another word remains in the bag.
 - **Remind me** / the bookmark button schedules the displayed word within four
-  new cards or one hour, whichever makes it due first. Due words take priority
+  learning steps or one hour, whichever makes it due first. Due words take priority
   over random discovery. Repeated clicks do not add duplicates or postpone it.
-- Reviews then recur after 12, 36, 108, 324 and 972 new cards, or 1, 3, 7, 21 and
+- Reviews then recur after 12, 36, 108, 324 and 972 learning steps, or 1, 3, 7, 21 and
   60 days. The final interval repeats. Clicking Remind me again brings a word
-  back to the first interval. This is repeated exposure, not a graded recall test.
+  back to the first interval. These discovery reminders provide repeated exposure.
+  A learning step is a new discovery card or a graded Practice answer; replaying
+  history does not advance the counter.
 - If several words become due together, they appear over successive Next
   actions. A one-word or fully marked deck remains usable even if early repeats
   are necessary.
@@ -120,6 +143,7 @@ data.
 - Clicking the word or background refreshes the card in place. Previous, Next
   and Remind me also work without opening the app. The Examples link opens its
   source website; the explicit Open Wortag link is available if loading fails.
+  **Listen ↗** in the large widget opens the app and pronounces the displayed word.
 
 All instances use the same current card and schedule. History keeps the latest
 5,000 cards; the explored-word count persists. The companion app includes a
@@ -127,6 +151,81 @@ searchable vocabulary, reminder management and optional English translations.
 Noun headings include their definite article: **die Genehmigung**, **der Mietvertrag**,
 **das Werkzeug**. Articles also appear in vocabulary and reminder lists. Verbs
 use their infinitive dictionary form.
+
+## Meaning, forms and pronunciation
+
+Each active word includes up to three German dictionary definitions, with
+English glosses matched to their sense where the source provides them. Nouns
+show nominative plurals. Verbs show recorded present (er/sie/es), past (ich),
+participle and perfect auxiliary forms. Selected verbs also have reviewed
+preposition/case notes, such as **verzichten auf + Akkusativ**. Missing source
+forms are left unfilled; dictionary coverage does not imply every possible
+meaning or construction is listed. The Wiktionary link opens the full entry.
+
+Use **Pronounce / Listen**, **Slow** or **Stop pronunciation** beside a word or
+sentence in the app. Playback uses an installed German macOS voice and requests
+no microphone access. If none is available, Wortag explains how to add one in
+System Settings → Accessibility → Spoken Content / Read & Speak. The widget
+delegates audio to the app through its explicit Listen link.
+
+## Practice and graded recall
+
+Open **Practice**, or choose **Practice this word** from Today or a library
+detail. A German definition is the clue; the headword is masked if it occurs
+inside the definition. Think of the word and its noun article, choose **Reveal
+answer**, then rate your recall:
+
+| Grade | Effect |
+| --- | --- |
+| Again | Restarts the interval; returns after one more learning step or ten minutes. |
+| Hard | Steps back one interval, with a minimum of four steps or one hour. |
+| Good | Moves forward one interval. On a new word, Good schedules 12 steps or one day. |
+| Easy | Moves forward two intervals. On a new word, Easy schedules 36 steps or three days. |
+
+The common interval ladder is 4, 12, 36, 108, 324 and 972 learning steps, or
+1 hour, 1 day, 3 days, 7 days, 21 days and 60 days; the earlier threshold wins.
+The last interval repeats. Previously scheduled words start from their saved
+interval. Due words come first, then new practice words in
+random order. Grading immediately prepares the next question. Opening and
+revealing do not count as reviews. Once a word has a graded schedule, discovery
+browsing can still display it but only another grade advances its interval.
+
+Practice and discovery keep separate current cards. All app windows and widget
+instances share the same practice question. Stale or duplicate grade actions
+cannot record a second review. **Use Practice mode in the widget** switches all
+widget sizes to the same reveal/grade flow. The leaf button returns to discovery
+without opening the app. Practice refreshes retain an unanswered question and
+do not advance hidden discovery words. An empty Practice widget requests its
+next refresh at the earliest time-based review; macOS controls delivery. With
+automatic refresh disabled, use **Check for words** instead.
+If every word has a future review, Practice waits until
+one is due; you can still browse indefinitely or practice a specific library word.
+
+## Daily notifications and progress
+
+In **Settings**, enable daily reminders, choose a local hour/minute and one or
+more weekdays, then save. Notifications are off by default. macOS permission is
+requested only when you enable and save them; a refusal leaves reminders off.
+Changing the time or weekdays replaces the schedule. Disable and save to cancel
+it. Clicking a notification opens Practice. Notification delivery follows macOS
+and Focus settings, so it is not guaranteed at an exact instant. These daily
+practice prompts are separate from individual word repetition schedules.
+
+**Progress** shows today's and lifetime graded reviews, self-rated recall,
+explored words, a seven-day activity chart and up to five words with the most
+Again/Hard ratings in the last 100 answers. Hard, Good and Easy count as recalled;
+this reflects your assessment, not an automatically checked answer. Set a daily
+goal from 1 to 100 reviews and practice due or difficult words directly. Days use
+your local time zone. Existing explored words are preserved and do not create
+historical recall scores. The latest 5,000 answer events are retained, while
+daily totals preserve lifetime counts.
+
+To start over, choose **Settings → Reset progress…** and confirm. This clears
+explored words, browsing history, practice ratings and statistics, all word
+review schedules, daily notifications and the old schema 1 progress backup.
+Learning settings return to their defaults, with daily reminders off. The app
+and widgets show a fresh starting word with zero explored words. The vocabulary
+is retained. Cancel leaves progress untouched; a reset cannot be undone.
 
 ## Offline data and privacy
 
@@ -162,6 +261,12 @@ through a home-relative file entitlement. The folder is accessible only to your
 login user. The original App Group progress was preserved during the repair.
 Writes are atomic and protected with a file lock across the app and extension.
 Unreadable progress is preserved and reported instead of silently reset.
+
+The first 1.1.0 launch upgrades progress to schema 2 and preserves the original
+schema 1 bytes in `learning-v1-backup.json` in the same folder. Existing history,
+explored IDs and reminder schedules survive the upgrade. Older Wortag builds
+cannot read schema 2; keep the backup if you plan to return to an older version.
+New practice results and preferences remain only in the current progress file.
 
 ## Build and test
 
@@ -214,17 +319,29 @@ Running `noun_articles.py Resources/vocabulary.json` without `--extract` applies
 the saved subset without downloading anything. Enrichment preserves all card
 IDs, order, original word forms and examples, so learning history stays valid.
 
+Practical selection also applies `Scripts/learning_dictionary.json`, the saved
+definitions and forms for all active IDs. To regenerate it from that same source:
+
+```sh
+python3 Scripts/learning_dictionary.py Resources/vocabulary.json --extract /tmp/wortag-de-wiktionary.jsonl.gz
+```
+
+Without `--extract`, the command reapplies the checked-in metadata offline. New
+active IDs need a corresponding dictionary entry before selection can succeed.
+The live Kaikki download changes over time; use the recorded source checksum
+when reproducing this release and update credits when adopting a newer extract.
+
 To check the widget layout with native SwiftUI rendering, without opening the
 app or changing progress:
 
 ```sh
-swiftc -parse-as-library -D WORTAG_RENDER Shared/*.swift Widget/WortagWidget.swift Scripts/NativePreview.swift Scripts/render_widget.swift -o /tmp/wortag-render
+swiftc -parse-as-library -D WORTAG_RENDER Shared/*.swift Widget/*.swift Scripts/NativePreview.swift Scripts/render_widget.swift -o /tmp/wortag-render
 /tmp/wortag-render "$PWD/build/Wortag.app" /tmp/wortag-previews
 ```
 
-This produces 18 PNG previews at the small, medium and large widget sizes,
+This produces 36 PNG previews at the small, medium and large widget sizes,
 including long nouns, translations, alternate foreground appearances, asymmetric
-margins, load errors and 1×/2× rendering. The
+margins, load errors, hidden/revealed Practice states and 1×/2× rendering. The
 production card view is shared with the renderer. The reading area and empty
 spaces use separate refresh buttons rather than an overlapping background button.
 
@@ -242,6 +359,10 @@ swiftc -parse-as-library -D WORTAG_RENDER_APP Shared/*.swift Shared/Presentation
 /tmp/wortag-render-app "$PWD/build/Wortag.app" /tmp/wortag-app-previews
 ```
 
+The 18 app fixtures include compact and wide Practice, empty/populated Progress,
+and disabled/enabled reminder settings. Preview services never speak, request
+notification permission or schedule real notifications.
+
 ## Code structure and regression checks
 
 `Shared/LearningState.swift` implements history, shuffled discovery and spaced
@@ -256,6 +377,14 @@ by the app entry point. App views have separate responsibilities for navigation,
 the sidebar, today's word, the library and setup. `WordDetailsView` shares the
 article, examples, translation and attribution presentation between both pages;
 `LibrarySection` shares filtering, search and schedule ordering with tests.
+`Practice.swift` owns question tokens, grading policy and recall history.
+`ProgressSummary` computes statistics independently of the UI. `ReminderModel`
+depends on `ReminderScheduling`; the macOS adapter owns permission checks,
+calendar triggers and notification routing. The app owns its speech synthesizer.
+Practice, Progress and Settings each have a dedicated view. The notification
+route retains its request until a window can consume it and reopens the main
+window through an injected action.
+
 The widget uses the same learning domain, store and highlighting helper, without
 compiling app presentation code into the extension.
 
@@ -264,4 +393,5 @@ targets, and uploads layout fixtures on macOS 15 Apple Silicon and Intel runners
 The renderers exercise production views without reading or writing progress.
 Their previews supplement manual desktop-widget checks; they do not reproduce
 WidgetKit's complete host, rendering transformations or refresh scheduling.
-See [REVIEW.md](REVIEW.md) for findings, coverage and remaining limits.
+See [REVIEW-1.1.md](REVIEW-1.1.md) for this release's findings, coverage and
+remaining limits; [REVIEW.md](REVIEW.md) records the earlier 1.0 review.

@@ -22,8 +22,7 @@ struct WordProvider: TimelineProvider {
     }
     func getTimeline(in context: Context, completion: @escaping (Timeline<WordEntry>) -> Void) {
         let current = entry(rotate: true)
-        let next = current.snapshot.map { max($0.state.nextAutomaticAt, Date().addingTimeInterval(60)) }
-            ?? Date().addingTimeInterval(300)
+        let next = WidgetRefreshPolicy.nextDate(for: current.snapshot, now: Date())
         completion(Timeline(entries: [current], policy: current.snapshot?.state.automaticRotation == false ? .never : .after(next)))
     }
     private func entry(rotate: Bool) -> WordEntry {
@@ -64,44 +63,51 @@ struct WortagCardView: View {
     var body: some View {
         Group {
             if let snapshot = entry.snapshot {
-                let marked = snapshot.state.reviews[snapshot.card.id] != nil
-                VStack(alignment: .leading, spacing: 0) {
-                    // The visible reading area is the refresh button's label.
-                    // Keep controls in separate rows; overlapping full-size
-                    // buttons can obscure content in WidgetKit's archived view.
-                    Button(intent: RefreshWordIntent()) {
-                        readingContent(snapshot, marked: marked)
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                            .padding(.top, contentMargins.top)
-                            .padding(.leading, contentMargins.leading)
-                            .padding(.trailing, contentMargins.trailing)
-                            .padding(.bottom, large ? 8 : 6)
-                            .contentShape(Rectangle())
-                    }
-                    .buttonStyle(.plain)
-                    .help("Refresh this card without opening Wortag")
+                if snapshot.state.practiceInWidget == true {
+                    PracticeWidgetView(snapshot: snapshot, family: family, margins: contentMargins, renderingMode: renderingMode)
+                } else {
+                    let marked = snapshot.state.reviews[snapshot.card.id] != nil
+                    VStack(alignment: .leading, spacing: 0) {
+                        // The visible reading area is the refresh button's label.
+                        // Keep controls in separate rows; overlapping full-size
+                        // buttons can obscure content in WidgetKit's archived view.
+                        Button(intent: RefreshWordIntent()) {
+                            readingContent(snapshot, marked: marked)
+                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+                                .padding(.top, contentMargins.top)
+                                .padding(.leading, contentMargins.leading)
+                                .padding(.trailing, contentMargins.trailing)
+                                .padding(.bottom, large ? 8 : 6)
+                                .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                        .help("Refresh this card without opening Wortag")
 
-                    navigation(snapshot, marked: marked)
-                    refreshSpace(height: large ? 8 : contentMargins.bottom)
-                    if large {
-                        HStack(spacing: 0) {
-                            Button(intent: RefreshWordIntent()) {
-                                Text("\(snapshot.seenCount.formatted()) explored · \(snapshot.wordCount.formatted()) words")
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .padding(.leading, contentMargins.leading)
-                                    .contentShape(Rectangle())
-                            }.buttonStyle(.plain)
-                            if let sourceURL = snapshot.card.examples.first?.sourceURL {
-                                Link(destination: sourceURL) {
-                                    Text("Examples ↗").padding(.trailing, contentMargins.trailing)
-                                }.buttonStyle(.plain)
-                            } else {
+                        navigation(snapshot, marked: marked)
+                        refreshSpace(height: large ? 8 : contentMargins.bottom)
+                        if large {
+                            HStack(spacing: 0) {
                                 Button(intent: RefreshWordIntent()) {
-                                    Text("Wortag examples").padding(.trailing, contentMargins.trailing)
+                                    Text("\(snapshot.seenCount.formatted()) explored · \(snapshot.wordCount.formatted()) words")
+                                        .frame(maxWidth: .infinity, alignment: .leading)
+                                        .padding(.leading, contentMargins.leading)
+                                        .contentShape(Rectangle())
                                 }.buttonStyle(.plain)
-                            }
-                        }.font(.system(size: 9)).foregroundStyle(muted)
-                        refreshSpace(height: contentMargins.bottom)
+                                if let url = snapshot.card.pronunciationURL {
+                                    Link("Listen ↗", destination: url).buttonStyle(.plain).padding(.trailing, 10)
+                                }
+                                if let sourceURL = snapshot.card.examples.first?.sourceURL {
+                                    Link(destination: sourceURL) {
+                                        Text("Examples ↗").padding(.trailing, contentMargins.trailing)
+                                    }.buttonStyle(.plain)
+                                } else {
+                                    Button(intent: RefreshWordIntent()) {
+                                        Text("Wortag examples").padding(.trailing, contentMargins.trailing)
+                                    }.buttonStyle(.plain)
+                                }
+                            }.font(.system(size: 9)).foregroundStyle(muted)
+                            refreshSpace(height: contentMargins.bottom)
+                        }
                     }
                 }
             } else {
@@ -171,7 +177,7 @@ struct WortagCardView: View {
                 if small { Image(systemName: marked ? "bookmark.fill" : "bookmark") }
                 else { Label(marked ? "Scheduled" : "Remind me", systemImage: marked ? "bookmark.fill" : "bookmark") }
             }
-            .accessibilityLabel("Remind me").help("Repeat after 4 new cards or about an hour, then at longer intervals")
+            .accessibilityLabel("Remind me").help("Repeat after 4 learning steps or about an hour, then at longer intervals")
             .tint(renderingMode == .fullColor ? WortagTheme.accent : ink)
             refreshSpace()
             Button(intent: NextWordIntent()) { Image(systemName: "chevron.right") }
@@ -183,9 +189,18 @@ struct WortagCardView: View {
     }
 
     private func refreshSpace(width: CGFloat? = nil, height: CGFloat = 20) -> some View {
+        WidgetRefreshSpace(width: width, height: height)
+    }
+}
+
+struct WidgetRefreshSpace: View {
+    var width: CGFloat? = nil
+    var height: CGFloat? = 20
+    var body: some View {
         Button(intent: RefreshWordIntent()) {
             Color.clear.frame(width: width, height: height)
-                .frame(maxWidth: width == nil ? .infinity : nil)
+                .frame(maxWidth: width == nil ? .infinity : nil,
+                       maxHeight: height == nil ? .infinity : nil)
                 .contentShape(Rectangle())
         }.buttonStyle(.plain).accessibilityHidden(true)
     }

@@ -31,7 +31,14 @@ struct RenderApp {
             ("vocabulary-small", "Vocabulary", "", 780, 590, false),
             ("today-translated-small", "Today", "", 780, 590, false),
             ("today-wide", "Today", "", 1200, 800, false),
-            ("reminders-long-word", "Reminders", "", 780, 590, true)
+            ("reminders-long-word", "Reminders", "", 780, 590, true),
+            ("practice-hidden", "Practice", "", 780, 590, false),
+            ("practice-revealed", "Practice", "", 780, 590, false),
+            ("practice-wide", "Practice", "", 1200, 800, false),
+            ("progress-empty", "Progress", "", 780, 590, false),
+            ("progress-populated", "Progress", "", 900, 690, true),
+            ("settings-disabled", "Settings", "", 780, 590, false),
+            ("settings-enabled", "Settings", "", 780, 590, false)
         ]
         for (name, tab, query, width, height, saved) in cases {
             var fixtureState = state
@@ -40,12 +47,31 @@ struct RenderApp {
                     fixtureState.remind(id: id, now: .now)
                 }
             }
+            if name.hasPrefix("practice") {
+                fixtureState.practice = PracticeChallenge(id: UUID(), cardID: "selbstverständlichkeit", revealed: name != "practice-hidden")
+            }
+            if name == "progress-populated" {
+                var history = RecallHistory()
+                for day in 0..<7 {
+                    let date = Calendar.current.date(byAdding: .day, value: -day, to: .now)!
+                    for index in 0..<(day + 1) {
+                        history.record(RecallEvent(id: UUID(), cardID: "genehmigung", grade: index % 3 == 0 ? .again : .good, date: date))
+                    }
+                }
+                fixtureState.recallHistory = history
+            }
+            if name == "settings-enabled" {
+                var preference = DailyReminder(); preference.enabled = true; preference.hour = 18; preference.minute = 30
+                preference.weekdays = [2, 3, 4, 5, 6]; fixtureState.dailyReminder = preference
+            }
             fixtureState.showTranslations = name == "today-translated-small"
             let sample = fixtureState.showTranslations ? vocabulary["selbstverständlichkeit"]! : snapshot.card
-            let fixture = LearningSnapshot(card: sample, state: fixtureState, wordCount: snapshot.wordCount, activeIDs: snapshot.activeIDs)
+            let fixture = LearningSnapshot(card: sample, state: fixtureState, wordCount: snapshot.wordCount, activeIDs: snapshot.activeIDs, practiceCard: fixtureState.practice.flatMap { vocabulary[$0.cardID] })
             let model = AppModel(previewSnapshot: fixture, cards: vocabulary.cards)
             let view = ContentView(initialTab: tab, initialQuery: query, initialSelection: name == "reminders-detail" ? card : nil)
                 .environmentObject(model)
+                .environmentObject(SpeechController(preview: true))
+                .environmentObject(ReminderModel(scheduler: PreviewReminderScheduler()))
                 .environment(\.colorScheme, .light)
                 .frame(width: width, height: height)
             let bitmap = NativePreview.bitmap(view, size: CGSize(width: width, height: height))

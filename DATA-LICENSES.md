@@ -79,3 +79,22 @@ extraction credited above and remains CC BY-SA 4.0. It records only dictionary
 lemmas and parts of speech, without copying dictionary examples or definitions.
 The 1,642 active cards retain their existing sentence credits and noun articles.
 The 8,358 excluded cards are archived to retain saved IDs and learning records.
+
+## Learning dictionary (1.1.0)
+
+`Scripts/learning_dictionary.json` and each active card's `dictionary` field
+contain definitions, sense-matched English glosses, nominative plurals and
+explicit verb forms selected from the same pinned German Wiktionary extract
+credited above (SHA256 `2e66f18a093e94b29b04733d0222625695a3d5ed199e700059193895490dfb19`).
+They remain **CC BY-SA 4.0** with credit to German Wiktionary contributors and
+Tatu Ylönen / Wiktextract / Kaikki.org. All 1,642 active cards have a definition.
+The deck embeds the source, checksum, credit and license in
+`learningDictionaryCredit`. The app links each entry to Wiktionary, where its
+contributor history is available.
+
+Wortag selects at most three non-archaic senses, matches translations by source
+sense index, removes unrecorded forms, adds presentation labels and masks the
+headword in practice clues. Dictionary example sentences and audio recordings
+are not copied. The independently authored preposition/case usage notes in
+`Scripts/learning_dictionary.py` are dedicated to CC0. Pronunciation uses the
+German speech voice installed on the user's Mac; no recorded audio is bundled.

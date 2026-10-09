@@ -7,36 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0098FF112CB4015DF9437887 /* DailyReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE687950E103F4851FE536E9 /* DailyReminder.swift */; };
 		09C8E3E181167345A510116A /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF9EE170E392FAA64BC38E1 /* AppModel.swift */; };
+		0DC834796AE2DB333222F431 /* DictionaryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E69E733C0B0FC81DCA283C7 /* DictionaryDetailsView.swift */; };
 		131B77316026432FB6CC8871 /* WidgetSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A1E0584E44408F68055B9B /* WidgetSetupView.swift */; };
 		2244E911D12E67E584AA2EA3 /* WortagWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 08589C46F4AA4D8D5DD6C3BA /* WortagWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		225C18FC302D8CB31859735E /* LearningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5584D25835E6398B1F65C /* LearningState.swift */; };
 		2A1D733D080BD7CE1EB83757 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F755808007877720D7A25 /* Theme.swift */; };
 		2A5CD2A522E75446F0BA93BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */; };
+		316AF6B9D518689512E9889D /* DailyReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE687950E103F4851FE536E9 /* DailyReminder.swift */; };
 		31A3489B237F5BA36C6C15AE /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F31CD607AF1510F53B01F4E /* LibraryView.swift */; };
 		320A76C1259E54DA601AAC75 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */; };
 		3650C6F24D5136AC55F1BE8F /* WortagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF614450503FB2A93A641264 /* WortagApp.swift */; };
+		3B95D94F0297E844D6155ABC /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684360DD6FF0F0C765664AAF /* ReminderSettingsView.swift */; };
+		3B9FAE42FF7BAA5EEA7F9C49 /* MacReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963A1FDF65BF79C33487499F /* MacReminderScheduler.swift */; };
 		4745B39890FEB510B3AD3BAE /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B704D328F957D452619873 /* TodayView.swift */; };
 		4B390180C089388167928DF9 /* Corpus-Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E22EF5EFB7D71F1020C6EF95 /* Corpus-Attribution.txt */; };
 		4D703B63A23C69ED6ABDC074 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F755808007877720D7A25 /* Theme.swift */; };
 		56972C950836FE6A40FD60C1 /* DATA-LICENSES.md in Resources */ = {isa = PBXBuildFile; fileRef = A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */; };
 		57B258C491FF9397C7F27542 /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B8200E598E44933E3CC3B43 /* vocabulary.json */; };
+		6014E580417B234FE6F31F45 /* WidgetRefreshPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F278F259F87275529ECC5 /* WidgetRefreshPolicy.swift */; };
 		68434F4210CAB20731B1D21C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA08E0F6652094A2A0A26F64 /* ContentView.swift */; };
+		69E120ECC965D7C98740CCC1 /* ActivityChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C8AE88D14B520FE41432BA /* ActivityChartView.swift */; };
 		76944BDA1CFB53D0FC78BFC0 /* DATA-LICENSES.md in Resources */ = {isa = PBXBuildFile; fileRef = A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */; };
 		793091D8759417585A96EDB6 /* LibrarySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC37A6CAE9E0DF539E3DD20 /* LibrarySection.swift */; };
 		8341CF493157E1DB8246FB7E /* WordDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0BE75178D00EFC3782CEA3 /* WordDetailsView.swift */; };
+		871499FEFCCE31B634B62803 /* WidgetRefreshPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426F278F259F87275529ECC5 /* WidgetRefreshPolicy.swift */; };
 		8BAEC8D0B7E50FD7B9FEB085 /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */; };
+		B17C410086660C87ADFE8F04 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E76409C5E167EFDA91F6D6 /* SpeechController.swift */; };
+		B48998D290CE8D7BFED23F39 /* LearningProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C4B187506DFCD634A9CFCB /* LearningProgressView.swift */; };
 		BA488C7E0BAB7ACA5B56C0FD /* LearningState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B5584D25835E6398B1F65C /* LearningState.swift */; };
 		C39367A94E6F29FB6642B879 /* Vocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */; };
 		C4A5351DE5EA641650ED7393 /* ReviewSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */; };
 		C642E33B32368B947A79299D /* WortagWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC97B140FF85E893BDAF6EE /* WortagWidget.swift */; };
 		CD6BF0F026CD62BEA0E281D1 /* Corpus-Attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = E22EF5EFB7D71F1020C6EF95 /* Corpus-Attribution.txt */; };
 		D27571D726AC9CB120D6D4FF /* WordIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */; };
+		DB845C667D2F80E8F9CD0836 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C72996C624AC629E1292CB56 /* PracticeView.swift */; };
 		DC79863D7307CCCCAA76C791 /* WordIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */; };
+		DF715E3D4DC0940851589033 /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D50D775D6FF0E229999920 /* Practice.swift */; };
+		E92DFADFB45A272D81B0E53A /* ReminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BB1A8B883333969C725CF7 /* ReminderModel.swift */; };
 		ED0B850D8DE73F575F78F51B /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7401EDA4C417E39C48FEDF /* SidebarView.swift */; };
 		F23810880C493F2E3E36D1D5 /* ReviewSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */; };
+		F3345AA390255D653B4B35C8 /* ProgressSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C3A938C44C2563A9D772DC /* ProgressSummary.swift */; };
 		F89906047D68A3FF1E776E5C /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B8200E598E44933E3CC3B43 /* vocabulary.json */; };
 		FA1D9A5BBD6C34269E25E36D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */; };
+		FE40A94E472A4FB52B8272DB /* Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D50D775D6FF0E229999920 /* Practice.swift */; };
+		FF057E30980DBC30DE3C2FFD /* PracticeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE861F0792390BB97767DAD2 /* PracticeWidgetView.swift */; };
 		FF85DC479016032AC67D9D0A /* LearningStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,20 +82,33 @@
 
 /* Begin PBXFileReference section */
 		043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordIntents.swift; sourceTree = "<group>"; };
+		07D50D775D6FF0E229999920 /* Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice.swift; sourceTree = "<group>"; };
 		08589C46F4AA4D8D5DD6C3BA /* WortagWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WortagWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C8AE88D14B520FE41432BA /* ActivityChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityChartView.swift; sourceTree = "<group>"; };
+		16C4B187506DFCD634A9CFCB /* LearningProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningProgressView.swift; sourceTree = "<group>"; };
+		17E76409C5E167EFDA91F6D6 /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
 		1BC0EAE6E2DCC403D2F66FF4 /* Wortag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wortag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7401EDA4C417E39C48FEDF /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 		2BC97B140FF85E893BDAF6EE /* WortagWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WortagWidget.swift; sourceTree = "<group>"; };
+		2E69E733C0B0FC81DCA283C7 /* DictionaryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryDetailsView.swift; sourceTree = "<group>"; };
+		38C3A938C44C2563A9D772DC /* ProgressSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressSummary.swift; sourceTree = "<group>"; };
 		40B704D328F957D452619873 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		426F278F259F87275529ECC5 /* WidgetRefreshPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetRefreshPolicy.swift; sourceTree = "<group>"; };
 		4B8200E598E44933E3CC3B43 /* vocabulary.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = vocabulary.json; sourceTree = "<group>"; };
+		684360DD6FF0F0C765664AAF /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
 		6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewSchedule.swift; sourceTree = "<group>"; };
 		7A0BE75178D00EFC3782CEA3 /* WordDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordDetailsView.swift; sourceTree = "<group>"; };
+		83BB1A8B883333969C725CF7 /* ReminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderModel.swift; sourceTree = "<group>"; };
 		8BC37A6CAE9E0DF539E3DD20 /* LibrarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySection.swift; sourceTree = "<group>"; };
+		963A1FDF65BF79C33487499F /* MacReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacReminderScheduler.swift; sourceTree = "<group>"; };
 		9B1ECB1252D88E5E79E3A4D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F31CD607AF1510F53B01F4E /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
 		A0A8570FF7B83D16905E16A5 /* DATA-LICENSES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "DATA-LICENSES.md"; sourceTree = "<group>"; };
+		AE861F0792390BB97767DAD2 /* PracticeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeWidgetView.swift; sourceTree = "<group>"; };
 		BAF9EE170E392FAA64BC38E1 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		BE687950E103F4851FE536E9 /* DailyReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReminder.swift; sourceTree = "<group>"; };
 		C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabulary.swift; sourceTree = "<group>"; };
+		C72996C624AC629E1292CB56 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		CF614450503FB2A93A641264 /* WortagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WortagApp.swift; sourceTree = "<group>"; };
 		D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningStore.swift; sourceTree = "<group>"; };
 		DA08E0F6652094A2A0A26F64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -115,6 +144,7 @@
 		636BC716098474E841A5889B /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				AE861F0792390BB97767DAD2 /* PracticeWidgetView.swift */,
 				2BC97B140FF85E893BDAF6EE /* WortagWidget.swift */,
 			);
 			path = Widget;
@@ -123,9 +153,16 @@
 		79B1E5EDC76424553C46F875 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				10C8AE88D14B520FE41432BA /* ActivityChartView.swift */,
 				DA08E0F6652094A2A0A26F64 /* ContentView.swift */,
+				2E69E733C0B0FC81DCA283C7 /* DictionaryDetailsView.swift */,
+				16C4B187506DFCD634A9CFCB /* LearningProgressView.swift */,
 				9F31CD607AF1510F53B01F4E /* LibraryView.swift */,
+				963A1FDF65BF79C33487499F /* MacReminderScheduler.swift */,
+				C72996C624AC629E1292CB56 /* PracticeView.swift */,
+				684360DD6FF0F0C765664AAF /* ReminderSettingsView.swift */,
 				1C7401EDA4C417E39C48FEDF /* SidebarView.swift */,
+				17E76409C5E167EFDA91F6D6 /* SpeechController.swift */,
 				40B704D328F957D452619873 /* TodayView.swift */,
 				F9A1E0584E44408F68055B9B /* WidgetSetupView.swift */,
 				7A0BE75178D00EFC3782CEA3 /* WordDetailsView.swift */,
@@ -148,6 +185,8 @@
 			children = (
 				BAF9EE170E392FAA64BC38E1 /* AppModel.swift */,
 				8BC37A6CAE9E0DF539E3DD20 /* LibrarySection.swift */,
+				38C3A938C44C2563A9D772DC /* ProgressSummary.swift */,
+				83BB1A8B883333969C725CF7 /* ReminderModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -155,11 +194,14 @@
 		F9E9BB9FE1A9133819AD0E48 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BE687950E103F4851FE536E9 /* DailyReminder.swift */,
 				F0B5584D25835E6398B1F65C /* LearningState.swift */,
 				D511174E1ED2DA8AAB16C8CB /* LearningStore.swift */,
+				07D50D775D6FF0E229999920 /* Practice.swift */,
 				6B33FF8F222CFE59F19323B1 /* ReviewSchedule.swift */,
 				E53F755808007877720D7A25 /* Theme.swift */,
 				C70CD32AB562415A8D9CF7B5 /* Vocabulary.swift */,
+				426F278F259F87275529ECC5 /* WidgetRefreshPolicy.swift */,
 				043D6F09CB1B5EA39420E1D2 /* WordIntents.swift */,
 				EE220CD2A9203EE122DE18E4 /* Presentation */,
 			);
@@ -274,17 +316,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69E120ECC965D7C98740CCC1 /* ActivityChartView.swift in Sources */,
 				09C8E3E181167345A510116A /* AppModel.swift in Sources */,
 				68434F4210CAB20731B1D21C /* ContentView.swift in Sources */,
+				316AF6B9D518689512E9889D /* DailyReminder.swift in Sources */,
+				0DC834796AE2DB333222F431 /* DictionaryDetailsView.swift in Sources */,
+				B48998D290CE8D7BFED23F39 /* LearningProgressView.swift in Sources */,
 				225C18FC302D8CB31859735E /* LearningState.swift in Sources */,
 				FF85DC479016032AC67D9D0A /* LearningStore.swift in Sources */,
 				793091D8759417585A96EDB6 /* LibrarySection.swift in Sources */,
 				31A3489B237F5BA36C6C15AE /* LibraryView.swift in Sources */,
+				3B9FAE42FF7BAA5EEA7F9C49 /* MacReminderScheduler.swift in Sources */,
+				FE40A94E472A4FB52B8272DB /* Practice.swift in Sources */,
+				DB845C667D2F80E8F9CD0836 /* PracticeView.swift in Sources */,
+				F3345AA390255D653B4B35C8 /* ProgressSummary.swift in Sources */,
+				E92DFADFB45A272D81B0E53A /* ReminderModel.swift in Sources */,
+				3B95D94F0297E844D6155ABC /* ReminderSettingsView.swift in Sources */,
 				F23810880C493F2E3E36D1D5 /* ReviewSchedule.swift in Sources */,
 				ED0B850D8DE73F575F78F51B /* SidebarView.swift in Sources */,
+				B17C410086660C87ADFE8F04 /* SpeechController.swift in Sources */,
 				2A1D733D080BD7CE1EB83757 /* Theme.swift in Sources */,
 				4745B39890FEB510B3AD3BAE /* TodayView.swift in Sources */,
 				C39367A94E6F29FB6642B879 /* Vocabulary.swift in Sources */,
+				6014E580417B234FE6F31F45 /* WidgetRefreshPolicy.swift in Sources */,
 				131B77316026432FB6CC8871 /* WidgetSetupView.swift in Sources */,
 				8341CF493157E1DB8246FB7E /* WordDetailsView.swift in Sources */,
 				DC79863D7307CCCCAA76C791 /* WordIntents.swift in Sources */,
@@ -296,11 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0098FF112CB4015DF9437887 /* DailyReminder.swift in Sources */,
 				BA488C7E0BAB7ACA5B56C0FD /* LearningState.swift in Sources */,
 				8BAEC8D0B7E50FD7B9FEB085 /* LearningStore.swift in Sources */,
+				DF715E3D4DC0940851589033 /* Practice.swift in Sources */,
+				FF057E30980DBC30DE3C2FFD /* PracticeWidgetView.swift in Sources */,
 				C4A5351DE5EA641650ED7393 /* ReviewSchedule.swift in Sources */,
 				4D703B63A23C69ED6ABDC074 /* Theme.swift in Sources */,
 				320A76C1259E54DA601AAC75 /* Vocabulary.swift in Sources */,
+				871499FEFCCE31B634B62803 /* WidgetRefreshPolicy.swift in Sources */,
 				D27571D726AC9CB120D6D4FF /* WordIntents.swift in Sources */,
 				C642E33B32368B947A79299D /* WortagWidget.swift in Sources */,
 			);
@@ -375,7 +433,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -390,7 +448,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.8;
+				MARKETING_VERSION = 1.1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,7 +533,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 10;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -496,7 +554,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0.8;
+				MARKETING_VERSION = 1.1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

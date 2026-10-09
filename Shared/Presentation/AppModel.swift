@@ -30,13 +30,17 @@ final class AppModel: ObservableObject {
         }
     }
 
-    func act(_ action: LearningAction) {
+    /// Report whether the mutation committed, independently of the following
+    /// UI refresh. Notification scheduling must not roll back a saved preference
+    /// just because reading the updated snapshot fails transiently.
+    @discardableResult func act(_ action: LearningAction) -> Bool {
         do {
             if repository == nil { repository = try makeRepository() }
             try repository?.perform(action, now: Date())
             refresh()
             if error == nil { reloadWidgets() }
-        } catch { self.error = error.localizedDescription }
+            return true
+        } catch { self.error = error.localizedDescription; return false }
     }
 
     /// Fixture repository keeps layout previews separate from live I/O.

@@ -18,19 +18,44 @@ struct NounForm: Codable, Hashable {
     let word: String
 }
 
+struct WordMeaning: Codable, Hashable {
+    let definition: String
+    let english: [String]
+}
+
+struct DictionaryInformation: Codable, Hashable {
+    let partOfSpeech: String
+    let meanings: [WordMeaning]
+    let plurals: [String]?
+    let present: String?
+    let past: String?
+    let participle: String?
+    let auxiliary: String?
+    let usage: [String]
+
+    var isValid: Bool {
+        ["noun", "verb"].contains(partOfSpeech) && !meanings.isEmpty && meanings.allSatisfy {
+            !$0.definition.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        }
+    }
+}
+
 struct WordCard: Codable, Identifiable, Hashable {
     let id: String
     let word: String
     let examples: [Example]
     let nounForms: [NounForm]?
     let active: Bool?
+    let dictionary: DictionaryInformation?
 
-    init(id: String, word: String, examples: [Example], nounForms: [NounForm]? = nil, active: Bool? = nil) {
+    init(id: String, word: String, examples: [Example], nounForms: [NounForm]? = nil, active: Bool? = nil,
+         dictionary: DictionaryInformation? = nil) {
         self.id = id
         self.word = word
         self.examples = examples
         self.nounForms = nounForms
         self.active = active
+        self.dictionary = dictionary
     }
 
     /// Keep the original surface word for sentence highlighting and saved IDs.
@@ -49,6 +74,26 @@ struct WordCard: Codable, Identifiable, Hashable {
         guard let forms = nounForms, !forms.isEmpty,
               !forms.contains(where: { $0.word == word }) else { return nil }
         return "In examples: \(word)"
+    }
+
+    var pronunciationURL: URL? {
+        var url = URLComponents()
+        url.scheme = "wortag"; url.host = "speak"
+        url.queryItems = [URLQueryItem(name: "id", value: id)]
+        return url.url
+    }
+
+    var dictionaryURL: URL? {
+        var url = URLComponents()
+        url.scheme = "https"; url.host = "de.wiktionary.org"; url.path = "/wiki/" + word
+        return url.url
+    }
+
+    /// A definition is a clue, not a unique translation. Avoid exposing the
+    /// headword in compounds or reflexive dictionary definitions during recall.
+    var recallClue: String {
+        let raw = dictionary?.meanings.first?.definition ?? examples.first?.english ?? "Recall this German word."
+        return raw.replacingOccurrences(of: word, with: "…", options: [.caseInsensitive, .diacriticInsensitive])
     }
 }
 
@@ -84,7 +129,7 @@ struct Vocabulary {
                 !$0.german.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty && !$0.attribution.isEmpty
             } && (card.nounForms ?? []).allSatisfy {
                 ["der", "die", "das"].contains($0.article) && !$0.word.isEmpty
-            }
+            } && (card.dictionary?.isValid ?? true)
         }) else {
             throw WortagError.message("The vocabulary contains an invalid word or missing examples. Rebuild Wortag.")
         }

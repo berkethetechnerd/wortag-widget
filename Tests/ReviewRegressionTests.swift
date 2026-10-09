@@ -87,13 +87,16 @@ final class AppModelTests: XCTestCase {
         let vocabulary = Vocabulary(cards: [WordCard(id: "a", word: "A", examples: [])])
         var state = LearningState()
         var failsWrites = false
+        var failsReads = false
         func snapshot(now: Date, rotateIfDue: Bool) throws -> LearningSnapshot {
+            if failsReads { throw WortagError.message("Read failed") }
             state.start(ids: vocabulary.activeIDs, now: Date(timeIntervalSince1970: 0))
             return LearningSnapshot(card: vocabulary.cards[0], state: state, wordCount: 1, activeIDs: vocabulary.activeIDSet)
         }
         func perform(_ action: LearningAction, now: Date) throws {
             if failsWrites { throw WortagError.message("Write failed") }
             if case .translations(let value) = action { state.showTranslations = value }
+            if case .dailyReminder(let preference) = action { state.dailyReminder = preference }
         }
     }
 
@@ -132,5 +135,18 @@ final class AppModelTests: XCTestCase {
         XCTAssertEqual(model.error, "Write failed")
         XCTAssertEqual(reloads, 2)
         withExtendedLifetime(subscription) {}
+    }
+
+    func testCommittedReminderPreferenceIsNotReportedAsFailedWhenRefreshFails() async {
+        let repository = Repository()
+        let model = AppModel(makeRepository: { repository })
+        repository.failsReads = true
+        var preference = DailyReminder(); preference.enabled = true
+        XCTAssertTrue(model.act(.dailyReminder(preference)))
+        XCTAssertEqual(repository.state.dailyReminder, preference)
+        XCTAssertEqual(model.error, "Read failed")
+        repository.failsWrites = true
+        XCTAssertFalse(model.act(.dailyReminder(DailyReminder())))
+        XCTAssertEqual(repository.state.dailyReminder, preference)
     }
 }

@@ -38,7 +38,7 @@ jobs:
           bash Scripts/build.sh
       - name: Render production layouts with fixtures
         run: |
-          swiftc -parse-as-library -D WORTAG_RENDER Shared/*.swift Widget/WortagWidget.swift Scripts/NativePreview.swift Scripts/render_widget.swift -o "$RUNNER_TEMP/render-widget"
+          swiftc -parse-as-library -D WORTAG_RENDER Shared/*.swift Widget/*.swift Scripts/NativePreview.swift Scripts/render_widget.swift -o "$RUNNER_TEMP/render-widget"
           "$RUNNER_TEMP/render-widget" "$PWD/build/Wortag.app" build/previews/widget
           swiftc -parse-as-library -D WORTAG_RENDER_APP Shared/*.swift Shared/Presentation/*.swift App/*.swift Scripts/NativePreview.swift Scripts/render_app.swift -o "$RUNNER_TEMP/render-app"
           "$RUNNER_TEMP/render-app" "$PWD/build/Wortag.app" build/previews/app

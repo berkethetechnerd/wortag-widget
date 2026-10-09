@@ -74,7 +74,8 @@ def apply_selection(document, dictionary=None):
         'archivedCount': len(document['cards']) - len(used),
         'archivePolicy': 'Archived identities, sentences and saved progress retained; excluded from library, history navigation, random rotation and due reviews'
     }
-    return document
+    from learning_dictionary import enrich
+    return enrich(document)
 
 
 if __name__ == '__main__':
